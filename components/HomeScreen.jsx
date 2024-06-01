@@ -1,21 +1,16 @@
 import React, { useEffect, useState, useCallback } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet, ImageBackground } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, ImageBackground, Image } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Ionicons } from '@expo/vector-icons';
 import quotesData from '../data/data.json';
 import { useFocusEffect } from '@react-navigation/native';
 import { useFonts } from 'expo-font';
 
-
 const HomeScreen = ({ navigation }) => {
-  const  [fontsLoaded] = useFonts({
+  const [fontsLoaded] = useFonts({
     Neue: require("../assets/fonts/NeueMontreal-Medium.otf"),
     Shibui: require("../assets/fonts/Shibui.ttf"),
-   
-    //"Shibui.ttf"
-
   });
-
 
   const [quote, setQuote] = useState(null);
 
@@ -28,7 +23,7 @@ const HomeScreen = ({ navigation }) => {
         setQuote({ quote: randomQuote, author: author.name, image: author.image });
       }
     } else {
-      setQuote({ quote: "No authors selected. Please select authors in Descover Authors.", author: "Welcome to Daily Quotes", image: "" });
+      setQuote(null);
     }
   };
 
@@ -43,20 +38,24 @@ const HomeScreen = ({ navigation }) => {
   }, []);
 
   return (
-    <View style={styles.container} >
+    <View style={styles.container}>
       <Text style={styles.title}>Daily Quotes</Text>
-      {quote && (
+      {quote ? (
         <ImageBackground
           source={{ uri: quote.image }}
           style={styles.authorImage}
           imageStyle={{ borderRadius: 400 }}
         >
           <View style={styles.overlay}>
-       
             <Text style={styles.author}>{quote.author ? ` ${quote.author}` : ""}</Text>
             <Text style={styles.quote}>"{quote.quote}"</Text>
           </View>
         </ImageBackground>
+      ) : (
+        <View style={styles.welcomeContainer}>
+          <Image source={require('../assets/welcome-logo.png')} style={styles.welcomeImage} />
+          <Text style={styles.welcomeText}>Hey 👋! {"\n"} You have not chosen an author {"\n"} Please select one from the list.</Text>
+        </View>
       )}
       <TouchableOpacity onPress={() => navigation.navigate('AuthorCheckboxList')} style={styles.card}>
         <Ionicons name="book" size={24} color="black" style={styles.icon} />
@@ -75,14 +74,14 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    
     padding: 20,
+
   },
   title: {
     fontSize: 50,
     marginBottom: 20,
-    fontFamily:"Shibui",
-    textAlign:'center',
+    fontFamily: "Shibui",
+    textAlign: 'center',
   },
   authorImage: {
     width: 300,
@@ -103,20 +102,18 @@ const styles = StyleSheet.create({
     top: 270,
   },
   quote: {
-    
     color: 'white',
     textAlign: 'center',
     fontSize: 18,
     paddingHorizontal: 20,
-    fontFamily:"Neue",
+    fontFamily: "Neue",
   },
   author: {
-    
     color: 'white',
     fontSize: 23,
     textAlign: 'center',
     marginTop: 10,
-    fontFamily:"Neue",
+    fontFamily: "Neue",
   },
   card: {
     flexDirection: 'row',
@@ -132,7 +129,22 @@ const styles = StyleSheet.create({
   },
   cardText: {
     fontSize: 16,
-    fontFamily:"Neue",
+    fontFamily: "Neue",
+  },
+  welcomeContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 150,
+  },
+  welcomeImage: {
+    width: 200,
+    height: 200,
+    marginBottom: 120,
+  },
+  welcomeText: {
+    fontSize: 18,
+    textAlign: 'center',
+    fontFamily: "Neue",
   },
 });
 
