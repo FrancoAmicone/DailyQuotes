@@ -59,6 +59,7 @@ const AuthorCheckboxList = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
+      <Text style={styles.title}>Daily Quotes</Text>
       <FlatList
         data={quotesData.authors}
         keyExtractor={(item) => item.id.toString()}
@@ -88,8 +89,18 @@ const AuthorCheckboxList = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+
     padding: 20,
     
+  },
+  title: {
+    fontSize: 50,
+    marginBottom: 20,
+    fontFamily:"Shibui",
+    justifyContent: 'center',
+    alignItems: 'center',
+    textAlign:'center',
+    padding: 30,
   },
   itemContainer: {
     flexDirection: 'row',
@@ -97,7 +108,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     borderWidth: 1,
     borderColor: 'transparent',
-    borderRadius: 10,
+    borderRadius: 50,
     padding: 10,
   },
   selectedItemContainer: {

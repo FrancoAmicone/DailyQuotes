@@ -75,12 +75,14 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    
     padding: 20,
   },
   title: {
     fontSize: 50,
     marginBottom: 20,
     fontFamily:"Shibui",
+    textAlign:'center',
   },
   authorImage: {
     width: 300,
