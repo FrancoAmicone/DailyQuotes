@@ -4,8 +4,21 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Ionicons } from '@expo/vector-icons';
 import quotesData from '../data/data.json';
 import { useFocusEffect } from '@react-navigation/native';
+import { useFonts } from 'expo-font';
+
 
 const HomeScreen = ({ navigation }) => {
+  const  [fontsLoaded] = useFonts({
+    Neue: require("../assets/fonts/NeueMontreal-Medium.otf"),
+    Shibui: require("../assets/fonts/Shibui.ttf"),
+   
+    //"Shibui.ttf"
+
+  });
+
+  //if (!fontsLoaded) return null;
+
+
   const [quote, setQuote] = useState(null);
 
   const loadSelectedAuthor = async () => {
@@ -67,8 +80,9 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   title: {
-    fontSize: 20,
+    fontSize: 50,
     marginBottom: 20,
+    fontFamily:"Shibui",
   },
   authorImage: {
     width: 300,
@@ -89,18 +103,20 @@ const styles = StyleSheet.create({
     top: 270,
   },
   quote: {
-    fontStyle: 'italic',
+    
     color: 'white',
     textAlign: 'center',
     fontSize: 18,
     paddingHorizontal: 20,
+    fontFamily:"Neue",
   },
   author: {
-    fontWeight: 'bold',
+    
     color: 'white',
     fontSize: 23,
     textAlign: 'center',
     marginTop: 10,
+    fontFamily:"Neue",
   },
   card: {
     flexDirection: 'row',
@@ -116,6 +132,7 @@ const styles = StyleSheet.create({
   },
   cardText: {
     fontSize: 16,
+    fontFamily:"Neue",
   },
 });
 

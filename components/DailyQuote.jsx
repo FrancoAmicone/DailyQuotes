@@ -2,7 +2,11 @@
 import React from 'react';
 import { View, Text, ImageBackground, StyleSheet } from 'react-native';
 
+
+
 const DailyQuote = ({ author }) => {
+
+
   const randomQuote = author.quotes[Math.floor(Math.random() * author.quotes.length)];
 
   return (
@@ -45,6 +49,7 @@ const styles = StyleSheet.create({
     color: 'white',
     textAlign: 'center',
     fontSize: 20,
+    fontFamily:"Neue",
   },
   author: {
     fontWeight: 'bold',

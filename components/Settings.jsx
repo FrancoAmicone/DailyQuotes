@@ -4,10 +4,21 @@ import DateTimePicker from '@react-native-community/datetimepicker';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as Notifications from 'expo-notifications';
 import { Ionicons } from '@expo/vector-icons';
+import { useFonts } from 'expo-font';
 
 import quotesData from '../data/data.json';
 
 const Settings = ({ navigation }) => {
+
+  const  [fontsLoaded] = useFonts({
+    Neue: require("../assets/fonts/NeueMontreal-Medium.otf"),
+    Shibui: require("../assets/fonts/Shibui.ttf"),
+   
+    //"Shibui.ttf"
+
+  });
+
+
   const [selectedTime, setSelectedTime] = useState(new Date());
   const [showTimePicker, setShowTimePicker] = useState(false);
 
@@ -110,8 +121,9 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   title: {
-    fontSize: 20,
-    marginBottom: 20,
+    fontSize: 50,
+    marginBottom: 250,
+    fontFamily:"Neue",
   },
   card: {
     flexDirection: 'row',
@@ -121,12 +133,14 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     elevation: 3,
     marginTop: 10,
+    fontFamily:"Neue",
   },
   icon: {
     marginRight: 10,
   },
   cardText: {
     fontSize: 16,
+    fontFamily:"Neue",
   },
 });
 
