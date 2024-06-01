@@ -16,8 +16,6 @@ const HomeScreen = ({ navigation }) => {
 
   });
 
-  //if (!fontsLoaded) return null;
-
 
   const [quote, setQuote] = useState(null);
 
@@ -45,7 +43,7 @@ const HomeScreen = ({ navigation }) => {
   }, []);
 
   return (
-    <View style={styles.container}>
+    <View style={styles.container} >
       <Text style={styles.title}>Daily Quotes</Text>
       {quote && (
         <ImageBackground

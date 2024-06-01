@@ -11,7 +11,6 @@ import AuthorCheckboxList from './components/AuthorCheckboxList';
 import Settings from './components/Settings';
 import quotesData from './data/data.json';
 
-
 const Stack = createStackNavigator();
 
 const App = () => {

@@ -142,6 +142,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontFamily:"Neue",
   },
+
 });
 
 export default Settings;

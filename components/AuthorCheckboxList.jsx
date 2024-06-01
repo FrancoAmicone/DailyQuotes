@@ -107,13 +107,13 @@ const styles = StyleSheet.create({
     backgroundColor: '#d3d3d3',
   },
   authorImage: {
-    width: 50,
-    height: 50,
-    borderRadius: 25,
+    width: 150,
+    height: 100,
+    borderRadius: 50,
   },
   authorName: {
     marginLeft: 10,
-    fontSize: 16,
+    fontSize: 15,
     fontFamily:"Neue",
   },
   lockedText: {
