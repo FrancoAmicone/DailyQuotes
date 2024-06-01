@@ -113,12 +113,12 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 50,
-    marginBottom: 20,
     fontFamily: "Shibui",
     justifyContent: 'center',
     alignItems: 'center',
     textAlign: 'center',
-    padding: 30,
+    paddingTop:30,
+    padding: 5,
   },
   itemContainer: {
     flexDirection: 'row',

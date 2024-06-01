@@ -134,12 +134,12 @@ const styles = StyleSheet.create({
   welcomeContainer: {
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom: 150,
+    marginBottom: 20,
   },
   welcomeImage: {
     width: 200,
     height: 200,
-    marginBottom: 120,
+    marginBottom: 180,  marginTop: 100,
   },
   welcomeText: {
     fontSize: 18,
