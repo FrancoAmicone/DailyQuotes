@@ -6,7 +6,6 @@ import { Ionicons } from '@expo/vector-icons';
 import { useFonts } from 'expo-font';
 
 const AuthorCheckboxList = ({ navigation }) => {
-
   const [fontsLoaded] = useFonts({
     Neue: require("../assets/fonts/NeueMontreal-Medium.otf"),
     Shibui: require("../assets/fonts/Shibui.ttf"),
@@ -94,7 +93,9 @@ const AuthorCheckboxList = ({ navigation }) => {
           >
             <Image source={{ uri: item.image }} style={styles.authorImage} />
             <Text style={styles.authorName}>{item.name}</Text>
-            {item.locked && !unlockedAuthors.includes(item.name) && <Text style={styles.lockedText}>Locked</Text>}
+            {item.locked && !unlockedAuthors.includes(item.name) && (
+              <Ionicons name="lock-open" size={24} color="black" style={styles.lockedIcon} />
+            )}
           </TouchableOpacity>
         )}
       />
@@ -117,7 +118,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     textAlign: 'center',
-    paddingTop:30,
+    paddingTop: 30,
     padding: 5,
   },
   itemContainer: {
@@ -128,6 +129,7 @@ const styles = StyleSheet.create({
     borderColor: 'transparent',
     borderRadius: 60,
     padding: 10,
+    position: 'relative',
   },
   selectedItemContainer: {
     borderColor: 'black',
@@ -142,14 +144,13 @@ const styles = StyleSheet.create({
   },
   authorName: {
     marginLeft: 10,
-    fontSize: 15,
+    fontSize: 16,
     fontFamily: "Neue",
   },
-  lockedText: {
-    marginLeft: 10,
-    fontSize: 14,
-    color: 'red',
-    fontFamily: "Neue",
+  lockedIcon: {
+    position: 'absolute',
+    right: "05%",
+    top: '50%',
   },
   confirmButton: {
     backgroundColor: '#000',

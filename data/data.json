@@ -1,18 +1,45 @@
 
 {
     "authors": [
-      {
+        {
         "id": 1,
         "name": "Jorge Luis Borges",
         "quotes": [
-          "I have always imagined that Paradise will be a kind of library.",
-          "We accept reality so readily – perhaps because we sense that nothing is real.",
-          "I am not sure that I exist, actually. I am all the writers that I have read, all the people that I have met, all the women that I have loved; all the cities I have visited."
+          "He cometido el peor pecado que uno puede cometer. No he sido feliz.",
+          "Siempre he imaginado que el Paraíso será algún tipo de biblioteca.",
+          "Uno llega a ser grande por lo que lee y no por lo que escribe.",
+          "El tiempo es la sustancia de la que estoy hecho.",
+          "La duda es uno de los nombres de la inteligencia.",
+          "La muerte es una vida vivida. La vida es una muerte que viene.",
+          "Uno está enamorado cuando se da cuenta de que otra persona es única.",
+          "Yo no hablo de venganzas ni perdones; el olvido es la única venganza y el único perdón.",
+          "La belleza es ese misterio hermoso que no descifran ni la psicología ni la retórica.",
+          "El infierno y el paraíso me parecen desproporcionados. Los actos de los hombres no merecen tanto.",
+          "La poesía no es menos misteriosa que otros elementos del orbe.",
+          "No hay consuelo más hábil que el pensamiento de que hemos elegido nuestras desdichas.",
+          "La ceguera es una forma de soledad.",
+          "Cada escritor crea sus precursores.",
+          "No hay otra venganza ni otro perdón que el olvido.",
+          "El futuro es inevitable, pero puede no ocurrir.",
+          "La amistad no necesita frecuencia, el amor sí.",
+          "Que un personaje muera me parece repulsivo, yo preferiría que fueran inmortales.",
+          "Ser inmortal es baladí; menos el hombre, todas las criaturas lo son, pues ignoran la muerte.",
+          "El verbo leer, como el verbo amar y el verbo soñar, no soporta el modo imperativo.",
+          "La democracia es un abuso de la estadística.",
+          "Hay derrotas que tienen más dignidad que la victoria.",
+          "La realidad no siempre es probable, ni la verdad tampoco.",
+          "La música, los estados de felicidad, la mitología, los rostros trabajados por el tiempo, ciertos crepúsculos y ciertos lugares quieren decirnos algo, o algo dijeron que no hubiéramos debido perder, o están por decir algo; esta inminencia de una revelación, que no se produce, es, quizá, el hecho estético.",
+          "La belleza es ese misterio hermoso que no descifran ni la psicología ni la retórica.",
+          "No estoy seguro de que yo exista, en realidad. Soy todos los autores que he leído, todas las personas que he conocido, todas las mujeres que he amado, todas las ciudades que he visitado.",
+          "Hay que tener cuidado al elegir a los enemigos porque uno termina pareciéndose a ellos.",
+          "El original es infiel a la traducción.",
+          "Que cada hombre construya su propia catedral. ¿Para qué vivir de obras de arte ajenas y antiguas?",
+          "El éxito y el fracaso son dos impostores."
         ],
         "image": "https://rialta.org/wp-content/uploads/2019/10/Jorge-Luis-Borges-fotografiado-por-Brenno-Quaretti.jpg",
-  
         "locked": false
       },
+
       {
         "id": 2,
         "name": "Charles Bukowski",

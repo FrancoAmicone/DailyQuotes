@@ -112,7 +112,7 @@ const styles = StyleSheet.create({
     color: 'white',
     fontSize: 23,
     textAlign: 'center',
-    marginTop: 10,
+    marginBottom: 10,
     fontFamily: "Neue",
   },
   card: {
