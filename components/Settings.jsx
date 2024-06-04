@@ -90,7 +90,7 @@ const Settings = ({ navigation }) => {
 
       <TouchableOpacity style={styles.card} onPress={() => setShowTimePicker(true)}>
         <Ionicons name="alarm-outline" size={24} color="black" style={styles.icon} />
-        <Text style={styles.cardText}>Select Time:</Text>
+        <Text style={styles.cardText}>Select Time</Text>
       </TouchableOpacity>
       {showTimePicker && (
         <DateTimePicker
@@ -101,8 +101,11 @@ const Settings = ({ navigation }) => {
           onChange={handleTimeChange}
         />
       )}
-      <TouchableOpacity  onPress={scheduleNotification} style={styles.card}>
-        <Ionicons name="checkmark-circle-outline" size={24} color="black" style={styles.icon} />
+    
+  
+
+      <TouchableOpacity  onPress={scheduleNotification} style={styles.cardSetting}>
+        <Ionicons name="checkmark-circle-outline" size={24} color="green" style={styles.icon} />
         <Text style={styles.cardText}>Save Settings</Text>
       </TouchableOpacity>
       <TouchableOpacity  onPress={() => navigation.navigate('Home')} style={styles.card}>
@@ -135,13 +138,24 @@ const styles = StyleSheet.create({
     marginTop: 10,
     fontFamily:"Neue",
   },
-  icon: {
+  cardSetting:{
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#D2FFDB',
+    padding: 9,
+    borderRadius: 10,
+    elevation: 3,
+    marginTop: 200,
+    fontFamily:"Neue",
+  },
+    icon: {
     marginRight: 10,
   },
   cardText: {
     fontSize: 16,
     fontFamily:"Neue",
   },
+
 });
 
 export default Settings;

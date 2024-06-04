@@ -11,7 +11,6 @@ import AuthorCheckboxList from './components/AuthorCheckboxList';
 import Settings from './components/Settings';
 import quotesData from './data/data.json';
 
-
 const Stack = createStackNavigator();
 
 const App = () => {
@@ -58,7 +57,9 @@ const App = () => {
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
       <NavigationContainer>
-        <Stack.Navigator>
+        <Stack.Navigator screenOptions={{
+          headerShown: false, // Oculta la barra de navegación
+        }}>
           <Stack.Screen name="Home" component={HomeScreen} options={{ title: 'Daily Quote App' }} />
           <Stack.Screen name="AuthorCheckboxList" component={AuthorCheckboxList} options={{ title: 'Discover Authors' }} />
           <Stack.Screen name="Settings" component={Settings} options={{ title: 'Settings' }} />
