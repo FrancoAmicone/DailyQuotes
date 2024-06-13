@@ -120,6 +120,8 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     paddingTop: 30,
     padding: 5,
+    margin:20,
+    top:'-03%',
   },
   itemContainer: {
     flexDirection: 'row',

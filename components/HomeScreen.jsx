@@ -5,6 +5,8 @@ import { Ionicons } from '@expo/vector-icons';
 import quotesData from '../data/data.json';
 import { useFocusEffect } from '@react-navigation/native';
 import { useFonts } from 'expo-font';
+import { BannerAd, BannerAdSize, TestIds} from 'react-native-google-mobile-ads';
+
 
 const HomeScreen = ({ navigation }) => {
   const [fontsLoaded] = useFonts({
@@ -65,6 +67,11 @@ const HomeScreen = ({ navigation }) => {
         <Ionicons name="settings" size={24} color="black" style={styles.icon} />
         <Text style={styles.cardText}>Settings</Text>
       </TouchableOpacity>
+      
+      <View style={styles.ads}>
+      <BannerAd  size={BannerAdSize.FULL_BANNER} unitId={TestIds.BANNER} />
+      </View>
+
     </View>
   );
 };
@@ -75,6 +82,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: 20,
+    marginTop:40,
+
 
   },
   title: {
@@ -82,13 +91,15 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     fontFamily: "Shibui",
     textAlign: 'center',
+    top:'1%',
+
   },
   authorImage: {
     width: 300,
     height: 550,
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom: 20,
+    marginBottom: 10,
   },
   overlay: {
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
@@ -146,6 +157,10 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontFamily: "Neue",
   },
+  ads: {
+    marginTop:10,
+  },
+
 });
 
 export default HomeScreen;
