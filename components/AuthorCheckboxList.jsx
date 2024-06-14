@@ -1,9 +1,16 @@
-import React, { useState, useEffect } from 'react';
-import { View, Text, FlatList, TouchableOpacity, Image, StyleSheet, Alert } from 'react-native';
+import React, { useEffect, useState, useRef } from 'react';
+import { View, Text, FlatList, TouchableOpacity, Image, StyleSheet, Alert, Button } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import quotesData from '../data/data.json';
 import { Ionicons } from '@expo/vector-icons';
 import { useFonts } from 'expo-font';
+import { RewardedAd, RewardedAdEventType, TestIds } from 'react-native-google-mobile-ads';
+
+const adUnitId = __DEV__ ? TestIds.REWARDED : 'ca-app-pub-xxxxxxxxxxxxx/yyyyyyyyyyyyyy';
+
+const rewardedAd = RewardedAd.createForAdRequest(adUnitId, {
+  requestNonPersonalizedAdsOnly: true,
+});
 
 const AuthorCheckboxList = ({ navigation }) => {
   const [fontsLoaded] = useFonts({
@@ -13,17 +20,15 @@ const AuthorCheckboxList = ({ navigation }) => {
 
   const [selectedAuthor, setSelectedAuthor] = useState('');
   const [unlockedAuthors, setUnlockedAuthors] = useState([]);
-  const [selectionTimestamp, setSelectionTimestamp] = useState(null);
+  const [quotes, setQuotes] = useState(quotesData.authors);
+  const [loaded, setLoaded] = useState(false);
+  const currentAuthorToUnlock = useRef(null);
 
   useEffect(() => {
     const loadSelectedAuthor = async () => {
       const storedAuthor = await AsyncStorage.getItem('selectedAuthor');
-      const storedTimestamp = await AsyncStorage.getItem('selectionTimestamp');
       if (storedAuthor) {
         setSelectedAuthor(storedAuthor);
-      }
-      if (storedTimestamp) {
-        setSelectionTimestamp(new Date(parseInt(storedTimestamp)));
       }
     };
 
@@ -38,37 +43,62 @@ const AuthorCheckboxList = ({ navigation }) => {
     loadUnlockedAuthors();
   }, []);
 
-  const isWithin24Hours = (timestamp) => {
-    const now = new Date();
-    const timeDiff = now - timestamp;
-    const hoursDiff = timeDiff / (1000 * 60 * 60);
-    return hoursDiff < 24;
+  useEffect(() => {
+    const unsubscribeLoaded = rewardedAd.addAdEventListener(RewardedAdEventType.LOADED, () => {
+      setLoaded(true);
+    });
+
+    const unsubscribeEarned = rewardedAd.addAdEventListener(
+      RewardedAdEventType.EARNED_REWARD,
+      reward => {
+        unlockAuthor(currentAuthorToUnlock.current);
+      }
+    );
+
+    rewardedAd.load();
+
+    return () => {
+      unsubscribeLoaded();
+      unsubscribeEarned();
+    };
+  }, []);
+
+  const unlockAuthor = async (author) => {
+    setUnlockedAuthors((prev) => {
+      const updatedAuthors = [...prev, author];
+      AsyncStorage.setItem('unlockedAuthors', JSON.stringify(updatedAuthors));
+      return updatedAuthors;
+    });
+
+    setQuotes((prevQuotes) => {
+      return prevQuotes.map((quote) => {
+        if (quote.name === author) {
+          return { ...quote, locked: false };
+        }
+        return quote;
+      });
+    });
   };
 
   const toggleAuthorSelection = async (author) => {
-    if (selectionTimestamp && isWithin24Hours(selectionTimestamp) && selectedAuthor !== author) {
-      Alert.alert('Selection Locked', 'You can only change your selected author once every 24 hours.');
-      return;
-    }
-
-    const selectedAuthorData = quotesData.authors.find(item => item.name === author);
+    const selectedAuthorData = quotes.find(item => item.name === author);
     if (selectedAuthorData.locked && !unlockedAuthors.includes(author)) {
-      Alert.alert('Author Locked', 'This author is locked. Watch an ad to unlock.');
-      // Aquí se implementaría la lógica para mostrar la publicidad y desbloquear el autor.
+      currentAuthorToUnlock.current = author;
+      if (loaded) {
+        rewardedAd.show();
+      } else {
+        Alert.alert('Ad Not Ready', 'The ad is not ready yet. Please try again later.');
+        rewardedAd.load();
+      }
       return;
     }
 
     if (selectedAuthor === author) {
       setSelectedAuthor('');
       await AsyncStorage.removeItem('selectedAuthor');
-      await AsyncStorage.removeItem('selectionTimestamp');
-      setSelectionTimestamp(null);
     } else {
-      const now = new Date();
       setSelectedAuthor(author);
-      setSelectionTimestamp(now);
       await AsyncStorage.setItem('selectedAuthor', author);
-      await AsyncStorage.setItem('selectionTimestamp', now.getTime().toString());
     }
   };
 
@@ -80,7 +110,7 @@ const AuthorCheckboxList = ({ navigation }) => {
     <View style={styles.container}>
       <Text style={styles.title}>Daily Quotes</Text>
       <FlatList
-        data={quotesData.authors}
+        data={quotes}
         keyExtractor={(item) => item.id.toString()}
         renderItem={({ item }) => (
           <TouchableOpacity

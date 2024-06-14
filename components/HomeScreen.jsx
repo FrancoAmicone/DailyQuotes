@@ -7,6 +7,7 @@ import { useFocusEffect } from '@react-navigation/native';
 import { useFonts } from 'expo-font';
 import { BannerAd, BannerAdSize, TestIds} from 'react-native-google-mobile-ads';
 
+let Tittle = 'Daily Quotes'
 
 const HomeScreen = ({ navigation }) => {
   const [fontsLoaded] = useFonts({
@@ -41,7 +42,7 @@ const HomeScreen = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Daily Quotes</Text>
+      <Text style={styles.title}>{Tittle}</Text>
       {quote ? (
         <ImageBackground
           source={{ uri: quote.image }}
