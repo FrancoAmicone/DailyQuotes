@@ -5,9 +5,10 @@ import { Ionicons } from '@expo/vector-icons';
 import quotesData from '../data/data.json';
 import { useFocusEffect } from '@react-navigation/native';
 import { useFonts } from 'expo-font';
-import { BannerAd, BannerAdSize, TestIds} from 'react-native-google-mobile-ads';
+import { BannerAd, BannerAdSize, TestIds } from 'react-native-google-mobile-ads';
+import { LongPressGestureHandler, State } from 'react-native-gesture-handler';
 
-let Tittle = 'Daily Quotes'
+let Tittle = 'Daily Quotes';
 
 const HomeScreen = ({ navigation }) => {
   const [fontsLoaded] = useFonts({
@@ -40,20 +41,30 @@ const HomeScreen = ({ navigation }) => {
     loadSelectedAuthor();
   }, []);
 
+  const handleLongPress = ({ nativeEvent }) => {
+    if (nativeEvent.state === State.ACTIVE) {
+      navigation.navigate('DailyQuote');
+    }
+  };
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>{Tittle}</Text>
       {quote ? (
-        <ImageBackground
-          source={{ uri: quote.image }}
-          style={styles.authorImage}
-          imageStyle={{ borderRadius: 400 }}
-        >
-          <View style={styles.overlay}>
-            <Text style={styles.author}>{quote.author ? ` ${quote.author}` : ""}</Text>
-            <Text style={styles.quote}>"{quote.quote}"</Text>
+        <LongPressGestureHandler onHandlerStateChange={handleLongPress} minDurationMs={800}>
+          <View>
+            <ImageBackground
+              source={{ uri: quote.image }}
+              style={styles.authorImage}
+              imageStyle={{ borderRadius: 400 }}
+            >
+              <View style={styles.overlay}>
+                <Text style={styles.author}>{quote.author ? ` ${quote.author}` : ""}</Text>
+                <Text style={styles.quote}>"{quote.quote}"</Text>
+              </View>
+            </ImageBackground>
           </View>
-        </ImageBackground>
+        </LongPressGestureHandler>
       ) : (
         <View style={styles.welcomeContainer}>
           <Image source={require('../assets/welcome-logo.png')} style={styles.welcomeImage} />
@@ -70,9 +81,8 @@ const HomeScreen = ({ navigation }) => {
       </TouchableOpacity>
       
       <View style={styles.ads}>
-      <BannerAd  size={BannerAdSize.FULL_BANNER} unitId={TestIds.BANNER} />
+        <BannerAd size={BannerAdSize.FULL_BANNER} unitId={TestIds.BANNER} />
       </View>
-
     </View>
   );
 };
@@ -83,17 +93,14 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: 20,
-    marginTop:40,
-
-
+    marginTop: 40,
   },
   title: {
     fontSize: 50,
     marginBottom: 20,
     fontFamily: "Shibui",
     textAlign: 'center',
-    top:'1%',
-
+    top: '1%',
   },
   authorImage: {
     width: 300,
@@ -151,7 +158,8 @@ const styles = StyleSheet.create({
   welcomeImage: {
     width: 200,
     height: 200,
-    marginBottom: 180,  marginTop: 100,
+    marginBottom: 180,
+    marginTop: 100,
   },
   welcomeText: {
     fontSize: 18,
@@ -159,9 +167,8 @@ const styles = StyleSheet.create({
     fontFamily: "Neue",
   },
   ads: {
-    marginTop:10,
+    marginTop: 10,
   },
-
 });
 
 export default HomeScreen;

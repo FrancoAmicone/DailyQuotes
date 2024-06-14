@@ -4,6 +4,7 @@
         {
         "id": 1,
         "name": "Jorge Luis Borges",
+        "description": "Jorge Francisco Isidoro Luis Borges fue un escritor argentino, considerado uno de los autores más destacados del siglo XX. Su obra abarca ensayos breves, cuentos y poemas. Borges se destacó especialmente por su capacidad para mezclar la realidad con elementos fantásticos, creando historias que desafían la lógica y la comprensión.",
         "quotes": [
           "He cometido el peor pecado que uno puede cometer. No he sido feliz.",
           "Siempre he imaginado que el Paraíso será algún tipo de biblioteca.",
@@ -43,6 +44,7 @@
       {
         "id": 2,
         "name": "Charles Bukowski",
+        "description": "Charles Bukowski fue un escritor y poeta estadounidense conocido por su estilo directo y desgarrador. Su obra aborda temas como la vida cotidiana de los marginados, el alcoholismo y la decadencia urbana. Bukowski es considerado un ícono del realismo sucio, un movimiento literario que enfatiza lo crudo y lo visceral.",
         "quotes": [
                     "Find what you love and let it kill you.",
                     "Some people never go crazy. What truly horrible lives they must lead.",
@@ -80,7 +82,9 @@
       },
       {
         "id": 3,
-        "name": "Friedrich Nietzsche",
+        "name": "Friedrich Nietzsche",     
+         "description": "Friedrich Nietzsche fue un filósofo alemán del siglo XIX, conocido por su crítica a la moral tradicional y religiosa. Su obra cuestiona la autoridad, la cultura occidental y propone ideas como el 'superhombre' y la 'voluntad de poder'. Nietzsche ha sido influyente en la filosofía, la literatura y la cultura moderna."
+        ,
        "quotes": [
           "He who has a why to live can bear almost any how.",
           "That which does not kill us makes us stronger.",
@@ -119,7 +123,9 @@
       },
       {
         "id": 4,
-        "name": "Franz Kafka",
+        "name": "Franz Kafka",    
+        "description": "Franz Kafka fue un escritor de origen austrohúngaro, conocido por sus relatos que exploran temas de alienación, culpa y el absurdo burocrático. Su obra, como 'La metamorfosis' y 'El proceso', ha influido profundamente en la literatura moderna, especialmente en el género del existencialismo y el surrealismo."
+        ,
       "quotes": [
           "A book must be the axe for the frozen sea within us.",
           "In the fight between you and the world, back the world.",
@@ -142,10 +148,8 @@
           "Hope is the belief that things will get better. Faith is the conviction that they will.",  
           "The only revolutionary will is the will to be oneself.", 
           "There is an infinite amount of hope in the universe – but not for us.",  
-
           "The battle is not against the world; it is against the lie that people tell themselves about the world.",  
           "Writing is a solitary profession. Publication is the cruelest revenge.",  
-
           "The creature that once shone so brightly in our childhood dreams has been locked away in the farthest corners of our souls.",  
           "The bureaucracy is impenetrable. It is always right, even when it is wrong.",  
           "The meaning of life is to find your gift. The purpose of life is to give it away.",  
@@ -153,7 +157,6 @@
           "Silence is the strongest scream.",  
           "The only true error is losing sight of our purpose.", 
           "The problem is not that we are too weak but that we are too obedient.",  
-
           "The true path leads outwards, but it also leads within."  
           ],
         "image": "https://cdn.culturagenial.com/es/imagenes/franz-kafka-og.jpg",
@@ -163,6 +166,8 @@
       {
         "id": 5,
         "name": "Fyodor Dostoevsky",
+        "description": "Fyodor Dostoevsky fue un novelista ruso del siglo XIX, conocido por explorar la psicología humana y las complejidades morales en sus obras. Sus novelas, como 'Crime and Punishment' y 'The Brothers Karamazov', abordan temas de culpa, redención y el conflicto entre el bien y el mal."
+        ,
         "quotes": [
           "The soul is healed by being with children.",
           "To live without Hope is to Cease to live.",
@@ -175,6 +180,8 @@
       {
         "id": 6,
         "name": "Albert Camus",
+        "description": "Albert Camus fue un escritor y filósofo francés, conocido por su obra existencialista y absurda. Ganador del Premio Nobel de Literatura, Camus abordó temas como la alienación, el absurdo de la vida y la moralidad en un universo indiferente. Su novela 'La peste' es una de sus obras más influyentes."
+        ,
         "quotes": [
           "In the depth of winter, I finally learned that within me there lay an invincible summer.",
           "The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion.",
@@ -187,6 +194,8 @@
       {
         "id": 8,
         "name": "Jean-Paul Sartre",
+        "description": "Jean-Paul Sartre fue un filósofo y escritor francés, exponente del existencialismo. Su obra aborda temas como la libertad, la responsabilidad, la alienación y la existencia humana. Sartre es conocido por su frase 'La existencia precede a la esencia', que resume su enfoque filosófico sobre la autonomía individual."
+        ,
         "quotes": [
           "Man is condemned to be free; because once thrown into the world, he is responsible for everything he does.",
           "Hell is other people.",
@@ -199,6 +208,8 @@
       {
         "id": 9,
         "name": "Hermann Hesse",
+        "description": "Hermann Hesse fue un escritor alemán, autor de novelas que exploran la búsqueda espiritual y el viaje interior del individuo. Obras como 'Siddhartha' y 'El lobo estepario' reflejan su interés en la filosofía oriental, la psicología y la autodescubierta. Hesse recibió el Premio Nobel de Literatura en 1946."
+        ,
         "quotes": [
           "Some of us think holding on makes us strong, but sometimes it is letting go.",
           "Words do not express thoughts very well. They always become a little different immediately after they are expressed, a little distorted, a little foolish.",
@@ -211,6 +222,8 @@
       {
         "id": 10,
         "name": "George Orwell",
+        "description": "George Orwell fue un escritor y periodista británico, conocido por su crítica social y política. Su obra, como '1984' y 'Rebelión en la granja', advierte sobre los peligros del totalitarismo, la vigilancia estatal y la manipulación del lenguaje. Orwell es uno de los autores más influyentes del siglo XX."
+        ,
         "quotes": [
           "War is peace. Freedom is slavery. Ignorance is strength.",
           "Big Brother is watching you.",
@@ -223,6 +236,8 @@
       {
         "id": 11,
         "name": "Aldous Huxley",
+        "description": "Aldous Huxley fue un escritor británico, conocido por su novela distópica 'Un mundo feliz'. Huxley exploró temas como el control social, la tecnología y la manipulación genética en una sociedad futurista. Su obra refleja preocupaciones sobre los peligros de la conformidad y la pérdida de la individualidad."
+        ,
         "quotes": [
           "Words can be like X-rays if you use them properly – they’ll go through anything. You read and you’re pierced.",
           "Happiness is not achieved by the conscious pursuit of happiness; it is generally the by-product of other activities.",
@@ -235,6 +250,8 @@
       {
         "id": 12,
         "name": "Leo Tolstoy",
+        "description": "Leo Tolstoy fue un novelista ruso del siglo XIX, conocido por obras como 'Guerra y paz' y 'Anna Karenina'. Tolstoy exploró temas universales como el amor, la guerra, la fe y la moralidad. Su escritura se caracteriza por una profunda introspección y una visión humanista de la vida."
+        ,
         "quotes": [
           "Everyone thinks of changing the world, but no one thinks of changing himself.",
           "All happy families are alike; each unhappy family is unhappy in its own way.",
@@ -247,6 +264,8 @@
       {
         "id": 13,
         "name": "Andrei Tarkovsky",
+        "description": "Andrei Tarkovsky fue un cineasta soviético, reconocido por sus películas poéticas y filosóficas. Sus obras, como 'Solaris' y 'El espejo', exploran temas existenciales y metafísicos a través de imágenes evocadoras y narrativas no convencionales. Tarkovsky es considerado uno de los grandes maestros del cine."
+        ,
         "quotes": [
           "Art is born and takes hold wherever there is a timeless and insatiable longing for the spiritual, for the ideal: that longing which draws people to art.",
           "The director's task is to recreate life, its movement, its contradictions, its dynamic force, and to produce a synthesis as a testimony to the life of his time.",
@@ -259,6 +278,8 @@
       {
         "id": 14,
         "name": "Karl Marx",
+        "description": "Karl Marx fue un filósofo, economista y teórico político alemán. Es conocido por su obra 'El Capital' y por ser uno de los fundadores del socialismo científico. Marx analizó las estructuras sociales y económicas, destacando las tensiones entre clases y la búsqueda de la emancipación de los trabajadores."
+        ,
         "quotes": [
           "The history of all hitherto existing society is the history of class struggles.",
           "The philosophers have only interpreted the world, in various ways. The point, however, is to change it.",
@@ -271,6 +292,8 @@
       {
         "id": 15,
         "name": "Arthur Schopenhauer",
+        "description": "Arthur Schopenhauer fue un filósofo alemán del siglo XIX, conocido por su pesimismo filosófico y su crítica al idealismo. Su obra principal, 'El mundo como voluntad y representación', aborda temas como la voluntad, el sufrimiento humano y la búsqueda de la redención a través del arte y la contemplación."
+        ,
         "quotes": [
           "Talent hits a target no one else can hit; Genius hits a target no one else can see.",
           "Compassion is the basis of morality.",
@@ -283,6 +306,8 @@
       {
         "id": 16,
         "name": "Eduardo Galeano",
+        "description": "Eduardo Galeano fue un escritor y periodista uruguayo, conocido por su estilo narrativo y su crítica social. Su obra, como 'Las venas abiertas de América Latina', analiza la historia y la política de América Latina desde una perspectiva crítica y comprometida con la justicia social y los derechos humanos."
+        ,
         "quotes": [
           "We are all mortal until the first kiss and the second glass of wine.",
           "I don't believe in charity; I believe in solidarity.",
@@ -295,6 +320,8 @@
       {
         "id": 17,
         "name": "Julio Cortázar",
+        "description": "Julio Cortázar fue un escritor argentino, uno de los principales exponentes del realismo mágico y la narrativa experimental. Su obra incluye novelas como 'Rayuela' y cuentos como 'Bestiario', que desafían las convenciones literarias y exploran la complejidad de la identidad y la percepción."
+        ,
         "quotes": [
           "Come sleep with me: We won’t make Love, Love will make us.",
           "And in the end, it’s not the years in your life that count. It’s the life in your years.",
@@ -307,6 +334,8 @@
       {
         "id": 18,
         "name": "Alejandra Pizarnik",
+        "description": "Alejandra Pizarnik fue una poeta argentina, reconocida por su poesía introspectiva y emotiva. Su obra explora temas como la identidad, la melancolía y la búsqueda del sentido de la vida. Pizarnik es considerada una de las voces más importantes de la poesía latinoamericana del siglo XX."
+        ,
         "quotes": [
           "I want a silence to grow like a tree without branches.",
           "Only in dreams, in poetry, in play do we sometimes arrive at what we were before we were this thing that, who knows, we are.",
@@ -318,19 +347,23 @@
       },
       {
         "id": 19,
-        "name": "Jacques Lacan",
+        "name": "Jacques Lacan",    
+          "description": "Jacques Lacan fue un psicoanalista y filósofo francés, conocido por reinterpretar las ideas de Freud desde una perspectiva estructuralista y lingüística. Su obra influyó en campos como la psicología, la filosofía y los estudios culturales, especialmente con conceptos como el 'lenguaje simbólico' y el 'yo como otro'."
+        ,
         "quotes": [
           "The unconscious is structured like a language.",
           "Desire is the essence of man.",
           "The mirror stage is a drama whose internal thrust is precipitated from insufficiency to anticipation."
         ],
-        "image": "https://www.elpsitio.com.ar/noticias/images/artsept22_tapab.jpg",
+        "image": "https://resizer.glanacion.com/resizer/v2/jacques-lacan-en-paris-en-un-retrato-de-1979-foto-I7OHGNHP4NFTJJHGAPCT7DHXLY.jpg?auth=2dad769d551b98672c4b9109721c07f07821dd9ccef6295c1332049731eb43af&width=768&height=1081&quality=70&smart=false&focal=272,274",
         "locked": true
   
       },
       {
         "id": 20,
         "name": "Michel Foucault",
+        "description": "Michel Foucault fue un filósofo y sociólogo francés, conocido por su crítica de las instituciones sociales y por su teoría del poder. Foucault analizó cómo las estructuras de poder influyen en la sociedad y en la construcción del conocimiento. Su obra abarca temas como la vigilancia, la sexualidad y la locura."
+        ,
         "quotes": [
           "Knowledge is not for knowing: knowledge is for cutting.",
           "Power is not an institution, and not a structure; neither is it a certain strength we are endowed with; it is the name that one attributes to a complex strategical situation in a particular society.",
@@ -343,6 +376,8 @@
       {
         "id": 21,
         "name": "Simone de Beauvoir",
+        "description": "Simone de Beauvoir fue una filósofa y escritora francesa, pionera del feminismo existencialista. Su obra 'El segundo sexo' es fundamental para el movimiento feminista, explorando temas como la opresión de las mujeres y la construcción social del género. De Beauvoir también fue una novelista prolífica y una intelectual comprometida con los derechos humanos."
+        ,
         "quotes": [
           "One is not born, but rather becomes, a woman.",
           "I am incapable of conceiving infinity, and yet I do not accept finity.",
@@ -355,6 +390,8 @@
       {
         "id": 22,
         "name": "John Lennon",
+        "description": "John Lennon fue un músico, cantante y compositor británico, conocido por ser uno de los miembros fundadores de The Beatles. Lennon no solo fue un ícono de la música popular, sino también un activista por la paz y los derechos civiles. Su obra musical y su activismo reflejan su compromiso con la paz mundial y la justicia social."
+        ,
         "quotes": [
           "Life is what happens when you're busy making other plans.",
           "Time you enjoy wasting, was not wasted.",
@@ -367,6 +404,8 @@
       {
         "id": 23,
         "name": "Marcus Aurelius",
+        "description": "Marcus Aurelius fue un emperador romano y filósofo estoico del siglo II d.C. Su obra más conocida es 'Meditaciones', un conjunto de escritos personales sobre la ética estoica y la autodisciplina. Aurelius es recordado por su gobierno filosófico y su reflexión sobre el deber, la virtud y la naturaleza del poder."
+        ,
         "quotes": [
           "The happiness of your life depends upon the quality of your thoughts.",
           "You have power over your mind - not outside events. Realize this, and you will find strength.",
@@ -379,6 +418,8 @@
       {
         "id": 24,
         "name": "Heraclitus",
+        "description": "Heraclitus fue un filósofo griego antiguo, conocido por su doctrina del cambio constante y el flujo universal. Su frase 'Nadie se baña dos veces en el mismo río' resume su visión de que todo está en constante transformación. Heraclitus influyó en el pensamiento occidental con su enfoque en la unidad de los opuestos y el devenir cósmico."
+        ,
         "quotes": [
           "No man ever steps in the same river twice, for it's not the same river and he's not the same man.",
           "Character is destiny.",
@@ -391,6 +432,8 @@
       {
         "id": 25,
         "name": "Democritus",
+        "description": "Democritus fue un filósofo griego pre-socrático, conocido por ser uno de los primeros en proponer la teoría atómica del universo. Creía que todo está compuesto por átomos indivisibles en constante movimiento en el vacío. Democritus también abordó temas como la ética, la cosmología y la teoría del conocimiento."
+        ,
         "quotes": [
           "Happiness resides not in possessions, and not in gold, happiness dwells in the soul.",
           "Nothing exists except atoms and empty space; everything else is opinion.",
@@ -403,6 +446,8 @@
       {
         "id": 26,
         "name": "Parmenides",
+        "description": "Parménides fue un filósofo griego presocrático, conocido por su poema metafísico 'Sobre la naturaleza'. Argumentó que el ser es eterno, inmutable, y que el cambio y el devenir son ilusorios. Parménides influyó en el desarrollo del pensamiento filosófico occidental al plantear preguntas fundamentales sobre la realidad y el conocimiento."
+        ,
         "quotes": [
           "The only routes of inquiry there are to think: one that it is and cannot not be, is the path of Persuasion, for it attends upon Truth; the other, that it is not and that it must not be, this I say to you is a path wholly unlearnable, for you could not know what is not—that is impossible—nor could you declare it.",
           "For never shall this prevail, that things that are not, are.",
@@ -415,6 +460,8 @@
       {
         "id": 27,
         "name": "Pythagoras",
+        "description": "Pitágoras fue un filósofo y matemático griego antiguo, conocido por el teorema que lleva su nombre en geometría. Fundó la escuela pitagórica, que combinaba enseñanzas filosóficas, matemáticas y místicas. Pitágoras también influyó en la música y la astronomía griegas, y su legado ha perdurado en la historia de la ciencia y la filosofía."
+        ,
         "quotes": [
           "Number is the ruler of forms and ideas, and the cause of gods and demons.",
           "As soon as laws are necessary for men, they are no longer fit for freedom.",
@@ -427,6 +474,8 @@
       {
         "id": 28,
         "name": "Byung-Chul Han",
+        "description": "Byung-Chul Han es un filósofo y ensayista surcoreano-alemán, conocido por sus reflexiones sobre la sociedad contemporánea y la cultura digital. Han analiza temas como el individualismo, la sociedad del rendimiento y la erosión de la comunidad en la era digital. Su obra ha resonado ampliamente en el debate sobre los efectos psicológicos y sociales de la tecnología."
+        ,
         "quotes": [
           "We live in a society of transparency. Everything must be visible. But this transparency turns out to be a powerful form of control.",
           "The capitalist system is totalitarian. It forces people to constantly improve, optimize, and maximize performance.",
@@ -439,6 +488,8 @@
       {
         "id": 29,
         "name": "Slavoj Žižek",
+        "description": "Slavoj Žižek es un filósofo y teórico cultural esloveno, conocido por su crítica cultural y política desde una perspectiva lacaniana y marxista. Žižek aborda temas como la ideología, el psicoanálisis y la crítica al capitalismo. Su estilo provocativo y su capacidad para vincular la teoría filosófica con la cultura popular lo han convertido en una figura influyente en el pensamiento contemporáneo."
+        ,
         "quotes": [
           "We live in a strange world where the more you talk about sex, the less you talk about the truth.",
           "Happiness is the moment when you cease to fear.",
@@ -451,6 +502,8 @@
       {
         "id": 30,
         "name": "Sigmund Freud",
+        "description": "Sigmund Freud fue un neurólogo y psicoanalista austriaco, conocido como el padre del psicoanálisis. Freud revolucionó el campo de la psicología al proponer que gran parte del comportamiento humano está motivado por procesos inconscientes. Sus teorías sobre el inconsciente, la sexualidad y el desarrollo psicológico siguen siendo influyentes en psicología, psiquiatría, y cultura popular."
+        ,
         "quotes": [
           "Unexpressed emotions will never die. They are buried alive and will come forth later in uglier ways.",
           "The ego is not master in its own house.",
@@ -463,6 +516,8 @@
       {
         "id": 31,
         "name": "Carl Gustav Jung",
+        "description": "Carl Gustav Jung fue un psiquiatra suizo y fundador de la psicología analítica. Jung desarrolló conceptos como el inconsciente colectivo, los arquetipos y la individuación. Su obra profundiza en temas como la religión, la mitología y la conexión entre la mente humana y el cosmos. Jung es una figura clave en la psicología moderna y la psicoterapia."
+        ,
         "quotes": [
           "Everything that irritates us about others can lead us to an understanding of ourselves.",
           "Your visions will become clear only when you can look into your own heart. Who looks outside, dreams; who looks inside, awakes.",
@@ -475,6 +530,8 @@
       {
         "id": 32,
         "name": "David Hume",
+        "description": "David Hume fue un filósofo escocés del siglo XVIII, conocido por su empirismo radical y su crítica al dogmatismo religioso. Su obra 'Tratado de la naturaleza humana' influyó en el desarrollo de la filosofía moderna, especialmente en la teoría del conocimiento y la ética. Hume también abordó temas como la metafísica y la teología natural."
+        ,
         "quotes": [
           "Reason is, and ought only to be the slave of the passions, and can never pretend to any other office than to serve and obey them.",
           "Beauty in things exists in the mind which contemplates them.",
@@ -487,6 +544,8 @@
       {
         "id": 33,
         "name": "Immanuel Kant",
+        "description": "Immanuel Kant fue un filósofo alemán del siglo XVIII, conocido por su trabajo en la teoría del conocimiento y la ética. Su obra más influyente es 'Crítica de la razón pura', donde establece los límites y las posibilidades del conocimiento humano. Kant también formuló la ética del deber o el imperativo categórico como principio moral universal."
+        ,
         "quotes": [
           "Science is organized knowledge. Wisdom is organized life.",
           "Live your life as though your every act were to become a universal law.",
@@ -499,6 +558,8 @@
       {
         "id": 34,
         "name": "Seneca",
+        "description": "Lucio Anneo Seneca fue un filósofo, estadista y escritor romano del siglo I d.C., conocido por su papel como tutor del emperador Nerón. Seneca es uno de los principales representantes del estoicismo, una escuela filosófica que promueve la virtud, la serenidad y el control de las pasiones como medios para alcanzar la felicidad. Su obra incluye ensayos sobre ética, la naturaleza y la vida buena."
+        ,
         "quotes": [
           "Luck is what happens when preparation meets opportunity.",
           "It is not the man who has too little, but the man who craves more, that is poor.",

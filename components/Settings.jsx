@@ -86,6 +86,8 @@ const Settings = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Settings</Text>
+      <Text style={styles.p}> Selecciona la hora a la que quieres recibir la notificacion.</Text>
+
       <Text style={styles.cardText}>{selectedTime.toLocaleTimeString()}</Text>
 
       <TouchableOpacity style={styles.card} onPress={() => setShowTimePicker(true)}>
@@ -123,9 +125,16 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 20,
   },
+  p:{
+    fontSize:15,
+    textAlign: 'center',
+    fontFamily:"Neue",
+
+  },
   title: {
     fontSize: 50,
-    marginBottom: 250,
+    marginBottom:100,
+    margin:50,
     fontFamily:"Neue",
   },
   card: {
