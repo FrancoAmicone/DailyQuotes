@@ -44,18 +44,33 @@ const DailyQuoteScreen = ({ navigation }) => {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.title}>Daily Quotes</Text>
+      
       <Image source={{ uri: quote.image }} style={styles.authorImage} />
       <Text style={styles.author}>{quote.author}</Text>
       <Text style={styles.description}>{quote.description}</Text>
 
-      {/* Mostrar la biografía del autor */}
-      <Text style={styles.author}>Biografia</Text>
-      <Text style={styles.description}>{quote.biography}</Text>
 
-      {/* Botón para navegar de regreso a la pantalla de inicio */}
-      <TouchableOpacity onPress={() => navigation.navigate('Home')} style={styles.card}>
-        <Ionicons name="home-outline" size={24} color="black" style={styles.icon} />
-        <Text style={styles.cardText}>Back to Home</Text>
+
+      <View style={{
+          backgroundColor: '#E9E9E9',          flexGrow: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+          padding:10,
+          borderRadius:25,
+          elevation: 3,
+
+      }}>
+
+        {/* Mostrar la biografía del autor */}
+        <Ionicons name="bookmark-outline" size={30} color="black" style={styles.bio} />
+        <Text style={styles.author}>Biografia</Text>
+
+        <Text style={styles.description}>{quote.biography}</Text>
+      </View>
+        {/* Botón para navegar de regreso a la pantalla de inicio */}
+        <TouchableOpacity onPress={() => navigation.navigate('Home')} style={styles.card}>
+          <Ionicons name="home-outline" size={24} color="black" style={styles.icon} />
+          <Text style={styles.cardText}></Text>
       </TouchableOpacity>
     </ScrollView>
   );
@@ -67,7 +82,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: 20,
+    
   },
+
+
   title: {
     fontSize: 50,
     marginBottom: 20,
@@ -79,10 +97,10 @@ const styles = StyleSheet.create({
     width: 300,
     height: 400,
     borderRadius: 150,
-    margin:50,
+    margin:25,
   },
   author: {
-    margin:20,
+    margin:10,
     fontSize: 30,
     fontFamily: "Neue",
     marginBottom: 10,
@@ -92,6 +110,7 @@ const styles = StyleSheet.create({
     fontFamily: "Neue",
     textAlign: 'center',
     paddingHorizontal: 20,
+    marginBottom:20,
   },
   card: {
 
@@ -105,12 +124,15 @@ const styles = StyleSheet.create({
     fontFamily: "Neue",
   },
   icon: {
-    marginRight: 10,
+    margin: 5,
   },
   cardText: {
     fontSize: 16,
     fontFamily: "Neue",
   },
+  bio:{
+    marginTop:30,
+  },  
 });
 
 export default DailyQuoteScreen;
