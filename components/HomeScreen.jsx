@@ -43,9 +43,13 @@ const HomeScreen = ({ navigation }) => {
 
   const handleLongPress = ({ nativeEvent }) => {
     if (nativeEvent.state === State.ACTIVE) {
-      navigation.navigate('DailyQuote');
+      navigation.navigate('DailyQuote', { image: quote.image });
     }
   };
+
+  if (!fontsLoaded) {
+    return null;
+  }
 
   return (
     <View style={styles.container}>
