@@ -7,6 +7,7 @@ import { useFocusEffect } from '@react-navigation/native';
 import { useFonts } from 'expo-font';
 import { BannerAd, BannerAdSize, TestIds } from 'react-native-google-mobile-ads';
 import { LongPressGestureHandler, State } from 'react-native-gesture-handler';
+import Animated, { Easing, useSharedValue, useAnimatedStyle, withTiming } from 'react-native-reanimated';
 
 let Tittle = 'Daily Quotes';
 
@@ -47,12 +48,27 @@ const HomeScreen = ({ navigation }) => {
     }
   };
 
+  const translateY = useSharedValue(100);
+
+  useEffect(() => {
+    translateY.value = withTiming(0, {
+      duration: 2000,
+      easing: Easing.out(Easing.exp),
+    });
+  }, []);
+
+  const animatedStyle = useAnimatedStyle(() => {
+    return {
+      transform: [{ translateY: translateY.value }],
+    };
+  });
+
   if (!fontsLoaded) {
     return null;
   }
 
   return (
-    <View style={styles.container}>
+    <Animated.View style={[styles.container, animatedStyle]}>
       <Text style={styles.title}>{Tittle}</Text>
       {quote ? (
         <LongPressGestureHandler onHandlerStateChange={handleLongPress} minDurationMs={800}>
@@ -87,7 +103,7 @@ const HomeScreen = ({ navigation }) => {
       <View style={styles.ads}>
         <BannerAd size={BannerAdSize.FULL_BANNER} unitId={TestIds.BANNER} />
       </View>
-    </View>
+    </Animated.View>
   );
 };
 
