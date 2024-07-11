@@ -6,6 +6,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { useFonts } from 'expo-font';
 import Animated, { Easing, useSharedValue, useAnimatedStyle, withTiming } from 'react-native-reanimated';
 
+
 const DailyQuoteScreen = ({ navigation, route }) => {
   const [fontsLoaded] = useFonts({
     Neue: require("../assets/fonts/NeueMontreal-Medium.otf"),
@@ -42,7 +43,6 @@ const DailyQuoteScreen = ({ navigation, route }) => {
     loadSelectedAuthor();
   }, []);
 
-  // Mover useEffect de animación fuera de cualquier condición
   useEffect(() => {
     imageHeight.value = withTiming(500, {
       duration: 2000,
