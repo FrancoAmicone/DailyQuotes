@@ -88,16 +88,16 @@ const HomeScreen = ({ navigation }) => {
       ) : (
         <View style={styles.welcomeContainer}>
           <Image source={require('../assets/welcome-logo.png')} style={styles.welcomeImage} />
-          <Text style={styles.welcomeText}>Hey 👋! {"\n"} You have not chosen an author {"\n"} Please select one from the list.</Text>
+          <Text style={styles.welcomeText}>Hola 👋! {"\n"} Bienvenido, no tienes ningun autor seleccionado {"\n"} Porfavor, seleccione uno de la lista.</Text>
         </View>
       )}
       <TouchableOpacity onPress={() => navigation.navigate('AuthorCheckboxList')} style={styles.card}>
         <Ionicons name="book" size={24} color="black" style={styles.icon} />
-        <Text style={styles.cardText}>Discover Authors</Text>
+        <Text style={styles.cardText}>Descubre autores</Text>
       </TouchableOpacity>
       <TouchableOpacity onPress={() => navigation.navigate('Settings')} style={styles.card}>
         <Ionicons name="settings" size={24} color="black" style={styles.icon} />
-        <Text style={styles.cardText}>Settings</Text>
+        <Text style={styles.cardText}>Configuración</Text>
       </TouchableOpacity>
       
       <View style={styles.ads}>

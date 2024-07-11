@@ -124,14 +124,14 @@ const AuthorCheckboxList = ({ navigation }) => {
             <Image source={{ uri: item.image }} style={styles.authorImage} />
             <Text style={styles.authorName}>{item.name}</Text>
             {item.locked && !unlockedAuthors.includes(item.name) && (
-              <Ionicons name="lock-open" size={24} color="black" style={styles.lockedIcon} />
+              <Ionicons name="lock-closed" size={24} color="black" style={styles.lockedIcon} />
             )}
           </TouchableOpacity>
         )}
       />
       <TouchableOpacity style={styles.confirmButton} onPress={handleConfirmSelection}>
         <Ionicons name="checkmark-outline" size={24} color="white" style={styles.icon} />
-        <Text style={styles.confirmButtonText}>Confirm Selection</Text>
+        <Text style={styles.confirmButtonText}>Confirmar Selección</Text>
       </TouchableOpacity>
     </View>
   );

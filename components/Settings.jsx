@@ -87,7 +87,7 @@ const Settings = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Settings</Text>
+      <Text style={styles.title}>Configuración</Text>
       <TouchableOpacity onPress={toggleNotifications} style={styles.card}>
         <Ionicons name={notificationsEnabled ? "notifications" : "notifications-off"} size={24} color="black" style={styles.icon} />
         <Text style={styles.cardText}>
@@ -141,7 +141,7 @@ const styles = StyleSheet.create({
     margin:5,
   },
   title: {
-    fontSize: 50,
+    fontSize: 40,
     marginBottom: 100,
     margin: 50,
     fontFamily: "Neue",
