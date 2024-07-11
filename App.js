@@ -9,22 +9,12 @@ import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import HomeScreen from './components/HomeScreen';
 import AuthorCheckboxList from './components/AuthorCheckboxList';
 import Settings from './components/Settings';
+import DailyQuoteScreen from './components/DailyQuoteScreen';
 import quotesData from './data/data.json';
 
 const Stack = createStackNavigator();
 
 const App = () => {
-
-
-  useEffect(() => {
-    (async () => {
-      const { status } = await Notifications.requestPermissionsAsync();
-      if (status !== 'granted') {
-        await Notifications.requestPermissionsAsync();
-      }
-    })();
-  }, []);
-
   const scheduleDailyQuoteNotification = async () => {
     await Notifications.cancelAllScheduledNotificationsAsync();
 
@@ -63,6 +53,7 @@ const App = () => {
           <Stack.Screen name="Home" component={HomeScreen} options={{ title: 'Daily Quote App' }} />
           <Stack.Screen name="AuthorCheckboxList" component={AuthorCheckboxList} options={{ title: 'Discover Authors' }} />
           <Stack.Screen name="Settings" component={Settings} options={{ title: 'Settings' }} />
+          <Stack.Screen name="DailyQuote" component={DailyQuoteScreen} options={{ title: 'Info' }} />
         </Stack.Navigator>
       </NavigationContainer>
     </GestureHandlerRootView>

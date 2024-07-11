@@ -1,515 +1,1092 @@
-
 {
-    "authors": [
-        {
-        "id": 1,
-        "name": "Jorge Luis Borges",
-        "quotes": [
-          "He cometido el peor pecado que uno puede cometer. No he sido feliz.",
-          "Siempre he imaginado que el Paraíso será algún tipo de biblioteca.",
-          "Uno llega a ser grande por lo que lee y no por lo que escribe.",
-          "El tiempo es la sustancia de la que estoy hecho.",
-          "La duda es uno de los nombres de la inteligencia.",
-          "La muerte es una vida vivida. La vida es una muerte que viene.",
-          "Uno está enamorado cuando se da cuenta de que otra persona es única.",
-          "Yo no hablo de venganzas ni perdones; el olvido es la única venganza y el único perdón.",
-          "La belleza es ese misterio hermoso que no descifran ni la psicología ni la retórica.",
-          "El infierno y el paraíso me parecen desproporcionados. Los actos de los hombres no merecen tanto.",
-          "La poesía no es menos misteriosa que otros elementos del orbe.",
-          "No hay consuelo más hábil que el pensamiento de que hemos elegido nuestras desdichas.",
-          "La ceguera es una forma de soledad.",
-          "Cada escritor crea sus precursores.",
-          "No hay otra venganza ni otro perdón que el olvido.",
-          "El futuro es inevitable, pero puede no ocurrir.",
-          "La amistad no necesita frecuencia, el amor sí.",
-          "Que un personaje muera me parece repulsivo, yo preferiría que fueran inmortales.",
-          "Ser inmortal es baladí; menos el hombre, todas las criaturas lo son, pues ignoran la muerte.",
-          "El verbo leer, como el verbo amar y el verbo soñar, no soporta el modo imperativo.",
-          "La democracia es un abuso de la estadística.",
-          "Hay derrotas que tienen más dignidad que la victoria.",
-          "La realidad no siempre es probable, ni la verdad tampoco.",
-          "La música, los estados de felicidad, la mitología, los rostros trabajados por el tiempo, ciertos crepúsculos y ciertos lugares quieren decirnos algo, o algo dijeron que no hubiéramos debido perder, o están por decir algo; esta inminencia de una revelación, que no se produce, es, quizá, el hecho estético.",
-          "La belleza es ese misterio hermoso que no descifran ni la psicología ni la retórica.",
-          "No estoy seguro de que yo exista, en realidad. Soy todos los autores que he leído, todas las personas que he conocido, todas las mujeres que he amado, todas las ciudades que he visitado.",
-          "Hay que tener cuidado al elegir a los enemigos porque uno termina pareciéndose a ellos.",
-          "El original es infiel a la traducción.",
-          "Que cada hombre construya su propia catedral. ¿Para qué vivir de obras de arte ajenas y antiguas?",
-          "El éxito y el fracaso son dos impostores."
-        ],
-        "image": "https://rialta.org/wp-content/uploads/2019/10/Jorge-Luis-Borges-fotografiado-por-Brenno-Quaretti.jpg",
-        "locked": false
-      },
+  "authors": [
+    {
+      "id": 1,
+      "name": "Jorge Luis Borges",
+      "description": "Jorge Francisco Isidoro Luis Borges fue un escritor argentino, considerado uno de los autores más destacados del siglo XX. Su obra abarca ensayos breves, cuentos y poemas. Borges se destacó especialmente por su capacidad para mezclar la realidad con elementos fantásticos, creando historias que desafían la lógica y la comprensión.",
+      "biography": " Nació en Buenos Aires, Argentina, el 24 de agosto de 1899, en el seno de una familia acomodada con una rica tradición literaria. Su padre, Jorge Guillermo Borges, era abogado y escritor, y su madre, Leonor Acevedo Suárez, una mujer culta que inculcó en sus hijos el amor por la lectura.\n\nBorges pasó su infancia en el barrio de Palermo de Buenos Aires, rodeado de libros y estimulado por un ambiente intelectual. A los cuatro años ya sabía leer en español e inglés, y pronto comenzó a escribir sus propios relatos. En 1914, la familia se mudó a Europa, donde Borges vivió en Ginebra y España. Durante este tiempo, se relacionó con diversos movimientos literarios de vanguardia y publicó sus primeros poemas.\n\nEn 1921, Borges regresó a Argentina y comenzó a desarrollar su carrera literaria de manera más prolífica. En 1923, publicó su primer libro de cuentos, \"Fervor de Buenos Aires\", al que siguieron otros títulos como \"Ficciones\" (1935), \"El Aleph\" (1949) y \"El libro de arena\" (1953). Sus obras se caracterizaban por su estilo original, su exploración de temas filosóficos y existenciales, y su uso magistral del lenguaje.",
 
-      {
-        "id": 2,
-        "name": "Charles Bukowski",
-        "quotes": [
-                    "Find what you love and let it kill you.",
-                    "Some people never go crazy. What truly horrible lives they must lead.",
-                    "You have to die a few times before you can really live.",
-                    "The problem with the world is that everyone is afraid to cut loose.",
-                    "There is a lot of beauty in the world, but it is not evenly distributed.",
-                    "Half of the people you meet are on medication and the other half should be.",
-                    "Writing is a lonely profession. Publication is the cruelest revenge.",
-                    "The only thing that matters is that you keep writing and keep believing.",
-                    "The instincts are there at birth, but they need to be awakened.",
-                    "We are here to kill war. We are here to laugh at the odds and live our lives so well that Death will tremble to take us.",
-                    "It all goes by so fast. Life is like a flickering light at the far end of a tunnel.",
-                    "The important thing is not to go gentle into that good night. Rage, rage against the dying of the light.",
-                    "I carry my heart with me (I carry it in my heart) (I am never without it anywhere I go you go, my dear; and whatever is done by only me is your doing, my darling)",
-                    "Love is a dog from hell. You only get out of it what you put into it.",
-                    "There's nothing like a good scare to get the creative juices flowing.",
-                    "Most of the time people are not even listening to you. They're just waiting for their turn to speak.",
-                    "There is a beast in every man and a beast in every woman, and when it comes out, it ain't pretty.",
-                    "You can't win them all. You can't break even. All you can do is keep trying to hit the damn ball.",
-                    "Sometimes you climb out of bed in the morning and you think, I'm not going to make it. But then you laugh inside — remembering all the times you've felt that way.",
-                    "As long as there are whores and whiskey, I'm okay.",
-                    "I'm a writer, babe. That means I bleed on paper.",
-                    "I want to be drunk. I always want to be drunk. That way everything's dead downstairs and I can sit up here and cry.",
-                    "I don't need people. I just need quiet and space. I can live with that.",
-                    "There's a bluebird in my heart that sings a song of regret. But I won't let it out.",
-                    "There's a time for everything, and a season for every activity under heaven.",
-                    "I guess I just feel like I'm always on the outside looking in.",
-                    "All you've got to do is believe.",
-                    "I write because there's nothing else I can do.",
-                    "I'm a drinker, with writing problems.",
-                    "Some days are diamonds. Some days are just dust."
-         ],
-        "image": "https://pondus-hpg.s3.eu-central-1.amazonaws.com/fischer/public/Bukowski,Charles.jpg",
-        "locked": false
-      },
-      {
-        "id": 3,
-        "name": "Friedrich Nietzsche",
-       "quotes": [
-          "He who has a why to live can bear almost any how.",
-          "That which does not kill us makes us stronger.",
-          "To live is to suffer, to survive is to find some meaning in the suffering.",
-          "The man who is not afraid of the truth has nothing to fear from lies.",
-          "Beware that, when fighting monsters, you yourself do not become one.",
-          "God is dead. God remains dead. And we have killed him.",
-          "There are no facts, only interpretations.",
-          "Become who you are!",
-          "What does not kill me, makes me stronger.", 
-          "Whoever fights monsters should see to it that in the process he does not become a monster. And when you look long into an abyss, the abyss also looks into you.",
-          "We are all fools in love.",
-          "Madness is the rarest of things in this world.  Almost everyone is sane.",
-          "The superior man suffers from boredom more than from anything else. He suffers from the fact that there is nothing to suffer for.",
-          "The true man wants one thing: to overcome himself.",
-          "There are no moral phenomena at all, only a moral interpretation of phenomena.",
-          "Punishment is the revenge that society takes for the crime committed against it.",
-          "What is important is not happiness, but vitality and power; because what is happy does not necessarily live long; but what is vital always gives happiness.",
-          "One should learn to love oneself with a healthy egotism.",
-          "The individual has always had to struggle to keep from being overwhelmed by the tribe. If you try it, you will be lonely often, and sometimes frightened. But no price is too high to pay for the privilege of owning yourself.",
-          "There is nothing more frightful than ignorance in action.",
-          "Beauty is for the purpose of seduction; ugliness is part of the process of intimidating.",
-          "The greatest danger for most of us is not that our aim too high and miss it, but that it is too low and reach it.",
-          "Vanity is the only sin that does not forgive itself.",
-          "I'm not upset that you lied to me, I am upset that from now on I cannot believe you.",
-          "Every deep thinker is more afraid of being understood than being misunderstood.",
-          "The advantage of a bad memory is that one enjoys several times the same good things for the first time.",
-          "He who laughs best today, will also laugh last.",
-          "Whatever has its price has little value.",
-          "The tarantula does what spiders do: spins a web. The spirit that no longer can create, criticizes.",
-          "Genius is characterized by its creative urge, by its will to form, to shape, in short, by its will to power."
-          ],
-        "image": "https://www.jotdown.es/wp-content/uploads/2022/05/Franziska-Nietzsche-y-Friedrich-Nietzsche-DP-800x534.jpg",
-        "locked": false
-  
-      },
-      {
-        "id": 4,
-        "name": "Franz Kafka",
       "quotes": [
-          "A book must be the axe for the frozen sea within us.",
-          "In the fight between you and the world, back the world.",
-          "Youth is happy because it has the capacity to see beauty. Anyone who keeps the ability to see beauty never grows old.",
-          "Paths are made by walking.",
-          "I am free and that is why I am lost.",
-          "Don't bend; don't water it down; don't try to make it logical; don't edit your own soul according to the fashion. Rather, follow your most intense obsessions mercilessly.",
-          "Evil is whatever distracts.",
-          "There are times when I am convinced I am unfit for any human relationship.",
-          "By believing passionately in something that still does not exist, we create it. The nonexistent is whatever we have not sufficiently desired.",
-          "The true path leads outwards, but it also leads within.",
-          "It is better to be unhappy for a truth you know than happy for a lie you believe.",
-          "We carry an image of fulfillment in us, we cannot conceive that it can be different.",
-          "He who seeks does not find, but he who stumbles finds.",
-          "The meaning of life is that it stops.",
-          "One does not have to believe everything one reads, but one can always find something to ponder over.",
-          "Sometimes a fall can be the best thing that can happen to you.",
-          "We are all Kafkaesque heroes, trapped in a labyrinth of bureaucracy and absurdity.", 
-          "The cage is not made of bars; it is your very belief that there is no escape.",  
-          "Hope is the belief that things will get better. Faith is the conviction that they will.",  
-          "The only revolutionary will is the will to be oneself.", 
-          "There is an infinite amount of hope in the universe – but not for us.",  
+        "He cometido el peor pecado que uno puede cometer. No he sido feliz.",
+        "Siempre he imaginado que el Paraíso será algún tipo de biblioteca.",
+        "Uno llega a ser grande por lo que lee y no por lo que escribe.",
+        "El tiempo es la sustancia de la que estoy hecho.",
+        "La duda es uno de los nombres de la inteligencia.",
+        "La muerte es una vida vivida. La vida es una muerte que viene.",
+        "Uno está enamorado cuando se da cuenta de que otra persona es única.",
+        "Yo no hablo de venganzas ni perdones; el olvido es la única venganza y el único perdón.",
+        "La belleza es ese misterio hermoso que no descifran ni la psicología ni la retórica.",
+        "El infierno y el paraíso me parecen desproporcionados. Los actos de los hombres no merecen tanto.",
+        "La poesía no es menos misteriosa que otros elementos del orbe.",
+        "No hay consuelo más hábil que el pensamiento de que hemos elegido nuestras desdichas.",
+        "La ceguera es una forma de soledad.",
+        "Cada escritor crea sus precursores.",
+        "No hay otra venganza ni otro perdón que el olvido.",
+        "El futuro es inevitable, pero puede no ocurrir.",
+        "La amistad no necesita frecuencia, el amor sí.",
+        "Que un personaje muera me parece repulsivo, yo preferiría que fueran inmortales.",
+        "Ser inmortal es baladí; menos el hombre, todas las criaturas lo son, pues ignoran la muerte.",
+        "El verbo leer, como el verbo amar y el verbo soñar, no soporta el modo imperativo.",
+        "La democracia es un abuso de la estadística.",
+        "Hay derrotas que tienen más dignidad que la victoria.",
+        "La realidad no siempre es probable, ni la verdad tampoco.",
+        "La música, los estados de felicidad, la mitología, los rostros trabajados por el tiempo, ciertos crepúsculos y ciertos lugares quieren decirnos algo, o algo dijeron que no hubiéramos debido perder, o están por decir algo; esta inminencia de una revelación, que no se produce, es, quizá, el hecho estético.",
+        "La belleza es ese misterio hermoso que no descifran ni la psicología ni la retórica.",
+        "No estoy seguro de que yo exista, en realidad. Soy todos los autores que he leído, todas las personas que he conocido, todas las mujeres que he amado, todas las ciudades que he visitado.",
+        "Hay que tener cuidado al elegir a los enemigos porque uno termina pareciéndose a ellos.",
+        "El original es infiel a la traducción.",
+        "Que cada hombre construya su propia catedral. ¿Para qué vivir de obras de arte ajenas y antiguas?",
+        "El éxito y el fracaso son dos impostores."
+      ],
+      "image": "https://rialta.org/wp-content/uploads/2019/10/Jorge-Luis-Borges-fotografiado-por-Brenno-Quaretti.jpg",
+      "locked": false
+    },
+    {
+      "id": 2,
+      "name": "Charles Bukowski",
+      "description": "Charles Bukowski fue un escritor y poeta estadounidense conocido por su estilo directo y desgarrador. Su obra aborda temas como la vida cotidiana de los marginados, el alcoholismo y la decadencia urbana. Bukowski es considerado un ícono del realismo sucio, un movimiento literario que enfatiza lo crudo y lo visceral.",
+      "biography": "Nació el 16 de agosto de 1920 en Andernach, Alemania, aunque creció principalmente en Los Ángeles, California, después de que su familia emigrara a Estados Unidos cuando tenía tres años. Su padre era un soldado estadounidense y su madre una costurera alemana.\n\nBukowski creció en un ambiente difícil y tumultuoso, marcado por la pobreza y la violencia doméstica. Esta experiencia temprana influenció profundamente su obra literaria, que se caracteriza por su estilo directo, desgarrador y autobiográfico. A lo largo de su juventud y adultez temprana, Bukowski trabajó en una variedad de empleos temporales y marginales, como cartero y empleado de oficina, experiencias que luego reflejaría en sus escritos.\n\nSu carrera literaria comenzó a despegar en la década de 1960, cuando publicó su primer libro de poesía, 'Flower, Fist, and Bestial Wail' (1959), bajo el seudónimo de 'Charles Bukowski'. Sin embargo, fue en la década de 1970 cuando ganó reconocimiento internacional con obras como 'Post Office' (1971), 'Factotum' (1975) y 'Women' (1978), todas ellas reflejando su estilo de vida bohemio, su adicción al alcohol y su relación conflictiva con las mujeres.\n\nA lo largo de su carrera, Bukowski publicó numerosas novelas, cuentos y poemas que exploran la alienación, la decadencia urbana, el abuso del alcohol y las complejidades de las relaciones humanas. Su escritura cruda y realista le valió una base de seguidores leales y lo consolidó como uno de los autores más icónicos del movimiento del realismo sucio en la literatura estadounidense contemporánea.\n\nBukowski falleció el 9 de marzo de 1994 en San Pedro, California, dejando un legado literario que continúa resonando en lectores de todo el mundo.",
 
-          "The battle is not against the world; it is against the lie that people tell themselves about the world.",  
-          "Writing is a solitary profession. Publication is the cruelest revenge.",  
+      "quotes": [
+        "Find what you love and let it kill you.",
+        "Some people never go crazy. What truly horrible lives they must lead.",
+        "You have to die a few times before you can really live.",
+        "The problem with the world is that everyone is afraid to cut loose.",
+        "There is a lot of beauty in the world, but it is not evenly distributed.",
+        "Half of the people you meet are on medication and the other half should be.",
+        "Writing is a lonely profession. Publication is the cruelest revenge.",
+        "The only thing that matters is that you keep writing and keep believing.",
+        "The instincts are there at birth, but they need to be awakened.",
+        "We are here to kill war. We are here to laugh at the odds and live our lives so well that Death will tremble to take us.",
+        "It all goes by so fast. Life is like a flickering light at the far end of a tunnel.",
+        "The important thing is not to go gentle into that good night. Rage, rage against the dying of the light.",
+        "I carry my heart with me (I carry it in my heart) (I am never without it anywhere I go you go, my dear; and whatever is done by only me is your doing, my darling)",
+        "Love is a dog from hell. You only get out of it what you put into it.",
+        "There's nothing like a good scare to get the creative juices flowing.",
+        "Most of the time people are not even listening to you. They're just waiting for their turn to speak.",
+        "There is a beast in every man and a beast in every woman, and when it comes out, it ain't pretty.",
+        "You can't win them all. You can't break even. All you can do is keep trying to hit the damn ball.",
+        "Sometimes you climb out of bed in the morning and you think, I'm not going to make it. But then you laugh inside — remembering all the times you've felt that way.",
+        "As long as there are whores and whiskey, I'm okay.",
+        "I'm a writer, babe. That means I bleed on paper.",
+        "I want to be drunk. I always want to be drunk. That way everything's dead downstairs and I can sit up here and cry.",
+        "I don't need people. I just need quiet and space. I can live with that.",
+        "There's a bluebird in my heart that sings a song of regret. But I won't let it out.",
+        "There's a time for everything, and a season for every activity under heaven.",
+        "I guess I just feel like I'm always on the outside looking in.",
+        "All you've got to do is believe.",
+        "I write because there's nothing else I can do.",
+        "I'm a drinker, with writing problems.",
+        "Some days are diamonds. Some days are just dust."
+      ],
+      "image": "https://pondus-hpg.s3.eu-central-1.amazonaws.com/fischer/public/Bukowski,Charles.jpg",
+      "locked": false
+    },
+    {
+      "id": 3,
+      "name": "Friedrich Nietzsche",
+      "description": "Friedrich Nietzsche fue un filósofo alemán del siglo XIX, conocido por su crítica a la moral tradicional y religiosa. Su obra cuestiona la autoridad, la cultura occidental y propone ideas como el 'superhombre' y la 'voluntad de poder'. Nietzsche ha sido influyente en la filosofía, la literatura y la cultura moderna.",
+      "biography": "Friedrich Nietzsche nació el 15 de octubre de 1844 en Röcken, un pequeño pueblo en Prusia, actualmente parte de Alemania. Su padre, Carl Ludwig Nietzsche, era pastor luterano, y su madre, Franziska Oehler, era devota y estricta. Desde joven, Nietzsche mostró un gran interés por la música y la literatura clásica griega.\n\nEn 1858, ingresó al internado Pforta, donde destacó por su brillantez académica y su amor por la poesía clásica. Estudió filología clásica en la Universidad de Bonn y más tarde en la Universidad de Leipzig. En 1869, a la edad de 24 años, fue nombrado profesor de filología clásica en la Universidad de Basilea, convirtiéndose así en uno de los profesores más jóvenes en la historia de la universidad.\n\nDurante su tiempo en Basilea, Nietzsche comenzó a escribir intensamente sobre filosofía, cultura y crítica social. Publicó obras fundamentales como 'El nacimiento de la tragedia' (1872), 'Así habló Zaratustra' (1883-1885), 'Más allá del bien y del mal' (1886), y 'La genealogía de la moral' (1887). Su filosofía cuestionaba profundamente los valores tradicionales occidentales y abogaba por una nueva moral basada en la afirmación de la vida y la voluntad de poder.\n\nEn 1889, Nietzsche sufrió un colapso mental que lo dejó incapacitado para el resto de su vida. Pasó sus últimos años en cuidado de su madre y su hermana en Naumburg, donde murió el 25 de agosto de 1900. A pesar de su breve carrera, Nietzsche es uno de los filósofos más influyentes de la historia, conocido por su estilo poético y provocador, así como por su crítica radical de la religión, la moralidad y la filosofía tradicional.",
 
-          "The creature that once shone so brightly in our childhood dreams has been locked away in the farthest corners of our souls.",  
-          "The bureaucracy is impenetrable. It is always right, even when it is wrong.",  
-          "The meaning of life is to find your gift. The purpose of life is to give it away.",  
-          "Everything you fight against strengthens you.",  
-          "Silence is the strongest scream.",  
-          "The only true error is losing sight of our purpose.", 
-          "The problem is not that we are too weak but that we are too obedient.",  
+      "quotes": [
+        "He who has a why to live can bear almost any how.",
+        "That which does not kill us makes us stronger.",
+        "To live is to suffer, to survive is to find some meaning in the suffering.",
+        "The man who is not afraid of the truth has nothing to fear from lies.",
+        "Beware that, when fighting monsters, you yourself do not become one.",
+        "God is dead. God remains dead. And we have killed him.",
+        "There are no facts, only interpretations.",
+        "Become who you are!",
+        "What does not kill me, makes me stronger.",
+        "Whoever fights monsters should see to it that in the process he does not become a monster. And when you look long into an abyss, the abyss also looks into you.",
+        "We are all fools in love.",
+        "Madness is the rarest of things in this world.  Almost everyone is sane.",
+        "The superior man suffers from boredom more than from anything else. He suffers from the fact that there is nothing to suffer for.",
+        "The true man wants one thing: to overcome himself.",
+        "There are no moral phenomena at all, only a moral interpretation of phenomena.",
+        "Punishment is the revenge that society takes for the crime committed against it.",
+        "What is important is not happiness, but vitality and power; because what is happy does not necessarily live long; but what is vital always gives happiness.",
+        "One should learn to love oneself with a healthy egotism.",
+        "The individual has always had to struggle to keep from being overwhelmed by the tribe. If you try it, you will be lonely often, and sometimes frightened. But no price is too high to pay for the privilege of owning yourself.",
+        "There is nothing more frightful than ignorance in action.",
+        "Beauty is for the purpose of seduction; ugliness is part of the process of intimidating.",
+        "The greatest danger for most of us is not that our aim too high and miss it, but that it is too low and reach it.",
+        "Vanity is the only sin that does not forgive itself.",
+        "I'm not upset that you lied to me, I am upset that from now on I cannot believe you.",
+        "Every deep thinker is more afraid of being understood than being misunderstood.",
+        "The advantage of a bad memory is that one enjoys several times the same good things for the first time.",
+        "He who laughs best today, will also laugh last.",
+        "Whatever has its price has little value.",
+        "The tarantula does what spiders do: spins a web. The spirit that no longer can create, criticizes.",
+        "Genius is characterized by its creative urge, by its will to form, to shape, in short, by its will to power."
+      ],
+      "image": "https://www.jotdown.es/wp-content/uploads/2022/05/Franziska-Nietzsche-y-Friedrich-Nietzsche-DP-800x534.jpg",
+      "locked": false
+    },
+    {
+      "id": 4,
+      "name": "Franz Kafka",
+      "description": "Franz Kafka fue un escritor de origen austrohúngaro, conocido por sus relatos que exploran temas de alienación, culpa y el absurdo burocrático. Su obra, como 'La metamorfosis' y 'El proceso', ha influido profundamente en la literatura moderna, especialmente en el género del existencialismo y el surrealismo.",
+      "biography": "Franz Kafka nació el 3 de julio de 1883 en Praga, por entonces parte del Imperio Austrohúngaro, en una familia judía de clase media. Su padre, Hermann Kafka, era un exitoso comerciante y su madre, Julie Kafka, se encargaba de los asuntos del hogar. Kafka creció en un entorno culturalmente diverso y cosmopolita, influenciado por la atmósfera intelectual y literaria de Praga.\n\nDesde joven, Kafka mostró un interés particular por la literatura y la escritura. Estudió derecho en la Universidad Karl-Ferdinands de Praga y trabajó en una compañía de seguros durante gran parte de su vida adulta para sostener económicamente su pasión por escribir. A pesar de sus obligaciones profesionales, Kafka dedicó gran parte de su tiempo libre a desarrollar su obra literaria.\n\nSu estilo único se caracteriza por narrativas surrealistas, atmósferas opresivas y personajes alienados que luchan contra sistemas burocráticos y fuerzas desconocidas. Entre sus obras más famosas se encuentran 'La metamorfosis' (1915), 'El proceso' (1925) y 'El castillo' (1926), todas las cuales exploran temas de alienación, culpa, y la lucha del individuo contra estructuras de poder omnipotentes y absurdas.\n\nAunque Kafka publicó relativamente poco durante su vida y tuvo una relación compleja con la escritura, su obra ha sido ampliamente reconocida y estudiada después de su muerte prematura a causa de la tuberculosis el 3 de junio de 1924 en Kierling, Austria. Su legado literario ha influido profundamente en la literatura moderna y sigue siendo objeto de interpretación y debate en todo el mundo.",
 
-          "The true path leads outwards, but it also leads within."  
-          ],
-        "image": "https://cdn.culturagenial.com/es/imagenes/franz-kafka-og.jpg",
-        "locked": true
-  
-      },
-      {
-        "id": 5,
-        "name": "Fyodor Dostoevsky",
-        "quotes": [
-          "The soul is healed by being with children.",
-          "To live without Hope is to Cease to live.",
-          "The mystery of human existence lies not in just staying alive, but in finding something to live for."
-        ],
-        "image": "https://historiauniversal.org/wp-content/uploads/Fyodor-Dostoevsky.jpeg",
-        "locked": true
-  
-      },
-      {
-        "id": 6,
-        "name": "Albert Camus",
-        "quotes": [
-          "In the depth of winter, I finally learned that within me there lay an invincible summer.",
-          "The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion.",
-          "Live to the point of tears."
-        ],
-        "image": "https://s1.elespanol.com/2021/01/22/el-cultural/553207210_218714447_1706x960.jpg",
-        "locked": true
-  
-      },
-      {
-        "id": 8,
-        "name": "Jean-Paul Sartre",
-        "quotes": [
-          "Man is condemned to be free; because once thrown into the world, he is responsible for everything he does.",
-          "Hell is other people.",
-          "Existence precedes and rules essence."
-        ],
-        "image": "https://www.gaceta.unam.mx/wp-content/uploads/2020/04/sartre003.jpg",
-        "locked": true
-  
-      },
-      {
-        "id": 9,
-        "name": "Hermann Hesse",
-        "quotes": [
-          "Some of us think holding on makes us strong, but sometimes it is letting go.",
-          "Words do not express thoughts very well. They always become a little different immediately after they are expressed, a little distorted, a little foolish.",
-          "If you hate a person, you hate something in him that is part of yourself. What isn’t part of ourselves doesn’t disturb us."
-        ],
-        "image": "https://www.mexicosocial.org/wp-content/uploads/2022/12/Hermann-Hesse.jpg",
-        "locked": true
-  
-      },
-      {
-        "id": 10,
-        "name": "George Orwell",
-        "quotes": [
-          "War is peace. Freedom is slavery. Ignorance is strength.",
-          "Big Brother is watching you.",
-          "The best books... are those that tell you what you know already."
-        ],
-        "image": "https://rosettaedu.com/cdn/shop/collections/George_Orwell_press_photo.jpg?v=1708440342",
-        "locked": true
-  
-      },
-      {
-        "id": 11,
-        "name": "Aldous Huxley",
-        "quotes": [
-          "Words can be like X-rays if you use them properly – they’ll go through anything. You read and you’re pierced.",
-          "Happiness is not achieved by the conscious pursuit of happiness; it is generally the by-product of other activities.",
-          "Most human beings have an almost infinite capacity for taking things for granted."
-        ],
-        "image": "https://masdemx.com/wp-content/uploads/2017/09/Aldous-Huxley-en-Mexico-Oaxaca-Mas-alla-del-Golfo-de-Mexico.jpg",
-        "locked": true
-  
-      },
-      {
-        "id": 12,
-        "name": "Leo Tolstoy",
-        "quotes": [
-          "Everyone thinks of changing the world, but no one thinks of changing himself.",
-          "All happy families are alike; each unhappy family is unhappy in its own way.",
-          "If you want to be happy, be."
-        ],
-        "image": "https://afisha.london/wp-content/uploads/2022/08/tolstoi_cover.jpg",
-        "locked": true
-  
-      },
-      {
-        "id": 13,
-        "name": "Andrei Tarkovsky",
-        "quotes": [
-          "Art is born and takes hold wherever there is a timeless and insatiable longing for the spiritual, for the ideal: that longing which draws people to art.",
-          "The director's task is to recreate life, its movement, its contradictions, its dynamic force, and to produce a synthesis as a testimony to the life of his time.",
-          "Art affirms all that is best in man – hope, faith, love, beauty, prayer."
-        ],
-        "image": "https://media.newyorker.com/photos/601b5bbe6fe3d515c89fe0c7/master/pass/210215_r37917.jpg",
-        "locked": true
-  
-      },
-      {
-        "id": 14,
-        "name": "Karl Marx",
-        "quotes": [
-          "The history of all hitherto existing society is the history of class struggles.",
-          "The philosophers have only interpreted the world, in various ways. The point, however, is to change it.",
-          "From each according to his abilities, to each according to his needs."
-        ],
-        "image": "https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/2BC5/production/_101150211_marx.jpg",
-        "locked": true
-  
-      },
-      {
-        "id": 15,
-        "name": "Arthur Schopenhauer",
-        "quotes": [
-          "Talent hits a target no one else can hit; Genius hits a target no one else can see.",
-          "Compassion is the basis of morality.",
-          "The world is my idea."
-        ],
-        "image": "https://omnesmag.com/wp-content/uploads/2022/08/Arthur_Schopenhauer_by_J_Schafer_1859b-1-1024x586.jpg",
-        "locked": true
-  
-      },
-      {
-        "id": 16,
-        "name": "Eduardo Galeano",
-        "quotes": [
-          "We are all mortal until the first kiss and the second glass of wine.",
-          "I don't believe in charity; I believe in solidarity.",
-          "History never really says goodbye. History says, 'See you later.'"
-        ],
-        "image": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/ZVFCTXDFIBAKPIXLOGQXOCVC34.jpg",
-        "locked": true
-  
-      },
-      {
-        "id": 17,
-        "name": "Julio Cortázar",
-        "quotes": [
-          "Come sleep with me: We won’t make Love, Love will make us.",
-          "And in the end, it’s not the years in your life that count. It’s the life in your years.",
-          "What good is a writer if he can’t destroy literature?"
-        ],
-        "image": "https://media.admagazine.com/photos/618a63bca8ad6c5249a74efa/16:9/w_2656,h_1494,c_limit/74842.jpg",
-        "locked": true
-  
-      },
-      {
-        "id": 18,
-        "name": "Alejandra Pizarnik",
-        "quotes": [
-          "I want a silence to grow like a tree without branches.",
-          "Only in dreams, in poetry, in play do we sometimes arrive at what we were before we were this thing that, who knows, we are.",
-          "I understand why I’ve lost people. I’ve lost them because I’ve tried to erase my marks. Because, each time, I wanted to erase every trace of me."
-        ],
-        "image": "https://fotos.perfil.com/2022/09/24/trim/1280/720/alejandra-pizarnik-1425808.jpg",
-        "locked": true
-  
-      },
-      {
-        "id": 19,
-        "name": "Jacques Lacan",
-        "quotes": [
-          "The unconscious is structured like a language.",
-          "Desire is the essence of man.",
-          "The mirror stage is a drama whose internal thrust is precipitated from insufficiency to anticipation."
-        ],
-        "image": "https://www.elpsitio.com.ar/noticias/images/artsept22_tapab.jpg",
-        "locked": true
-  
-      },
-      {
-        "id": 20,
-        "name": "Michel Foucault",
-        "quotes": [
-          "Knowledge is not for knowing: knowledge is for cutting.",
-          "Power is not an institution, and not a structure; neither is it a certain strength we are endowed with; it is the name that one attributes to a complex strategical situation in a particular society.",
-          "The soul is the prison of the body."
-        ],
-        "image": "https://artilleriainmanente.noblogs.org/files/2023/12/Michel-Foucault.jpg",
-        "locked": true
-  
-      },
-      {
-        "id": 21,
-        "name": "Simone de Beauvoir",
-        "quotes": [
-          "One is not born, but rather becomes, a woman.",
-          "I am incapable of conceiving infinity, and yet I do not accept finity.",
-          "Change your life today. Don’t gamble on the future, act now, without delay."
-        ],
-        "image": "https://images.pagina12.com.ar/styles/focal_16_9_960x540/public/2021-10/203795-beauvoirweb-afp-20-20-281-29.JPG?h=34770b54&itok=_WfUbLqb",
-        "locked": true
-  
-      },
-      {
-        "id": 22,
-        "name": "John Lennon",
-        "quotes": [
-          "Life is what happens when you're busy making other plans.",
-          "Time you enjoy wasting, was not wasted.",
-          "Reality leaves a lot to the imagination."
-        ],
-        "image": "https://akamai.sscdn.co/uploadfile/letras/fotos/c/c/5/7/cc5781ec76634979f9151d8efe000a44.jpg",
-        "locked": true
-  
-      },
-      {
-        "id": 23,
-        "name": "Marcus Aurelius",
-        "quotes": [
-          "The happiness of your life depends upon the quality of your thoughts.",
-          "You have power over your mind - not outside events. Realize this, and you will find strength.",
-          "The best revenge is to be unlike him who performed the injury."
-        ],
-        "image": "https://www.alejandradeargos.com/images/articulos/Filosofos/Marco_Aurelio/Marco_Aurellio_Museo_Metropolitano.jpg",
-        "locked": true
-  
-      },
-      {
-        "id": 24,
-        "name": "Heraclitus",
-        "quotes": [
-          "No man ever steps in the same river twice, for it's not the same river and he's not the same man.",
-          "Character is destiny.",
-          "The only constant in life is change."
-        ],
-        "image": "https://ichef.bbci.co.uk/images/ic/1200x675/p01h83jd.jpg",
-        "locked": true
-  
-      },
-      {
-        "id": 25,
-        "name": "Democritus",
-        "quotes": [
-          "Happiness resides not in possessions, and not in gold, happiness dwells in the soul.",
-          "Nothing exists except atoms and empty space; everything else is opinion.",
-          "The brave man is he who overcomes not only his enemies but his pleasures."
-        ],
-        "image": "https://miro.medium.com/v2/resize:fit:1400/1*ZrSbXOha9zpD9EAU241c_g.jpeg",
-        "locked": true
-  
-      },
-      {
-        "id": 26,
-        "name": "Parmenides",
-        "quotes": [
-          "The only routes of inquiry there are to think: one that it is and cannot not be, is the path of Persuasion, for it attends upon Truth; the other, that it is not and that it must not be, this I say to you is a path wholly unlearnable, for you could not know what is not—that is impossible—nor could you declare it.",
-          "For never shall this prevail, that things that are not, are.",
-          "Thought and being are the same."
-        ],
-        "image": "https://miro.medium.com/v2/resize:fit:640/1*-laI1JcwuiG7sXzKuAKfDw.jpeg",
-        "locked": true
-  
-      },
-      {
-        "id": 27,
-        "name": "Pythagoras",
-        "quotes": [
-          "Number is the ruler of forms and ideas, and the cause of gods and demons.",
-          "As soon as laws are necessary for men, they are no longer fit for freedom.",
-          "Do not say a little in many words but a great deal in a few."
-        ],
-        "image": "https://cdn.hswstatic.com/gif/pyth.jpg",
-        "locked": true
-  
-      },
-      {
-        "id": 28,
-        "name": "Byung-Chul Han",
-        "quotes": [
-          "We live in a society of transparency. Everything must be visible. But this transparency turns out to be a powerful form of control.",
-          "The capitalist system is totalitarian. It forces people to constantly improve, optimize, and maximize performance.",
-          "We are all working ourselves to death."
-        ],
-        "image": "https://static.abc.es/media/cultura/2018/03/19/Chul-keVH--1240x698@abc.jpg",
-        "locked": true
-  
-      },
-      {
-        "id": 29,
-        "name": "Slavoj Žižek",
-        "quotes": [
-          "We live in a strange world where the more you talk about sex, the less you talk about the truth.",
-          "Happiness is the moment when you cease to fear.",
-          "Words are never 'only words'; they matter because they define the contours of what we can do."
-        ],
-        "image": "https://d.newsweek.com/en/full/258404/7-11-slavojzizek.jpg",
-        "locked": true
-  
-      },
-      {
-        "id": 30,
-        "name": "Sigmund Freud",
-        "quotes": [
-          "Unexpressed emotions will never die. They are buried alive and will come forth later in uglier ways.",
-          "The ego is not master in its own house.",
-          "One day, in retrospect, the years of struggle will strike you as the most beautiful."
-        ],
-        "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg",
-        "locked": true
-  
-      },
-      {
-        "id": 31,
-        "name": "Carl Gustav Jung",
-        "quotes": [
-          "Everything that irritates us about others can lead us to an understanding of ourselves.",
-          "Your visions will become clear only when you can look into your own heart. Who looks outside, dreams; who looks inside, awakes.",
-          "Knowing your own darkness is the best method for dealing with the darknesses of other people."
-        ],
-        "image": "https://www.toolshero.nl/wp-content/uploads/2022/11/carl-jung-toolshero.jpg",
-        "locked": true
-  
-      },
-      {
-        "id": 32,
-        "name": "David Hume",
-        "quotes": [
-          "Reason is, and ought only to be the slave of the passions, and can never pretend to any other office than to serve and obey them.",
-          "Beauty in things exists in the mind which contemplates them.",
-          "The life of man is of no greater importance to the universe than that of an oyster."
-        ],
-        "image": "https://www.lavanguardia.com/files/content_image_mobile_filter/files/fp/uploads/2022/04/27/626933e5f1a81.r_d.2255-1412.jpeg",
-        "locked": true
-  
-      },
-      {
-        "id": 33,
-        "name": "Immanuel Kant",
-        "quotes": [
-          "Science is organized knowledge. Wisdom is organized life.",
-          "Live your life as though your every act were to become a universal law.",
-          "Happiness is not an ideal of reason, but of imagination."
-        ],
-        "image": "https://m.media-amazon.com/images/I/81fi42CL7pL._AC_UF1000,1000_QL80_.jpg",
-        "locked": true
-  
-      },
-      {
-        "id": 34,
-        "name": "Seneca",
-        "quotes": [
-          "Luck is what happens when preparation meets opportunity.",
-          "It is not the man who has too little, but the man who craves more, that is poor.",
-          "We suffer more often in imagination than in reality."
-        ],
-        "image": "https://lazonaveggie.com/wp-content/uploads/2023/09/seneca-8026630_1280-1.jpg?w=1024",
-        "locked": true
-  
-      }
-      
-    ]
-  }
-  
-  
+      "quotes": [
+        "A book must be the axe for the frozen sea within us.",
+        "In the fight between you and the world, back the world.",
+        "Youth is happy because it has the capacity to see beauty. Anyone who keeps the ability to see beauty never grows old.",
+        "Paths are made by walking.",
+        "I am free and that is why I am lost.",
+        "Don't bend; don't water it down; don't try to make it logical; don't edit your own soul according to the fashion. Rather, follow your most intense obsessions mercilessly.",
+        "Evil is whatever distracts.",
+        "There are times when I am convinced I am unfit for any human relationship.",
+        "By believing passionately in something that still does not exist, we create it. The nonexistent is whatever we have not sufficiently desired.",
+        "The true path leads outwards, but it also leads within.",
+        "It is better to be unhappy for a truth you know than happy for a lie you believe.",
+        "We carry an image of fulfillment in us, we cannot conceive that it can be different.",
+        "He who seeks does not find, but he who stumbles finds.",
+        "The meaning of life is that it stops.",
+        "One does not have to believe everything one reads, but one can always find something to ponder over.",
+        "Sometimes a fall can be the best thing that can happen to you.",
+        "We are all Kafkaesque heroes, trapped in a labyrinth of bureaucracy and absurdity.",
+        "The cage is not made of bars; it is your very belief that there is no escape.",
+        "Hope is the belief that things will get better. Faith is the conviction that they will.",
+        "The only revolutionary will is the will to be oneself.",
+        "There is an infinite amount of hope in the universe – but not for us.",
+        "The battle is not against the world; it is against the lie that people tell themselves about the world.",
+        "Writing is a solitary profession. Publication is the cruelest revenge.",
+        "The creature that once shone so brightly in our childhood dreams has been locked away in the farthest corners of our souls.",
+        "The bureaucracy is impenetrable. It is always right, even when it is wrong.",
+        "The meaning of life is to find your gift. The purpose of life is to give it away.",
+        "Everything you fight against strengthens you.",
+        "Silence is the strongest scream.",
+        "The only true error is losing sight of our purpose.",
+        "The problem is not that we are too weak but that we are too obedient.",
+        "The true path leads outwards, but it also leads within."
+      ],
+      "image": "https://cdn.culturagenial.com/es/imagenes/franz-kafka-og.jpg",
+      "locked": true
+    },
+    {
+      "id": 5,
+      "name": "Fyodor Dostoevsky",
+      "description": "Fyodor Dostoevsky fue un novelista ruso del siglo XIX, conocido por explorar la psicología humana y las complejidades morales en sus obras. Sus novelas, como 'Crime and Punishment' y 'The Brothers Karamazov', abordan temas de culpa, redención y el conflicto entre el bien y el mal.",
+      "biography": "Fyodor Dostoevsky nació el 11 de noviembre de 1821 en Moscú, Rusia. Provenía de una familia modesta de origen noble. Desde joven mostró interés por la literatura y la filosofía, estudiando en la Escuela de Ingeniería Militar de San Petersburgo. Sin embargo, abandonó sus estudios para dedicarse por completo a la escritura.\n\nDostoevsky es conocido por sus novelas que exploran la psicología humana en situaciones extremas. Obras como 'Crimen y castigo' (1866), 'El idiota' (1869) y 'Los hermanos Karamázov' (1880) son ejemplos de su profundo análisis de temas como el pecado, la moralidad, la redención y la existencia de Dios. Su estilo literario es introspectivo, complejo y con personajes que reflejan las complejidades del alma humana.\n\nDurante su vida, Dostoevsky enfrentó dificultades financieras y fue arrestado y sentenciado a muerte, aunque finalmente se le conmutó la pena. Estas experiencias influyeron profundamente en su obra, que ha sido ampliamente reconocida y estudiada, convirtiéndolo en uno de los escritores más influyentes de la literatura mundial.",
+     "quotes": [
+    "Pain and suffering are always inevitable for a large intelligence and a deep heart.",
+    "Man only likes to count his troubles; he doesn't calculate his happiness.",
+    "If there is no God, everything is permitted.",
+    "To go wrong in one's own way is better than to go right in someone else's.",
+    "The cleverest of all, in my opinion, is the man who calls himself a fool at least once a month.",
+    "The greatest happiness is to know the source of unhappiness.",
+    "The soul is dyed the color of its thoughts. Think only on those things that are in line with your principles and can bear the light of day. The content of your character is your choice. Day by day, what you choose, what you think, and what you do is who you become. Your integrity is your destiny; it is the light that guides your way.",
+    "It is not the brains that matter most, but that which guides them – the character, the heart, generous qualities, progressive ideas.",
+    "Above all, don't lie to yourself. The man who lies to himself and listens to his own lie comes to a point that he cannot distinguish the truth within him, or around him, and so loses all respect for himself and for others.",
+    "There is nothing in the world more difficult than candor, and nothing easier than flattery. If there is a hundredth of a fraction of a false note to candor, it immediately produces dissonance, and as often happens, the more striking because of the extreme rarity of the thing.",
+    "To live without hope is to cease to live.",
+    "A man who lies to himself, and believes his own lies, becomes unable to recognize truth, either in himself or in anyone else.",
+    "Power is given only to those who dare to lower themselves and pick it up. Only one thing matters, one thing; to be able to dare!",
+    "A man who has a conscience suffers whilst acknowledging his sin. That is his punishment--as well as prison.",
+    "The darker the night, the brighter the stars, The deeper the grief, the closer is God!",
+    "Man is a mystery. It needs to be unravelled, and if you spend your whole life unravelling it, don't say that you've wasted time. I am studying that mystery because I want to be a human being.",
+    "What do you think, would not one tiny crime be wiped out by thousands of good deeds?",
+    "In the end they will lay their freedom at our feet and say to us, 'Make us your slaves, but feed us.'",
+    "The greatest consolation in life is to say what one thinks.",
+    "Man grows used to everything, the scoundrel!",
+    "To love someone means to see them as God intended them."
+],
+      "image": "https://historiauniversal.org/wp-content/uploads/Fyodor-Dostoevsky.jpeg",
+      "locked": true
+    }
+,    
+    {
+      "id": 6,
+      "name": "Albert Camus",
+      "description": "Albert Camus fue un escritor y filósofo francés, conocido por su obra existencialista y absurda. Ganador del Premio Nobel de Literatura, Camus abordó temas como la alienación, el absurdo de la vida y la moralidad en un universo indiferente. Su novela 'La peste' es una de sus obras más influyentes.",
+      "biography": "Albert Camus nació el 7 de noviembre de 1913 en Mondovi, Argelia, entonces parte de Francia. Fue un filósofo, escritor y periodista francés de origen pied-noir (francés nacido en Argelia). Camus creció en un ambiente pobre y trabajador, lo que influyó en su sensibilidad hacia las injusticias sociales y la condición humana.\n\nCamus es conocido por desarrollar el concepto del absurdo en su filosofía existencialista, especialmente en su ensayo 'El mito de Sísifo' (1942). Su obra literaria incluye novelas como 'El extranjero' (1942), 'La peste' (1947) y 'La caída' (1956), que exploran temas como la alienación, la rebelión frente al absurdo de la vida y la búsqueda de sentido en un mundo sin sentido aparente.\n\nAdemás de su contribución literaria, Camus fue un activo defensor de la justicia social y la libertad durante su vida. Recibió el Premio Nobel de Literatura en 1957 por su obra literaria, que combina un estilo claro y directo con profundas reflexiones sobre la condición humana y el destino individual.",
+"quotes": [
+    "In the depth of winter, I finally learned that within me there lay an invincible summer.",
+    "The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion.",
+    "Live to the point of tears.",
+    "Blessed are the hearts that can bend; they shall never be broken.",
+    "Don't walk behind me; I may not lead. Don't walk in front of me; I may not follow. Just walk beside me and be my friend.",
+    "Freedom is nothing but a chance to be better.",
+    "You will never be happy if you continue to search for what happiness consists of. You will never live if you are looking for the meaning of life.",
+    "I would rather live my life as if there is a God and die to find out there isn't, than live my life as if there isn't and die to find out there is.",
+    "Autumn is a second spring when every leaf is a flower.",
+    "There is scarcely any passion without struggle.",
+    "The struggle itself towards the heights is enough to fill a man's heart. One must imagine Sisyphus happy.",
+    "To be happy, we must not be too concerned with others.",
+    "You will never be happy if you continue to search for what happiness consists of. You will never live if you are looking for the meaning of life.",
+    "In the depth of winter, I finally learned that within me there lay an invincible summer.",
+    "The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion.",
+    "Live to the point of tears.",
+    "Blessed are the hearts that can bend; they shall never be broken.",
+    "Don't walk behind me; I may not lead. Don't walk in front of me; I may not follow. Just walk beside me and be my friend.",
+    "Freedom is nothing but a chance to be better.",
+    "You will never be happy if you continue to search for what happiness consists of. You will never live if you are looking for the meaning of life.",
+    "I would rather live my life as if there is a God and die to find out there isn't, than live my life as if there isn't and die to find out there is.",
+    "Autumn is a second spring when every leaf is a flower.",
+    "There is scarcely any passion without struggle.",
+    "The struggle itself towards the heights is enough to fill a man's heart. One must imagine Sisyphus happy.",
+    "To be happy, we must not be too concerned with others.",
+    "You will never be happy if you continue to search for what happiness consists of. You will never live if you are looking for the meaning of life."
+  ],
+      "image": "https://s1.elespanol.com/2021/01/22/el-cultural/553207210_218714447_1706x960.jpg",
+      "locked": true
+    },
+    {
+      "id": 8,
+      "name": "Jean-Paul Sartre",
+      "description": "Jean-Paul Sartre fue un filósofo y escritor francés, exponente del existencialismo. Su obra aborda temas como la libertad, la responsabilidad, la alienación y la existencia humana. Sartre es conocido por su frase 'La existencia precede a la esencia', que resume su enfoque filosófico sobre la autonomía individual.",
+      "biography": "Jean-Paul Sartre nació el 21 de junio de 1905 en París, Francia. Fue un filósofo, escritor y dramaturgo francés, y una figura prominente en el existencialismo francés del siglo XX. Sartre creció en una familia burguesa y estudió en la École Normale Supérieure en París.\n\nSartre es conocido por su obra filosófica y literaria que explora temas como la existencia humana, la libertad y la responsabilidad individual. Su obra más influyente, 'El ser y la nada' (1943), es una exploración profunda del existencialismo, donde Sartre argumenta que la existencia precede a la esencia y que los seres humanos son responsables de crear su propia moralidad y sentido en un mundo sin Dios.\n\nAdemás de sus escritos filosóficos, Sartre también fue un prolífico dramaturgo y novelista. Entre sus obras más destacadas se encuentran la obra de teatro 'A puerta cerrada' (1944) y la novela 'La náusea' (1938). Su influencia se extendió a través de su participación activa en la política y su defensa de los derechos humanos y la libertad intelectual.",
+      "quotes": [
+        "El hombre está condenado a ser libre; porque una vez arrojado al mundo, es responsable de todo lo que hace.",
+        "El infierno son los otros.",
+        "La existencia precede y gobierna la esencia.",
+        "La libertad es lo que hacemos con lo que se nos hace.",
+        "Si te sientes solo cuando estás solo, estás en mala compañía.",
+        "Todo ha sido descubierto, excepto cómo vivir.",
+        "Las tres en punto siempre es demasiado tarde o demasiado temprano para cualquier cosa que quieras hacer.",
+        "Estoy condenado a existir para siempre en una realidad que no controlo.",
+        "Solo el tipo que no está remando tiene tiempo para balancear el bote.",
+        "No juzgamos a las personas que amamos.",
+        "Para saber cuánto vale la vida, hay que arriesgarla de vez en cuando.",
+        "Las palabras son pistolas cargadas.",
+        "Uno siempre muere demasiado pronto o demasiado tarde. Y sin embargo, la vida está allí, terminada: la línea está trazada, y todo debe sumarse. No eres nada más que tu vida.",
+        "El compromiso es un acto, no una palabra.",
+        "El fascismo no se define por el número de sus víctimas, sino por la forma en que las mata.",
+        "Como todos los soñadores, confundí el desencanto con la verdad.",
+        "La vida no tiene significado a priori... Depende de ti darle un significado, y el valor no es más que el significado que eliges.",
+        "Solo queda un día, siempre comenzando de nuevo: se nos da al amanecer y se nos quita al anochecer.",
+        "El hombre no es más que lo que hace de sí mismo.",
+        "Puede haber tiempos más hermosos, pero este es el nuestro.",
+        "La vida comienza al otro lado de la desesperación.",
+        "Debemos actuar la pasión antes de poder sentirla.",
+        "Solo en nuestras decisiones somos importantes.",
+        "No se puede convertir en santo a alguien que trabaja dieciséis horas al día.",
+        "El ser es. El ser es en sí mismo. El ser es lo que es.",
+        "Eres tu vida y nada más.",
+        "Cuanta más arena ha escapado del reloj de arena de nuestra vida, más claramente deberíamos ver a través de él.",
+        "Una batalla perdida es una batalla que uno piensa que ha perdido.",
+        "Actuar es una cuestión de absorber las personalidades de los demás y añadir algo de tu propia experiencia.",
+        "Depende de ti darle un significado a la vida."
+      ],
+      "image": "https://www.gaceta.unam.mx/wp-content/uploads/2020/04/sartre003.jpg",
+      "locked": true
+    },
+    {
+      "id": 9,
+      "name": "Hermann Hesse",
+      "description": "Hermann Hesse fue un escritor alemán, autor de novelas que exploran la búsqueda espiritual y el viaje interior del individuo. Obras como 'Siddhartha' y 'El lobo estepario' reflejan su interés en la filosofía oriental, la psicología y la autodescubierta. Hesse recibió el Premio Nobel de Literatura en 1946.",
+      "biography": "Hermann Hesse nació el 2 de julio de 1877 en Calw, Alemania. Fue un escritor y poeta alemán, conocido por sus novelas que exploran temas espirituales y la búsqueda de la identidad personal. Hesse creció en un ambiente intelectual y artístico, aunque enfrentó dificultades académicas y personales durante su juventud.\n\nA lo largo de su vida, Hesse experimentó una búsqueda espiritual intensa que se refleja en su obra literaria. Sus novelas más conocidas incluyen 'Siddhartha' (1922), que examina la vida de Buda, 'El lobo estepario' (1927), que explora la dualidad de la naturaleza humana, y 'Demian' (1919), que trata temas de autoconocimiento y desarrollo personal.\n\nHesse recibió el Premio Nobel de Literatura en 1946 por su contribución a la literatura, que combina una narrativa profundamente introspectiva con influencias del pensamiento oriental y occidental. Su obra ha sido ampliamente leída y estudiada por su capacidad para capturar las complejidades del alma humana y la búsqueda de significado en un mundo cambiante.",
+      "quotes": [
+        "Algunos de nosotros creemos que aferrarnos nos hace fuertes, pero a veces es dejar ir.",
+        "Las palabras no expresan muy bien los pensamientos. Siempre se vuelven un poco diferentes inmediatamente después de ser expresadas, un poco distorsionadas, un poco tontas.",
+        "Si odias a una persona, odias algo en él que es parte de ti mismo. Lo que no es parte de nosotros no nos molesta.",
+        "La soledad es independencia. La he deseado y logrado a lo largo de muchos años. Era fría, oh sí, pero también tranquila, maravillosamente tranquila y grande como el espacio frío y tranquilo en el que giran las estrellas.",
+        "Todo lo que necesitas en esta vida es ignorancia y confianza, entonces el éxito es seguro.",
+        "No hay realidad excepto la que contenemos dentro de nosotros. Por eso tanta gente lleva una vida irreal. Toman las imágenes exteriores como la realidad y nunca permiten que el mundo interior se asome.",
+        "El pájaro rompe el cascarón. El huevo es el mundo. Quien quiera nacer, debe destruir un mundo.",
+        "El verdadero oficio del hombre es encontrar el camino hacia sí mismo.",
+        "La mayor parte de los hombres no quieren nadar antes de saber.",
+        "El pensamiento del suicidio es un poderoso consuelo: ayuda a superar muchas malas noches.",
+        "No puedes viajar por el camino antes de que te hayas convertido en el camino mismo.",
+        "Algunas veces nuestro destino parece un árbol frutal en invierno. ¿Quién pensaría que esas ramas reverdecerán y florecerán, pero esperamos que sí, lo hacemos?",
+        "Es necesario haber querido morir para saber lo bueno que es vivir.",
+        "El amor no es más que el deseo de ser amado.",
+        "La fe, como la pasión, se enfrenta a menudo con la incredulidad.",
+        "Nuestro amor a la vida es sólo una vieja afinidad hacia el dolor.",
+        "Todo cuanto necesitamos para ser felices es una vida de tranquilidad.",
+        "Uno nunca llega a casa, pero donde los caminos amigables se cruzan, el mundo entero parece un hogar.",
+        "El hombre se hace más humano sólo por el sufrimiento.",
+        "Un hogar no se hace de cuatro paredes, sino de personas que lo habitan.",
+        "Cada hombre tiene un destino individual y puede hacerlo realidad en su vida.",
+        "La mayoría de los hombres, a pesar de todo lo que puedan aparentar, se preocupan más por tener y conservar que por ser y volverse.",
+        "La magia es creer en uno mismo. Si puedes hacer eso, puedes hacer que cualquier cosa suceda.",
+        "Al final, la riqueza del alma es la única riqueza real.",
+        "La verdadera profesión del hombre es encontrar el camino hacia sí mismo.",
+        "Las cosas blandas y flexibles son más duras que las cosas fuertes y rígidas.",
+        "La divinidad está en ti, no en conceptos o en libros sagrados.",
+        "La vida de cada hombre es un camino hacia sí mismo.",
+        "El odio no puede expulsar al odio; sólo el amor puede hacer eso.",
+        "La única manera de lidiar con un mundo sin libertad es volverse tan absolutamente libre que tu misma existencia es un acto de rebelión."
+      ],
+      "image": "https://www.mexicosocial.org/wp-content/uploads/2022/12/Hermann-Hesse.jpg",
+      "locked": true
+    },
+    {
+      "id": 10,
+      "name": "George Orwell",
+      "description": "George Orwell fue un escritor y periodista británico, conocido por su crítica social y política. Su obra, como '1984' y 'Rebelión en la granja', advierte sobre los peligros del totalitarismo, la vigilancia estatal y la manipulación del lenguaje. Orwell es uno de los autores más influyentes del siglo XX.",
+      "quotes": [
+        "La guerra es paz. La libertad es esclavitud. La ignorancia es la fuerza.",
+        "El Gran Hermano te está mirando.",
+        "Los mejores libros... son aquellos que te dicen lo que ya sabes.",
+        "En un tiempo de engaño universal, decir la verdad es un acto revolucionario.",
+        "Todos los animales son iguales, pero algunos animales son más iguales que otros.",
+        "La libertad es el derecho a decirle a la gente lo que no quieren oír.",
+        "Hasta que no hayan tomado conciencia de su fuerza, no se rebelarán, y hasta después de haberse rebelado, no serán conscientes. Ese es el problema.",
+        "Si quieres una imagen del futuro, imagina una bota aplastando un rostro humano... para siempre.",
+        "La realidad existe en la mente humana y en ninguna otra parte.",
+        "El poder no es un medio, es un fin.",
+        "No se establece una dictadura para salvaguardar una revolución; se hace la revolución para establecer la dictadura.",
+        "El lenguaje político está diseñado para que las mentiras suenen veraces y el asesinato respetable, y para dar apariencia de solidez al puro viento.",
+        "El Partido busca el poder por amor al poder en sí mismo.",
+        "La propaganda es a una democracia lo que la violencia es a una dictadura.",
+        "La humanidad tiene la capacidad de rectificar, y es nuestra responsabilidad hacerlo.",
+        "Ver lo que está delante de nosotros requiere una lucha constante.",
+        "El mejor libro es el que nos dice lo que ya sabemos.",
+        "El nacionalismo es hambre de poder atemperada por el autoengaño.",
+        "La idea de un héroe solitario y rebelde es un mito.",
+        "El pasado se borra, el borrado se olvida, la mentira se convierte en verdad.",
+        "Los intelectuales tienen la tendencia a mentir, tanto más cuanto más inteligentes son.",
+        "La sociedad del futuro será una sociedad sin historia.",
+        "En la vida real, no es el más fuerte el que sobrevive, sino el más adaptable al cambio.",
+        "La televisión es la droga más poderosa.",
+        "En tiempos de crisis, lo imposible se vuelve posible.",
+        "La verdad es un concepto flexible.",
+        "El progreso no es una ilusión; ocurre, pero es lento y siempre decepcionante.",
+        "El odio es más duradero que el amor.",
+        "El objetivo de la persecución es la persecución. El objetivo de la tortura es la tortura. El objetivo del poder es el poder.",
+        "La historia está escrita por los vencedores."
+      ],
+      "image": "https://rosettaedu.com/cdn/shop/collections/George_Orwell_press_photo.jpg?v=1708440342",
+      "locked": true
+    },
+    {
+      "id": 11,
+      "name": "Aldous Huxley",
+      "description": "Aldous Huxley fue un escritor británico, conocido por su novela distópica 'Un mundo feliz'. Huxley exploró temas como el control social, la tecnología y la manipulación genética en una sociedad futurista. Su obra refleja preocupaciones sobre los peligros de la conformidad y la pérdida de la individualidad.",
+      "biography": "Aldous Huxley nació el 26 de julio de 1894 en Godalming, Surrey, Inglaterra. Fue un novelista, ensayista y poeta británico conocido por su exploración de temas como la tecnología, la espiritualidad y el futuro de la humanidad.\n\nHuxley es famoso por su novela distópica 'Un mundo feliz' (1932), que imagina una sociedad futurista donde la felicidad se alcanza a través del control social y el condicionamiento psicológico. Esta obra critica la pérdida de la individualidad y la búsqueda de la felicidad superficial en una sociedad tecnológicamente avanzada.\n\nAdemás de 'Un mundo feliz', Huxley escribió novelas como 'Las puertas de la percepción' (1954), donde exploró sus experiencias con las drogas psicodélicas y su influencia en la percepción humana. También fue un ensayista prolífico que abordó temas filosóficos, políticos y sociales con un estilo claro y persuasivo.",
+      "quotes": [
+        "Las palabras pueden ser como rayos X si se usan adecuadamente: atraviesan cualquier cosa. Lees y quedas traspasado.",
+        "La felicidad no se logra mediante la búsqueda consciente de la felicidad; generalmente es el subproducto de otras actividades.",
+        "La mayoría de los seres humanos tienen una capacidad casi infinita para dar las cosas por sentadas.",
+        "Cada hombre es libre de elegir su destino y de asumir las consecuencias de sus decisiones.",
+        "Cuanto más siniestros son los deseos de un político, más pomposamente se viste de virtud su lenguaje.",
+        "La experiencia no es lo que te sucede, sino lo que haces con lo que te sucede.",
+        "La gente feliz produce. La gente desesperada consume.",
+        "El secreto de la genialidad es llevar el espíritu del niño a la vejez, lo cual significa nunca perder el entusiasmo.",
+        "Si las puertas de la percepción se purificaran, todo aparecería ante el hombre tal como es: infinito.",
+        "El hombre está condenado a ser libre.",
+        "Las sociedades totalitarias son la encarnación del sueño de una minoría poderosa.",
+        "La cultura se está trivializando a sí misma.",
+        "El hombre está en peligro de ser víctima de sus propias herramientas.",
+        "La tecnología avanza más rápido que nuestra capacidad de adaptarnos a ella.",
+        "El consumo es una forma de evasión de los problemas fundamentales de la vida.",
+        "El mundo es, en su esencia, una gran máquina.",
+        "La uniformidad es la muerte; la diversidad es la vida.",
+        "La propaganda es el arte de mentir eficazmente.",
+        "La libertad y la felicidad son incompatibles.",
+        "El poder tiende a corromper, y el poder absoluto corrompe absolutamente.",
+        "La política es la conspiración de una minoría para explotar a la mayoría.",
+        "El amor al poder es el demonio del hombre.",
+        "El único alivio al sufrimiento humano es la risa.",
+        "El mundo es un lugar peligroso para vivir, no por la gente que es mala, sino por la gente que no hace nada al respecto.",
+        "La realidad no es lo que pensamos que es; la realidad es lo que percibimos.",
+        "La vida es una serie de lecciones que uno debe vivir para entender.",
+        "La paz es más difícil de conseguir que la guerra.",
+        "La educación es la capacidad de escuchar cualquier cosa sin perder la calma o la confianza en uno mismo.",
+        "La esperanza es el pilar del mundo.",
+        "El conocimiento no es lo mismo que la sabiduría."
+      ] ,
+      "image": "https://masdemx.com/wp-content/uploads/2017/09/Aldous-Huxley-en-Mexico-Oaxaca-Mas-alla-del-Golfo-de-Mexico.jpg",
+      "locked": true
+    },
+    {
+      "id": 12,
+      "name": "Leo Tolstoy",
+      "description": "Leo Tolstoy fue un novelista ruso del siglo XIX, conocido por obras como 'Guerra y paz' y 'Anna Karenina'. Tolstoy exploró temas universales como el amor, la guerra, la fe y la moralidad. Su escritura se caracteriza por una profunda introspección y una visión humanista de la vida.",
+      "biography": "Leo Tolstoy, nacido el 9 de septiembre de 1828 en Yásnaya Poliana, Rusia, fue uno de los novelistas más importantes de la literatura mundial. Proveniente de una familia noble, Tolstoy recibió una educación formal y militar, pero encontró su verdadera vocación en la escritura y la reflexión espiritual.\n\nTolstoy es conocido por obras maestras como 'Guerra y paz' (1869), que narra la invasión napoleónica de Rusia y examina las complejidades de la vida humana en tiempos de guerra y paz, y 'Anna Karénina' (1877), una novela que explora las pasiones humanas y la moralidad en la alta sociedad rusa del siglo XIX.\n\nAdemás de su obra literaria, Tolstoy fue un pensador y reformador social, que abogó por la no violencia, la educación popular y la reforma agraria. Su influencia se extendió más allá de la literatura, impactando en movimientos sociales y filosóficos en Rusia y en todo el mundo.",
+      "quotes": [
+        "Todos piensan en cambiar el mundo, pero nadie piensa en cambiarse a sí mismo.",
+        "La verdadera felicidad está en la propia casa, entre las alegrías de la familia.",
+        "El secreto de la felicidad no es hacer siempre lo que se quiere, sino querer siempre lo que se hace.",
+        "La paciencia y el tiempo hacen más que la fuerza y la pasión.",
+        "La mejor manera de ser feliz con alguien es aprender a ser feliz solo.",
+        "El arte es uno de los medios para unir a las personas.",
+        "El amor es la única realidad y no es un mero sentimiento. Es la verdad última que yace en el corazón de la creación.",
+        "La historia sería algo maravilloso si fuera cierta.",
+        "La vida no es una broma, sino un trabajo serio.",
+        "La única cosa que sabemos es que no sabemos nada y esa es la más alta expresión de la sabiduría humana.",
+        "El que ha conocido sólo a su mujer y la ha amado, sabe más de mujeres que el que ha conocido mil.",
+        "El hombre no puede poseer nada mientras tenga miedo a la muerte. Pero para el que no teme, todo le pertenece.",
+        "El respeto se inventó para llenar el vacío donde debería estar el amor.",
+        "Mi felicidad consiste en que sé apreciar lo que tengo y no deseo con exceso lo que no tengo.",
+        "La verdad es la única cosa que me importa.",
+        "La ambición no tiene ningún límite.",
+        "La guerra no es más que un asesinato en masa, y el asesinato no puede ser objeto de entusiasmo.",
+        "La vida es la infancia de nuestra inmortalidad.",
+        "El mal no puede vencer al mal. Sólo el bien puede hacerlo.",
+        "El que ha sido herido por la verdad no puede nunca olvidar.",
+        "Las dos fuerzas más poderosas que existen son la paciencia y el tiempo.",
+        "La fe es la fuerza de la vida. Si el hombre vive es porque cree en algo.",
+        "El hombre vive sólo para sí mismo.",
+        "La única razón por la que un hombre debería mirar a otro desde arriba es para ayudarle a levantarse.",
+        "La humildad no es más que la verdad, y la vanidad es su sombra.",
+        "La única verdad es la verdad de los sentimientos.",
+        "El amor es la vida. Todo, todo lo que entiendo, lo entiendo sólo porque amo.",
+        "El que ha vivido mucho tiempo solo, no sabe cómo portarse en sociedad.",
+        "No hay grandeza donde no hay sencillez, bondad y verdad.",
+        "El secreto de la existencia humana no sólo está en vivir, sino también en saber para qué se vive."
+      ],
+      "image": "https://afisha.london/wp-content/uploads/2022/08/tolstoi_cover.jpg",
+      "locked": true
+    },
+    {
+      "id": 13,
+      "name": "Andrei Tarkovsky",
+      "description": "Andrei Tarkovsky fue un cineasta soviético, reconocido por sus películas poéticas y filosóficas. Sus obras, como 'Solaris' y 'El espejo', exploran temas existenciales y metafísicos a través de imágenes evocadoras y narrativas no convencionales. Tarkovsky es considerado uno de los grandes maestros del cine.",
+      "biography": "Andrei Tarkovsky nació el 4 de abril de 1932 en Zavrazhye, Unión Soviética (ahora parte de Rusia). Fue un influyente director de cine y escritor, conocido por sus películas poéticas y filosóficas que exploran temas existenciales, la espiritualidad y la relación entre el hombre y la naturaleza.\n\nTarkovsky es considerado uno de los más grandes cineastas de la historia del cine, con obras maestras como 'Solaris' (1972), basada en la novela de ciencia ficción de Stanisław Lem, y 'El espejo' (1975), que combina elementos autobiográficos con reflexiones poéticas sobre la memoria y la identidad.\n\nSu estilo visual único y su enfoque en el tiempo cinematográfico como una dimensión espiritual han influido en generaciones de cineastas. A lo largo de su carrera, Tarkovsky enfrentó censura y obstáculos debido a sus exploraciones profundas y a menudo críticas del sistema soviético y la condición humana.",
+      "quotes": [
+        "La gente ha dejado de entender que la vida debe ser vivida con devoción.",
+        "El arte existe porque el mundo no es perfecto.",
+        "El tiempo es una condición para la creación.",
+        "La nostalgia es el sentimiento que más valoro.",
+        "La poesía es la conciencia del mundo.",
+        "El arte debe aspirar a lo absoluto.",
+        "La libertad no es el objetivo, sino el medio.",
+        "El arte es un acto de amor.",
+        "La belleza es el símbolo de la verdad.",
+        "El arte revela la belleza de la vida.",
+        "La cultura es un acto de resistencia.",
+        "La fe es la fuente de la creación.",
+        "La espiritualidad es la esencia del arte.",
+        "La memoria es el tiempo en su forma pura.",
+        "El cine es una ventana a la realidad.",
+        "El arte es un medio para expresar la verdad.",
+        "El silencio es la fuente de toda creatividad.",
+        "La contemplación es el camino hacia la verdad.",
+        "La creación es un acto de sacrificio.",
+        "El amor es el único medio para la comprensión.",
+        "La belleza salvará al mundo.",
+        "La verdad es eterna.",
+        "La vida es un don sagrado.",
+        "La creación es un acto de fe.",
+        "El arte debe buscar lo eterno.",
+        "La vida es una búsqueda de la verdad.",
+        "El arte es un medio para la redención.",
+        "La memoria es la fuente de la creatividad.",
+        "La fe es la base de toda creación.",
+        "El amor es la esencia de la vida."
+      ],
+      "image": "https://media.newyorker.com/photos/601b5bbe6fe3d515c89fe0c7/master/pass/210215_r37917.jpg",
+      "locked": true
+    },
+    {
+      "id": 14,
+      "name": "Karl Marx",
+      "description": "Karl Marx fue un filósofo, economista y teórico político alemán. Es conocido por su obra 'El Capital' y por ser uno de los fundadores del socialismo científico. Marx analizó las estructuras sociales y económicas, destacando las tensiones entre clases y la búsqueda de la emancipación de los trabajadores.",
+      "biography": "Karl Marx nació el 5 de mayo de 1818 en Tréveris, en lo que entonces era el Reino de Prusia y ahora es Alemania. Fue un filósofo, economista, historiador y teórico revolucionario, conocido por su crítica al capitalismo y su influencia en el desarrollo del socialismo y el comunismo.\n\nMarx es famoso por su obra junto con Friedrich Engels, 'El manifiesto comunista' (1848), donde expone la teoría de la lucha de clases y la necesidad de una revolución proletaria para alcanzar una sociedad sin clases. Su obra más influyente, 'El capital' (1867), es un análisis crítico del sistema económico capitalista, donde Marx desarrolla la teoría del valor trabajo y explora las contradicciones internas del capitalismo que conducen a su eventual colapso.\n\nAunque enfrentó la censura y la persecución política durante su vida, las ideas de Marx han tenido un impacto profundo en la teoría política, económica y social moderna, y han inspirado movimientos revolucionarios en todo el mundo.",
+      "quotes": [
+        "Los filósofos no han hecho más que interpretar de diversos modos el mundo, pero de lo que se trata es de transformarlo.",
+        "La historia de todas las sociedades hasta nuestros días es la historia de las luchas de clases.",
+        "El proletariado no tiene nada que perder, salvo sus cadenas.",
+        "De cada cual, según su capacidad; a cada cual, según sus necesidades.",
+        "La religión es el opio del pueblo.",
+        "La producción de ideas, de conceptos y de la conciencia está primeramente entrelazada con la actividad material y las relaciones materiales de los hombres.",
+        "El motor de la historia es la lucha de clases.",
+        "La propiedad privada nos ha hecho tan estúpidos y unilaterales que un objeto sólo es nuestro cuando lo tenemos.",
+        "El trabajador tiene más necesidad de respeto que de pan.",
+        "La libertad es el reconocimiento de la necesidad.",
+        "El capitalismo lleva en sí las semillas de su propia destrucción.",
+        "El progreso social puede ser medido por la posición social del sexo femenino.",
+        "La razón siempre ha existido, pero no siempre en una forma razonable.",
+        "La tradición de todas las generaciones muertas oprime como una pesadilla el cerebro de los vivos.",
+        "El primer requisito para la felicidad de la gente es la abolición de la religión.",
+        "El capital es trabajo muerto que, como un vampiro, vive solo chupando trabajo vivo, y vive más cuanto más trabajo chupa.",
+        "El trabajador tiene más necesidad de respeto que de pan.",
+        "El poder político es simplemente el poder organizado de una clase para oprimir a otra.",
+        "La emancipación de los trabajadores será obra de los trabajadores mismos.",
+        "La sociedad no consiste en individuos, sino en la suma de interrelaciones, las relaciones dentro de las cuales estos individuos se sitúan.",
+        "El desarrollo de la industria ha cortado el lazo que unía al trabajador agrícola con la tierra.",
+        "La historia no es más que la sucesión de las generaciones.",
+        "El comunismo es la solución al enigma de la historia.",
+        "La fuerza material debe ser derrocada por la fuerza material.",
+        "La existencia determina la conciencia.",
+        "La teoría se convierte en una fuerza material tan pronto como se apodera de las masas.",
+        "El comunismo es el control de la humanidad sobre sus condiciones de existencia.",
+        "El hombre es el ser supremo para el hombre.",
+        "El trabajo es la esencia del hombre.",
+        "La lucha de clases es el motor de la historia."
+      ],
+      "image": "https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/2BC5/production/_101150211_marx.jpg",
+      "locked": true
+    },
+    {
+      "id": 15,
+      "name": "Arthur Schopenhauer",
+      "description": "Arthur Schopenhauer fue un filósofo alemán del siglo XIX, conocido por su pesimismo filosófico y su crítica al idealismo. Su obra principal, 'El mundo como voluntad y representación', aborda temas como la voluntad, el sufrimiento humano y la búsqueda de la redención a través del arte y la contemplación.",
+      "biography": "Arthur Schopenhauer nació el 22 de febrero de 1788 en Danzig (actual Gdańsk, Polonia). Fue un filósofo alemán conocido por su pesimismo filosófico y su profunda influencia en la filosofía occidental del siglo XIX.\n\nSchopenhauer desarrolló una filosofía centrada en la voluntad como la fuerza impulsora detrás de todas las acciones humanas y naturales. Su obra principal, 'El mundo como voluntad y representación' (1818), propone que el mundo fenoménico es una manifestación de la voluntad en constante búsqueda de satisfacción y que el sufrimiento humano surge de la insatisfacción de deseos infinitos.\n\nAdemás de su filosofía pesimista, Schopenhauer influyó en el desarrollo del existencialismo y el pensamiento nietzscheano. Su enfoque en la estética, la música y la moralidad también fue innovador para su tiempo y sigue siendo objeto de estudio en la filosofía contemporánea.",
+      "quotes": [
+        "El hombre ha hecho de la Tierra un infierno para los animales.",
+        "El hombre puede, a través del estudio, llegar a ser todo lo que quiera.",
+        "La compasión es la base de la moralidad.",
+        "El amor es la compensación de la muerte.",
+        "La vida es una continua oscilación entre el dolor y el aburrimiento.",
+        "El hombre puede hacer lo que quiera, pero no puede querer lo que quiera.",
+        "La música es el verdadero lenguaje universal.",
+        "La verdad no es para todos los hombres, sino sólo para aquellos que la buscan.",
+        "El genio y la locura tienen algo en común: ambos viven en un mundo distinto al que existe para los demás.",
+        "El pesimismo es una filosofía de la vida.",
+        "La voluntad de vivir es la esencia de toda existencia.",
+        "El arte es una huida del dolor de la vida.",
+        "El placer es sólo la ausencia de dolor.",
+        "El hombre es el único animal que causa dolor a otros sin ningún otro propósito que querer hacerlo.",
+        "La riqueza es como el agua salada: cuanto más se bebe, más sed produce.",
+        "El destino baraja las cartas, pero nosotros las jugamos.",
+        "La soledad es la suerte de todos los espíritus excelentes.",
+        "La música expresa el más alto grado de filosofía en el lenguaje más simple.",
+        "El amor es la compensación de la naturaleza por la razón.",
+        "El genio es el que mira el mundo de un modo infantil.",
+        "La lectura es sólo un sustituto de la propia experiencia.",
+        "La vida es corta y la verdad trabaja muy lentamente.",
+        "El sufrimiento es la esencia de la vida.",
+        "La religión es el opio del pueblo.",
+        "La piedad es el único motivo moral.",
+        "La esperanza es el confundir el deseo con la probabilidad.",
+        "El arte es la contemplación del mundo con ojos de niño.",
+        "El conocimiento de la verdad reposa no sólo en la razón, sino también en el corazón.",
+        "La muerte es la única cosa cierta en la vida.",
+        "La vida es una constante decepción."
+      ],
+      "image": "https://omnesmag.com/wp-content/uploads/2022/08/Arthur_Schopenhauer_by_J_Schafer_1859b-1-1024x586.jpg",
+      "locked": true
+    },
+    {
+      "id": 16,
+      "name": "Eduardo Galeano",
+      "description": "Eduardo Galeano fue un escritor y periodista uruguayo, conocido por su estilo narrativo y su crítica social. Su obra, como 'Las venas abiertas de América Latina', analiza la historia y la política de América Latina desde una perspectiva crítica y comprometida con la justicia social y los derechos humanos.",
+      "biography": "Eduardo Galeano nació el 3 de septiembre de 1940 en Montevideo, Uruguay. Fue un periodista, escritor y novelista uruguayo conocido por su compromiso con la justicia social y los derechos humanos.\n\nGaleano comenzó su carrera como periodista a temprana edad y luego se dedicó a la escritura de libros que exploran la historia y la política de América Latina. Su obra más conocida, 'Las venas abiertas de América Latina' (1971), ofrece una visión crítica del colonialismo europeo y el imperialismo en América Latina, destacando las injusticias sociales y económicas impuestas a la región.\n\nAdemás de 'Las venas abiertas de América Latina', Galeano escribió novelas, cuentos y ensayos que abordan temas como la memoria histórica, la desigualdad y la resistencia popular. Su estilo narrativo mezcla la crónica periodística con la literatura, creando una obra que es a la vez informativa y emotiva.",
+      "quotes": [
+        "Al fin y al cabo, somos lo que hacemos para cambiar lo que somos.",
+        "La utopía está en el horizonte. Camino dos pasos, ella se aleja dos pasos y el horizonte se corre diez pasos más allá. ¿Entonces para qué sirve la utopía? Para eso, sirve para caminar.",
+        "La historia es un profeta con la mirada vuelta hacia atrás: por lo que fue, y contra lo que fue, anuncia lo que será.",
+        "Los nadies: los hijos de nadie, los dueños de nada.",
+        "La caridad es humillante porque se ejerce verticalmente y desde arriba; la solidaridad es horizontal e implica respeto mutuo.",
+        "Cada persona brilla con luz propia entre todas las demás. No hay dos fuegos iguales.",
+        "Mucha gente pequeña, en lugares pequeños, haciendo cosas pequeñas, puede cambiar el mundo.",
+        "Si Eva hubiera escrito el Génesis, ¿cómo sería la primera noche de amor del género humano?",
+        "Hay un único lugar donde ayer y hoy se encuentran y se reconocen y se abrazan. Ese lugar es mañana.",
+        "La historia de América Latina es la historia del despojo de las riquezas de la tierra.",
+        "El desarrollo desarrolla la desigualdad.",
+        "El sistema de poder está en el alma de la cultura dominante.",
+        "Los científicos dicen que estamos hechos de átomos, pero a mí un pajarito me contó que estamos hechos de historias.",
+        "La justicia es como las serpientes, solo muerde a los descalzos.",
+        "El mundo al revés nos enseña a padecer la realidad, en lugar de cambiarla.",
+        "La división internacional del trabajo consiste en que unos países se especializan en ganar y otros en perder.",
+        "El miedo global tiene que ser combatido con solidaridad global.",
+        "El fútbol es la única religión que no tiene ateos.",
+        "El poder es como un violín. Se toma con la izquierda y se toca con la derecha.",
+        "La cultura no es una herencia de los sabios, sino un derecho de los pueblos.",
+        "El hambre no se pronuncia en plural. El hambre es siempre uno.",
+        "El arte de narrar es resistir el olvido.",
+        "El aire está lleno de voces que llaman por los desaparecidos.",
+        "La memoria del fuego no se apaga.",
+        "La pobreza no se vence con discursos, sino con justicia.",
+        "La belleza es el misterio de la vida.",
+        "La vida es una llama que se va apagando poco a poco.",
+        "El derecho de soñar no figura entre los treinta derechos humanos.",
+        "El miedo nos gobierna y nos hace callar.",
+        "Hay un único lugar donde ayer y hoy se encuentran y se reconocen y se abrazan. Ese lugar es mañana."
+      ],
+      "image": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/ZVFCTXDFIBAKPIXLOGQXOCVC34.jpg",
+      "locked": true
+    },
+    {
+      "id": 17,
+      "name": "Julio Cortázar",
+      "description": "Julio Cortázar fue un escritor argentino, uno de los principales exponentes del realismo mágico y la narrativa experimental. Su obra incluye novelas como 'Rayuela' y cuentos como 'Bestiario', que desafían las convenciones literarias y exploran la complejidad de la identidad y la percepción.",
+      "biography": "Julio Cortázar nació el 26 de agosto de 1914 en Bruselas, Bélgica, aunque pasó gran parte de su infancia y juventud en Argentina. Fue un escritor, traductor e intelectual argentino, conocido por su innovación en el género del cuento y su participación en movimientos literarios vanguardistas.\n\nCortázar es famoso por su obra 'Rayuela' (1963), una novela experimental que invita al lector a participar activamente en la narrativa mediante un orden no lineal de capítulos. Esta obra rompió con las convenciones narrativas tradicionales y ejemplifica su estilo literario lúdico y metaficcional.\n\nAdemás de 'Rayuela', Cortázar escribió numerosos cuentos que exploran lo fantástico y lo surrealista, como 'Final del juego' (1956) y 'Bestiario' (1951), así como novelas como 'Los premios' (1960) y 'El libro de Manuel' (1973). Su obra abarca temas como el tiempo, la identidad, la realidad y la política, reflejando su compromiso con la experimentación literaria y la búsqueda de nuevas formas de expresión.",
+      "quotes": [
+        "La risa es el lenguaje del alma.",
+        "Andábamos sin buscarnos pero sabiendo que andábamos para encontrarnos.",
+        "Nada está perdido si se tiene el valor de proclamar que todo está perdido y hay que empezar de nuevo.",
+        "Las palabras nunca alcanzan cuando lo que hay que decir desborda el alma.",
+        "La explicación es un error bien vestido.",
+        "La felicidad es una de las formas de la imaginación.",
+        "La vida es un libro lleno de hojas en blanco.",
+        "La razón es una equivocación.",
+        "La memoria del corazón elimina los malos recuerdos y magnifica los buenos.",
+        "La esperanza le pertenece a la vida, es la vida misma defendiéndose.",
+        "Lo maravilloso es siempre hermoso, todo lo maravilloso es bello, no hay nada de bello que no sea maravilloso.",
+        "La lentitud se disfruta.",
+        "Me basta mirarte para saber que con vos me voy a empapar el alma.",
+        "La vida es como un río que siempre nos está esperando.",
+        "Todo lo que de vos quisiera es tan poco en el fondo porque en el fondo es todo.",
+        "La vida es un continuo proceso de demolición.",
+        "La aventura es el desarrollo de la vida.",
+        "La belleza es tan relativa como el tiempo.",
+        "La infancia es una enfermedad, un mal incurable.",
+        "La juventud es una especie de fiebre mental.",
+        "Las preguntas siempre son más importantes que las respuestas.",
+        "La soledad es el hecho más profundo de la condición humana.",
+        "La historia es una rueda que no se detiene.",
+        "La muerte es la mejor invención de la vida.",
+        "La verdad tiene estructuras de ficción.",
+        "La memoria es un espejo que miente.",
+        "El amor es como un pájaro que se posa en tu hombro.",
+        "El deseo muere automáticamente en cuanto se logra.",
+        "El futuro no existe, sólo el presente.",
+        "El presente es perpetuo."
+      ],
+      "image": "https://media.admagazine.com/photos/618a63bca8ad6c5249a74efa/16:9/w_2656,h_1494,c_limit/74842.jpg",
+      "locked": true
+    },
+    {
+      "id": 18,
+      "name": "Alejandra Pizarnik",
+      "description": "Alejandra Pizarnik fue una poeta argentina, reconocida por su poesía introspectiva y emotiva. Su obra explora temas como la identidad, la melancolía y la búsqueda del sentido de la vida. Pizarnik es considerada una de las voces más importantes de la poesía latinoamericana del siglo XX.",
+      "biography": "Alejandra Pizarnik fue una destacada poetisa y escritora argentina nacida el 29 de abril de 1936 en Buenos Aires. Desde joven mostró una inclinación hacia la literatura y la poesía, publicando su primer libro de poemas, 'La tierra más ajena', en 1955.\n\nPizarnik es conocida por su poesía intensamente lírica y introspectiva, influenciada por el surrealismo y el simbolismo. Su obra aborda temas como la soledad, el dolor emocional, la identidad y la muerte, expresados a través de un lenguaje poético rico y evocador.\n\nA lo largo de su carrera, publicó varias obras destacadas, incluyendo 'Los trabajos y las noches' (1965), 'Extracción de la piedra de locura' (1968) y 'Textos de sombra y últimos poemas' (1982). Su estilo único y su capacidad para explorar los estados emocionales más profundos han hecho de Pizarnik una figura influyente en la literatura argentina y latinoamericana.",
+      "quotes": [
+        "Cada palabra dice lo que dice y además más y otra cosa.",
+        "Escribir es buscar en la oscuridad.",
+        "El deseo de morir era mi religión.",
+        "La rebelión consiste en mirar una rosa hasta pulverizarse los ojos.",
+        "Todo lo que de vos quisiera es tan poco en el fondo porque en el fondo es todo.",
+        "Soy el amante de lo que vuela y de lo que se posa un instante para hacer que hay algo nuevo bajo el sol.",
+        "De tal modo se quebró el cielo: como un espejo roto.",
+        "Pero el silencio es cierto. Por eso escribo. Estoy sola y escribo.",
+        "Hay que salvarse de la espina de ser uno mismo.",
+        "La muerte siempre al lado. Escuchándome.",
+        "La carencia es la desnudez del alma.",
+        "El amor es la presencia de algo ausente.",
+        "El dolor es la gran oportunidad de la vida.",
+        "El miedo es un amo severo.",
+        "La soledad es el lugar de la madurez.",
+        "La tristeza es un don.",
+        "La noche es un espacio del alma.",
+        "La poesía es un atentado celeste.",
+        "El tiempo es un niño que juega a los dados.",
+        "La verdad está en el fondo de un pozo.",
+        "La sombra es la hija de la luz.",
+        "La poesía es el lugar donde todo sucede.",
+        "La esperanza es un desierto.",
+        "La vida es una herida absurda.",
+        "La palabra es un espejo que miente.",
+        "La soledad es un abismo que nos salva.",
+        "La noche es una flor negra.",
+        "La vida es un laberinto sin salida.",
+        "La muerte es un sueño eterno.",
+        "El deseo es un fuego que no se apaga."
+      ],
+      "image": "https://fotos.perfil.com/2022/09/24/trim/1280/720/alejandra-pizarnik-1425808.jpg",
+      "locked": true
+    },
+    {
+      "id": 19,
+      "name": "Jacques Lacan",
+      "description": "Jacques Lacan fue un psicoanalista y filósofo francés, conocido por reinterpretar las ideas de Freud desde una perspectiva estructuralista y lingüística. Su obra influyó en campos como la psicología, la filosofía y los estudios culturales, especialmente con conceptos como el 'lenguaje simbólico' y el 'yo como otro'.",
+      "biography": "Jacques Lacan fue un destacado psicoanalista francés nacido el 13 de abril de 1901 en París. Es conocido por su contribución teórica al campo del psicoanálisis, especialmente por su revisión y reinterpretación de las ideas freudianas.\n\nLacan estudió medicina y se especializó en psiquiatría, comenzando a formarse en psicoanálisis bajo la influencia de figuras como Karl Jaspers y Eugène Minkowski. En la década de 1930, se convirtió en psicoanalista y comenzó a desarrollar su propio enfoque teórico, el cual se centró en el lenguaje, el inconsciente y la relación entre el sujeto y el Otro.\n\nEntre sus conceptos más influyentes se encuentran el 'registro simbólico', el 'registro imaginario' y el 'registro real', los cuales desarrolló para explicar cómo se estructura la subjetividad humana a través del lenguaje y las relaciones sociales.\n\nLacan también fue conocido por su estilo de enseñanza y su uso innovador de seminarios y conferencias para discutir y difundir sus ideas. Su trabajo continúa siendo influyente no solo en psicoanálisis, sino también en campos como la filosofía, la literatura y los estudios culturales.",
+      "quotes": [
+        "El deseo es el deseo del Otro.",
+        "El inconsciente está estructurado como un lenguaje.",
+        "El lenguaje es la casa del ser.",
+        "El amor es dar lo que no se tiene a alguien que no lo quiere.",
+        "El goce no es un placer.",
+        "El sujeto es un efecto del lenguaje.",
+        "El Otro no existe.",
+        "El yo no es el amo en su propia casa.",
+        "La verdad tiene estructura de ficción.",
+        "El inconsciente es la verdad del ser.",
+        "La palabra es el asesinato de la cosa.",
+        "El goce es un exceso de placer.",
+        "El objeto a es la causa del deseo.",
+        "El falo es el significante del deseo.",
+        "El deseo es la esencia del hombre.",
+        "El lenguaje nos constituye como sujetos.",
+        "El inconsciente es el discurso del Otro.",
+        "El sujeto es un significante para otro significante.",
+        "El amor es siempre recíproco.",
+        "El goce es un plus de disfrute.",
+        "El síntoma es una metáfora.",
+        "El fantasma es una pantalla entre el sujeto y el deseo.",
+        "El deseo es una defensa contra el goce.",
+        "El sujeto es una falta en ser.",
+        "El inconsciente es una producción de sentido.",
+        "El deseo es la interpretación de la falta.",
+        "El lenguaje es el soporte del deseo.",
+        "El amor es una suplencia.",
+        "El inconsciente es una escritura.",
+        "El deseo es una ficción."
+      ],
+      "image": "https://resizer.glanacion.com/resizer/v2/jacques-lacan-en-paris-en-un-retrato-de-1979-foto-I7OHGNHP4NFTJJHGAPCT7DHXLY.jpg?auth=2dad769d551b98672c4b9109721c07f07821dd9ccef6295c1332049731eb43af&width=768&height=1081&quality=70&smart=false&focal=272,274",
+      "locked": true
+    },
+    {
+      "id": 20,
+      "name": "Michel Foucault",
+      "description": "Michel Foucault fue un filósofo y sociólogo francés, conocido por su crítica de las instituciones sociales y por su teoría del poder. Foucault analizó cómo las estructuras de poder influyen en la sociedad y en la construcción del conocimiento. Su obra abarca temas como la vigilancia, la sexualidad y la locura.",
+      "biography": "Michel Foucault fue un filósofo, historiador de las ideas, teórico social y crítico literario francés nacido el 15 de octubre de 1926 en Poitiers, Francia. Es conocido por sus influyentes estudios sobre temas como el poder, el conocimiento, la sexualidad y las instituciones sociales.\n\nFoucault estudió filosofía e historia en la École Normale Supérieure de París, donde fue alumno de Louis Althusser. A lo largo de su carrera, desarrolló un enfoque crítico hacia las instituciones del poder y la forma en que históricamente han regulado el discurso y la conducta humana.\n\nEntre sus obras más conocidas se encuentran 'Vigilar y castigar' (1975), donde analiza el desarrollo de las instituciones de control y disciplina; 'Historia de la sexualidad' (1976-1984), donde examina cómo se ha construido y regulado el discurso sobre la sexualidad; y 'Las palabras y las cosas' (1966), donde explora la historia del conocimiento humano.\n\nFoucault también fue un activo defensor de los derechos humanos y participó en movimientos sociales, especialmente en la defensa de los derechos de las minorías sexuales.\n\nSu trabajo ha tenido un impacto profundo en disciplinas como la filosofía, la sociología, la crítica literaria, los estudios culturales y la teoría política.",
+      "quotes": [
+        "El saber es un modo de placer.",
+        "El poder es tolerante; solo el saber engendra problemas.",
+        "El poder no es una institución, ni una estructura, ni una fuerza, ni algo que se repartiera; es el nombre que se le da a una situación estratégica compleja en una sociedad dada.",
+        "El poder está en todas partes; no es que lo englobe todo, sino que viene de todas partes.",
+        "El poder no se posee, se ejerce.",
+        "El poder no es un privilegio adquirido o conservado, sino el efecto de conjunto de sus posiciones estratégicas.",
+        "La libertad no es otra cosa que la forma de autolimitación del poder.",
+        "Donde hay poder, hay resistencia.",
+        "El poder es una relación de fuerzas.",
+        "El poder no es algo que se toma, es algo que se ejerce.",
+        "El poder produce realidad.",
+        "El poder se despliega a través de la producción de saber.",
+        "La vigilancia es un aparato de saber/poder.",
+        "El control de los cuerpos es una función del poder.",
+        "El poder disciplinario organiza espacios y tiempos.",
+        "La confesión es una técnica del poder.",
+        "El poder pastoral es una forma de poder individualizante.",
+        "El biopoder se ejerce sobre la vida misma.",
+        "El poder pastoral guía y conduce a los individuos.",
+        "El biopoder es el poder de hacer vivir y dejar morir.",
+        "El poder soberano es el poder de hacer morir y dejar vivir.",
+        "El biopoder surge en el siglo XVIII.",
+        "El poder disciplinario es una tecnología política del cuerpo.",
+        "La sexualidad es un dispositivo del poder.",
+        "El poder disciplinario produce cuerpos dóciles.",
+        "El poder produce subjetividades.",
+        "El poder es productivo.",
+        "El poder no se localiza en un lugar, está en todas partes.",
+        "El poder y el saber están vinculados.",
+        "El poder es una multiplicidad de relaciones de fuerza."
+      ],
+      "image": "https://artilleriainmanente.noblogs.org/files/2023/12/Michel-Foucault.jpg",
+      "locked": true
+    },
+    {
+      "id": 21,
+      "name": "Simone de Beauvoir",
+      "description": "Simone de Beauvoir fue una filósofa y escritora francesa, pionera del feminismo existencialista. Su obra 'El segundo sexo' es fundamental para el movimiento feminista, explorando temas como la opresión de las mujeres y la construcción social del género. De Beauvoir también fue una novelista prolífica y una intelectual comprometida con los derechos humanos.",
+      "biography": "Simone de Beauvoir fue una filósofa, escritora y feminista francesa nacida el 9 de enero de 1908 en París, Francia. Es conocida por ser una de las figuras más influyentes del feminismo y por su relación intelectual y sentimental con Jean-Paul Sartre.\n\nDe Beauvoir estudió filosofía en la École Normale Supérieure, donde conoció a Sartre y comenzó una colaboración intelectual que duró toda su vida. Es autora de obras fundamentales como 'El segundo sexo' (1949), donde analiza la situación de las mujeres en la sociedad y cuestiona las construcciones sociales de género.\n\nAdemás de su trabajo filosófico, De Beauvoir fue una novelista prolífica y escribió ensayos sobre ética, política y literatura. Participó activamente en movimientos feministas y en la lucha por los derechos de las mujeres.\n\nSu influencia en la teoría feminista y en la filosofía contemporánea es significativa, y su obra sigue siendo objeto de estudio y debate en todo el mundo.",
+      "quotes":  [
+        "No se nace mujer: se llega a serlo.",
+        "La belleza es aún más difícil de explicar que la felicidad.",
+        "El día que una mujer pueda no amar con su debilidad sino con su fuerza, no para escapar de sí misma sino para encontrarse, no para humillarse sino para afirmarse, ese día el amor será para ella, como para el hombre, fuente de vida.",
+        "La vida de los hombres, colectivamente, es un tejido de traiciones.",
+        "La naturaleza del hombre no es sino la condición de la humanidad.",
+        "Lo más escandaloso que tiene el escándalo es que uno se acostumbra.",
+        "La sociedad se ocupa de defender al adulto mientras explota al niño.",
+        "La libertad es el poder de decir que dos más dos son cuatro.",
+        "El problema de la mujer siempre ha sido un problema de hombres.",
+        "El secreto de la felicidad en el amor consiste menos en ser ciego que en cerrar los ojos cuando hace falta.",
+        "La mujer que no ha encontrado su lugar en la sociedad es tan infeliz como el hombre que no ha encontrado el suyo.",
+        "La verdad es una y el error múltiple.",
+        "Las arrugas de la piel son ese algo indescriptible que procede del alma.",
+        "El feminismo es una forma de vivir individualmente y de luchar colectivamente.",
+        "La maternidad es un hecho biológico; la paternidad, un hecho social.",
+        "Lo más odiado por una mujer es una mujer que hable claro.",
+        "El hombre es mortal por sus temores e inmortal por sus deseos.",
+        "La envidia es un reconocimiento de inferioridad.",
+        "El trabajo no se hizo para que el hombre viva, sino para que se ganase la vida.",
+        "El destino es un invento de los cobardes y de los resignados.",
+        "El arte de la vida es el arte de evitar el dolor.",
+        "La familia es un nido de perversiones.",
+        "La mujer casada es una esclava que hay que poner en libertad.",
+        "La libertad es una carga, no un regalo.",
+        "El hombre libre es aquel que, no temiendo ir hasta el fin de su pensamiento, no tiene otra preocupación que la verdad.",
+        "La idea de Dios corresponde a una necesidad, pero no es demostrable.",
+        "El conocimiento de la muerte nos hace libres.",
+        "La relación sexual no implica amor, pero el amor implica la relación sexual.",
+        "La mujer no puede ser sino lo que quiere hacer de sí misma.",
+        "La historia de la humanidad es la historia de sus servidumbres."
+      ],
+      "image": "https://images.pagina12.com.ar/styles/focal_16_9_960x540/public/2021-10/203795-beauvoirweb-afp-20-20-281-29.JPG?h=34770b54&itok=_WfUbLqb",
+      "locked": true
+    },
+    {
+      "id": 22,
+      "name": "John Lennon",
+      "description": "John Lennon fue un músico, cantante y compositor británico, conocido por ser uno de los miembros fundadores de The Beatles. Lennon no solo fue un ícono de la música popular, sino también un activista por la paz y los derechos civiles. Su obra musical y su activismo reflejan su compromiso con la paz mundial y la justicia social.",
+      "biography": "Músico, cantante, compositor y activista británico, conocido por ser uno de los miembros fundadores de The Beatles, una de las bandas más influyentes de la historia de la música popular. Nació el 9 de octubre de 1940 en Liverpool, Inglaterra, y falleció trágicamente el 8 de diciembre de 1980 en Nueva York, EE.UU.\n\nLennon mostró desde joven un interés por la música y el arte. Junto con Paul McCartney, formó The Beatles en 1960, una banda que revolucionó la música pop y rock con éxitos como 'Hey Jude', 'Yesterday' y 'Let It Be'.\n\nAdemás de su carrera musical, Lennon fue conocido por su activismo por la paz y los derechos humanos. Junto con su esposa Yoko Ono, participó en numerosas protestas pacifistas y promovió la idea de la paz a través de su música, especialmente en canciones como 'Imagine'.\n\nLennon también exploró su carrera en solitario después de la disolución de The Beatles, produciendo álbumes aclamados como 'Imagine' (1971) y 'Double Fantasy' (1980).\n\nSu legado como músico y activista sigue siendo una fuente de inspiración para muchas personas en todo el mundo.",
+      "quotes": [
+        "La vida es aquello que te pasa mientras estás ocupado haciendo otros planes.",
+        "Imagina a toda la gente viviendo la vida en paz.",
+        "Todo lo que necesitas es amor.",
+        "La guerra ha terminado, si tú quieres.",
+        "La música nos pertenece a todos. Solo los editores creen que la gente la posee.",
+        "El amor es una promesa, el amor es un souvenir, una vez dado nunca se olvida, nunca dejes que desaparezca.",
+        "No necesitas una espada para cortar flores.",
+        "Algunos están dispuestos a cualquier cosa, menos a vivir aquí y ahora.",
+        "Vivir es fácil con los ojos cerrados, malinterpretando todo lo que ves.",
+        "Todo es más claro cuando estás enamorado.",
+        "El tiempo que disfrutas perdiendo no es tiempo perdido.",
+        "Si todo el mundo demandara paz en lugar de otro televisor, entonces habría paz.",
+        "Ser honesto puede que no te consiga muchos amigos, pero siempre te conseguirá los correctos.",
+        "La felicidad está dentro de uno, no al lado de alguien.",
+        "Podemos superar esto si nos unimos.",
+        "Un sueño que sueñas solo es solo un sueño. Un sueño que sueñas con alguien es una realidad.",
+        "No puedo creer que me convertí en una estrella del rock y roll.",
+        "Dios es un concepto por el cual medimos nuestro dolor.",
+        "Mi rol en la sociedad, o el de cualquier artista o poeta, es intentar expresar lo que todos sentimos. No decirle a la gente cómo sentir. No como un predicador, no como un líder, sino como un reflejo de todos nosotros.",
+        "Mi vida es una música interminable, realmente estoy viviendo mi música.",
+        "Creo que Dios es como un radio viejo, que no siempre sintonizas bien.",
+        "La gente me dice que soy un soñador, pero no soy el único.",
+        "La paz no es algo que deseas, es algo que haces, algo que eres y algo que regalas.",
+        "La posesión no es nueve décimas de la ley. Es nueve décimas del problema.",
+        "No quiero ser rey, quiero ser real.",
+        "No puedes cambiar el mundo hasta que te cambies a ti mismo.",
+        "El amor no puede salvarte de tu propio destino.",
+        "Mi guitarra es mi espada, mi alma es la poesía.",
+        "La revolución no se lleva a cabo en la televisión.",
+        "No puedes dejar de vivir antes de morir."
+      ],
+      "image": "https://akamai.sscdn.co/uploadfile/letras/fotos/c/c/5/7/cc5781ec76634979f9151d8efe000a44.jpg",
+      "locked": true
+    },
+    {
+      "id": 23,
+      "name": "Marcus Aurelius",
+      "description": "Marcus Aurelius fue un emperador romano y filósofo estoico del siglo II d.C. Su obra más conocida es 'Meditaciones', un conjunto de escritos personales sobre la ética estoica y la autodisciplina. Aurelius es recordado por su gobierno filosófico y su reflexión sobre el deber, la virtud y la naturaleza del poder.",
+      "biography": "Marcus Aurelius fue un emperador romano, filósofo estoico y escritor nacido el 26 de abril de 121 d.C. en Roma, Italia. Gobernó el Imperio Romano desde el año 161 hasta su muerte en 180 d.C. Como emperador, es conocido por su reinado durante la época de las guerras marcomanas y su política de fortalecimiento de las fronteras del imperio.\n\nAurelius es recordado también por sus contribuciones a la filosofía estoica. Es autor de las 'Meditaciones', una serie de reflexiones personales sobre la ética, la moralidad y la autodisciplina escritas durante sus campañas militares. Estas obras han sido valoradas por su enfoque en el autocontrol y la virtud como camino hacia la tranquilidad espiritual.\n\nA pesar de sus deberes como emperador y sus campañas militares, Marcus Aurelius continuó practicando y promoviendo la filosofía estoica como un medio para enfrentar los desafíos de la vida y gobernar con sabiduría y compasión.",
+      "quotes": [
+        "La felicidad de tu vida depende de la calidad de tus pensamientos.",
+        "Acepta lo que no puedes cambiar y cambia lo que no puedes aceptar.",
+        "La mejor manera de defenderte es no parecerte a ellos.",
+        "La vida no es ni buena ni mala, sino un lugar para el bien y el mal.",
+        "La muerte es un descanso de las impresiones de los sentidos, de los impulsos que nos hacen marionetas.",
+        "El arte de vivir se parece más a la lucha que a la danza.",
+        "El alma se tiñe del color de sus pensamientos.",
+        "El poder para hacer daño a otros es un perjuicio para quien lo posee.",
+        "Todo lo que oímos es una opinión, no un hecho. Todo lo que vemos es una perspectiva, no la verdad.",
+        "El universo es cambio; nuestra vida es lo que nuestros pensamientos hacen de ella.",
+        "La mente se adapta y convierte a su propio propósito la obstrucción a nuestra acción.",
+        "Nadie se cansa de recibir beneficios, y recibir beneficios es una acción de acuerdo con la naturaleza.",
+        "La vida no se da por la duración, sino por su empleo.",
+        "Todo lo que sucede, sucede como debe, y si observas cuidadosamente, verás que es así.",
+        "El valor de un hombre no es mayor que el valor de sus ambiciones.",
+        "La mejor venganza es ser diferente de quien causó el daño.",
+        "No actúes como si fueras a vivir diez mil años. El destino está sobre ti; mientras vives, mientras puedas, sé bueno.",
+        "La pérdida no es otra cosa que cambio, y el cambio es el deleite de la naturaleza.",
+        "La objetividad es la clave para una vida de virtud.",
+        "El tiempo es como un río hecho de eventos que suceden, y una violenta corriente; tan pronto como una cosa ha sido vista, se lleva, y otra viene en su lugar, y esta también será llevada.",
+        "El impedimento a la acción avanza la acción. Lo que se interpone en el camino se convierte en el camino.",
+        "Desperdiciamos nuestro tiempo suponiendo que tenemos más tiempo.",
+        "Todo lo que no es provechoso para la colmena, no es provechoso para la abeja.",
+        "No es la muerte lo que un hombre debe temer, debe temer nunca empezar a vivir.",
+        "La perfección del carácter es esto: vivir cada día como si fuera el último, sin frenética, sin apático, sin pretencioso.",
+        "Si te duele por algo externo, no es eso lo que te molesta, sino tu juicio sobre eso; y está en tu poder el borrarlo ahora.",
+        "Es el hombre que ha vivido más tiempo, y el hombre que muere más joven, pierden lo mismo. La única cosa de la cual pueden ser privados es el presente, ya que esto es todo lo que poseen.",
+        "Acuérdate de que hombre eres.",
+        "Tu voluntad puede mantenerte libre.",
+        "En ninguna parte el hombre puede encontrar un retiro más tranquilo o más libre de problemas que en su propia alma."
+      ],
+      "image": "https://www.alejandradeargos.com/images/articulos/Filosofos/Marco_Aurelio/Marco_Aurellio_Museo_Metropolitano.jpg",
+      "locked": true
+    },
+    {
+      "id": 24,
+      "name": "Heraclitus",
+      "description": "Heraclitus fue un filósofo griego antiguo, conocido por su doctrina del cambio constante y el flujo universal. Su frase 'Nadie se baña dos veces en el mismo río' resume su visión de que todo está en constante transformación. Heraclitus influyó en el pensamiento occidental con su enfoque en la unidad de los opuestos y el devenir cósmico.",
+      "biography": "Heraclitus fue un filósofo presocrático griego nacido alrededor del año 535 a.C. en Éfeso, Jonia (actual Turquía). Es conocido por su enfoque en el cambio constante y la unidad de los opuestos, reflejado en su famosa afirmación de que 'todo fluye' (panta rhei).\n\nHeraclitus es considerado uno de los primeros filósofos en enfocarse en el principio del logos (razón cósmica), que según él gobierna el universo. Argumentaba que el cambio es fundamental para la existencia y que la contradicción es inherente a la realidad. Su pensamiento influyó en filósofos posteriores como Platón y Aristóteles, así como en el desarrollo de la filosofía occidental.\n\nAunque sus escritos originales no han sobrevivido completamente, se le atribuyen numerosos fragmentos y aforismos que han sido objeto de interpretación y estudio a lo largo de los siglos.",
+      "quotes": [
+        "No man ever steps in the same river twice, for it's not the same river and he's not the same man.",
+        "Character is destiny.",
+        "The only constant in life is change."
+      ],
+      "image": "https://ichef.bbci.co.uk/images/ic/1200x675/p01h83jd.jpg",
+      "locked": true
+    },
+    {
+      "id": 25,
+      "name": "Democritus",
+      "description": "Democritus fue un filósofo griego pre-socrático, conocido por ser uno de los primeros en proponer la teoría atómica del universo. Creía que todo está compuesto por átomos indivisibles en constante movimiento en el vacío. Democritus también abordó temas como la ética, la cosmología y la teoría del conocimiento.",
+      "biography": "Demócrito fue un filósofo griego nacido alrededor del año 460 a.C. en Abdera, Tracia (actual Grecia). Es conocido principalmente por ser uno de los primeros filósofos atomistas y por su teoría de que la materia está compuesta por átomos indivisibles y eternos.\n\nDemócrito viajó extensamente por Egipto, Persia y la India, donde según se dice aprendió de las tradiciones filosóficas y científicas de estas culturas. Su filosofía atomista propuso que todas las cosas están compuestas por átomos en movimiento constante en el vacío y que las cualidades perceptibles de la materia surgen de las diferentes configuraciones y combinaciones de estos átomos.\n\nAunque gran parte de su obra no ha sobrevivido, Demócrito fue una figura influyente en el desarrollo de la filosofía griega y posteriormente en la ciencia occidental, sentando las bases para el pensamiento científico sobre la composición fundamental de la realidad.",
+      "quotes": [
+        "Happiness resides not in possessions, and not in gold, happiness dwells in the soul.",
+        "Nothing exists except atoms and empty space; everything else is opinion.",
+        "The brave man is he who overcomes not only his enemies but his pleasures."
+      ],
+      "image": "https://miro.medium.com/v2/resize:fit:1400/1*ZrSbXOha9zpD9EAU241c_g.jpeg",
+      "locked": true
+    },
+    {
+      "id": 26,
+      "name": "Parmenides",
+      "description": "Parménides fue un filósofo griego presocrático, conocido por su poema metafísico 'Sobre la naturaleza'. Argumentó que el ser es eterno, inmutable, y que el cambio y el devenir son ilusorios. Parménides influyó en el desarrollo del pensamiento filosófico occidental al plantear preguntas fundamentales sobre la realidad y el conocimiento.",
+      "biography": "Parménides fue un filósofo griego nacido alrededor del año 515 a.C. en Elea, una colonia griega en la actual Italia meridional. Es conocido principalmente por ser uno de los fundadores de la escuela eleática de filosofía, junto con su discípulo Zenón de Elea.\n\nParménides es famoso por su poema filosófico 'Sobre la naturaleza', en el cual expone su teoría del ser. Argumentó que el ser es único, inmutable y eterno, y que el cambio y la multiplicidad son ilusiones creadas por los sentidos humanos. Esta perspectiva contrasta con la visión del mundo como un flujo constante de cambio, defendida por otros filósofos griegos contemporáneos como Heráclito.\n\nAunque gran parte de sus escritos se han perdido, la influencia de Parménides en el desarrollo de la metafísica y la ontología ha sido significativa, influyendo en pensadores posteriores como Platón y Aristóteles.",
+      "quotes": [
+        "The only routes of inquiry there are to think: one that it is and cannot not be, is the path of Persuasion, for it attends upon Truth; the other, that it is not and that it must not be, this I say to you is a path wholly unlearnable, for you could not know what is not—that is impossible—nor could you declare it.",
+        "For never shall this prevail, that things that are not, are.",
+        "Thought and being are the same."
+      ],
+      "image": "https://miro.medium.com/v2/resize:fit:640/1*-laI1JcwuiG7sXzKuAKfDw.jpeg",
+      "locked": true
+    },
+    {
+      "id": 27,
+      "name": "Pythagoras",
+      "description": "Pitágoras fue un filósofo y matemático griego antiguo, conocido por el teorema que lleva su nombre en geometría. Fundó la escuela pitagórica, que combinaba enseñanzas filosóficas, matemáticas y místicas. Pitágoras también influyó en la música y la astronomía griegas, y su legado ha perdurado en la historia de la ciencia y la filosofía.",
+      "biography": "Pitágoras fue un filósofo, matemático y líder religioso griego, nacido alrededor del año 570 a.C. en Samos, una isla en el mar Egeo (actual Grecia). Es conocido por su escuela pitagórica, una comunidad religiosa y filosófica que enseñaba una amplia gama de conocimientos, incluidas las matemáticas, la música, la ética y la cosmología.\n\nPitágoras es más conocido por el teorema que lleva su nombre en geometría, que establece la relación entre los lados de un triángulo rectángulo. Sin embargo, su influencia se extiende más allá de las matemáticas; promovió una visión del mundo basada en principios numéricos y creía en la transmigración del alma, influyendo en la espiritualidad y la filosofía posteriores.\n\nAunque muchos detalles de su vida están envueltos en leyendas y mitos, Pitágoras es reconocido como una figura fundamental en el desarrollo del pensamiento occidental, combinando la filosofía con la investigación científica y espiritual.",
+      "quotes": [
+        "Number is the ruler of forms and ideas, and the cause of gods and demons.",
+        "As soon as laws are necessary for men, they are no longer fit for freedom.",
+        "Do not say a little in many words but a great deal in a few."
+      ],
+      "image": "https://cdn.hswstatic.com/gif/pyth.jpg",
+      "locked": true
+    },
+    {
+      "id": 28,
+      "name": "Byung-Chul Han",
+      "description": "Byung-Chul Han es un filósofo y ensayista surcoreano-alemán, conocido por sus reflexiones sobre la sociedad contemporánea y la cultura digital. Han analiza temas como el individualismo, la sociedad del rendimiento y la erosión de la comunidad en la era digital. Su obra ha resonado ampliamente en el debate sobre los efectos psicológicos y sociales de la tecnología.",
+      "biography": "Byung-Chul Han es un filósofo y escritor surcoreano nacido en 1959 en Seúl, Corea del Sur. Se ha destacado por sus análisis críticos de la sociedad contemporánea, especialmente en el contexto de la cultura digital y la globalización.\n\nHan estudió filosofía en Corea del Sur y Alemania, donde más tarde enseñó en la Universidad de Basilea. Es conocido por sus obras que abordan temas como la sociedad del rendimiento, la violencia y la transparencia en la era digital. Su estilo de escritura es accesible y reflexivo, combinando la filosofía occidental con la tradición budista y confuciana.\n\nAdemás de su labor académica, Byung-Chul Han ha ganado reconocimiento internacional por su capacidad para comunicar ideas filosóficas complejas al público general, convirtiéndose en una voz influyente en los debates contemporáneos sobre la tecnología y la cultura.",
+      "quotes": [
+        "We live in a society of transparency. Everything must be visible. But this transparency turns out to be a powerful form of control.",
+        "The capitalist system is totalitarian. It forces people to constantly improve, optimize, and maximize performance.",
+        "We are all working ourselves to death."
+      ],
+      "image": "https://static.abc.es/media/cultura/2018/03/19/Chul-keVH--1240x698@abc.jpg",
+      "locked": true
+    },
+    {
+      "id": 29,
+      "name": "Slavoj Žižek",
+      "description": "Slavoj Žižek es un filósofo y teórico cultural esloveno, conocido por su crítica cultural y política desde una perspectiva lacaniana y marxista. Žižek aborda temas como la ideología, el psicoanálisis y la crítica al capitalismo. Su estilo provocativo y su capacidad para vincular la teoría filosófica con la cultura popular lo han convertido en una figura influyente en el pensamiento contemporáneo.",
+       "biography": "Slavoj Žižek es un filósofo, psicoanalista y teórico cultural esloveno nacido el 21 de marzo de 1949 en Liubliana, Yugoslavia (actual Eslovenia). Conocido por su enfoque ecléctico que combina elementos del psicoanálisis lacaniano, el marxismo y la crítica cultural, Žižek se ha convertido en una figura destacada en el campo de la filosofía contemporánea y la teoría crítica.\n\nŽižek ha escrito extensamente sobre una variedad de temas que van desde el cine hasta la política global, pasando por la ideología y la religión. Es conocido por su estilo provocativo y su habilidad para aplicar teorías filosóficas complejas a los fenómenos culturales y políticos contemporáneos.\n\nAdemás de su labor como escritor y conferencista, Žižek ha enseñado en varias universidades alrededor del mundo y ha participado activamente en debates intelectuales sobre la naturaleza del capitalismo, el multiculturalismo y la identidad en la era digital.",
+      "quotes": [
+        "We live in a strange world where the more you talk about sex, the less you talk about the truth.",
+        "Happiness is the moment when you cease to fear.",
+        "Words are never 'only words'; they matter because they define the contours of what we can do."
+      ],
+      "image": "https://d.newsweek.com/en/full/258404/7-11-slavojzizek.jpg",
+      "locked": true
+    },
+    {
+      "id": 30,
+      "name": "Sigmund Freud",
+      "description": "Sigmund Freud fue un neurólogo y psicoanalista austriaco, conocido como el padre del psicoanálisis. Freud revolucionó el campo de la psicología al proponer que gran parte del comportamiento humano está motivado por procesos inconscientes. Sus teorías sobre el inconsciente, la sexualidad y el desarrollo psicológico siguen siendo influyentes en psicología, psiquiatría, y cultura popular.",
+      "biography": "Sigmund Freud fue un neurólogo austriaco y el fundador del psicoanálisis, nacido el 6 de mayo de 1856 en Freiberg, Moravia (actualmente Příbor, República Checa). Es conocido por desarrollar una teoría revolucionaria sobre la mente humana y sus procesos, destacando el papel del inconsciente, los sueños, los deseos reprimidos y la sexualidad en la formación de la psique.\n\nFreud comenzó su carrera médica como neurólogo investigador, pero pronto se interesó por las enfermedades mentales y la histeria. Sus teorías sobre el psicoanálisis, expuestas en obras como 'La interpretación de los sueños' y 'Tres ensayos sobre la teoría de la sexualidad', provocaron controversia y críticas en su época, pero también transformaron la psicología y la psiquiatría modernas.\n\nA lo largo de su vida, Freud también desarrolló conceptos como el complejo de Edipo, la libido y la estructura de la mente (ello, yo y superyó), que han influido profundamente en el pensamiento psicológico y cultural del siglo XX.",
+      "quotes": [
+        "Unexpressed emotions will never die. They are buried alive and will come forth later in uglier ways.",
+        "The ego is not master in its own house.",
+        "One day, in retrospect, the years of struggle will strike you as the most beautiful."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg",
+      "locked": true
+    },
+    {
+      "id": 31,
+      "name": "Carl Gustav Jung",
+      "description": "Carl Gustav Jung fue un psiquiatra suizo y fundador de la psicología analítica. Jung desarrolló conceptos como el inconsciente colectivo, los arquetipos y la individuación. Su obra profundiza en temas como la religión, la mitología y la conexión entre la mente humana y el cosmos. Jung es una figura clave en la psicología moderna y la psicoterapia.",
+      "biography": "Carl Gustav Jung fue un psiquiatra suizo y psicoterapeuta que fundó la psicología analítica, nacido el 26 de julio de 1875 en Kesswil, Suiza. Es conocido por ser el colaborador inicial de Sigmund Freud y por desarrollar teorías psicológicas que enfatizan la importancia del inconsciente colectivo, los arquetipos y el proceso de individuación.\n\nJung fue pionero en la exploración de la psique humana a través de conceptos como los tipos psicológicos (introvertido y extrovertido), la sincronicidad y el estudio de los sueños. A diferencia de Freud, Jung creía en una psique que va más allá del individuo, conectada con un inconsciente colectivo que contiene experiencias y conocimientos compartidos por toda la humanidad.\n\nA lo largo de su vida, Jung trabajó como clínico, investigador y autor prolífico. Su influencia en campos como la psicología profunda, la mitología comparada y la espiritualidad ha sido duradera, convirtiéndolo en una figura clave en la psicología moderna y el pensamiento cultural."
+,
+      "quotes": [
+        "Everything that irritates us about others can lead us to an understanding of ourselves.",
+        "Your visions will become clear only when you can look into your own heart. Who looks outside, dreams; who looks inside, awakes.",
+        "Knowing your own darkness is the best method for dealing with the darknesses of other people."
+      ],
+      "image": "https://www.toolshero.nl/wp-content/uploads/2022/11/carl-jung-toolshero.jpg",
+      "locked": true
+    },
+    {
+      "id": 32,
+      "name": "David Hume",
+      "description": "David Hume fue un filósofo escocés del siglo XVIII, conocido por su empirismo radical y su crítica al dogmatismo religioso. Su obra 'Tratado de la naturaleza humana' influyó en el desarrollo de la filosofía moderna, especialmente en la teoría del conocimiento y la ética. Hume también abordó temas como la metafísica y la teología natural.",
+      "biography": "David Hume fue un filósofo escocés y figura central en el empirismo y el escepticismo filosófico, nacido el 7 de mayo de 1711 en Edimburgo, Escocia. Conocido por sus obras 'Tratado de la naturaleza humana' y 'Investigación sobre el entendimiento humano', Hume desafió las concepciones tradicionales sobre la metafísica, la moralidad y la epistemología.\n\nHume argumentó que nuestras creencias están fundamentadas en experiencias sensoriales y no en principios racionales o religiosos. También es conocido por su crítica al concepto de causalidad y su teoría del yo como una mera ilusión basada en la sucesión de impresiones sensoriales.\n\nAdemás de su obra filosófica, Hume escribió sobre historia, política y economía, destacándose como uno de los pensadores más influyentes de la Ilustración escocesa y europea."
+,
+      "quotes": [
+        "Reason is, and ought only to be the slave of the passions, and can never pretend to any other office than to serve and obey them.",
+        "Beauty in things exists in the mind which contemplates them.",
+        "The life of man is of no greater importance to the universe than that of an oyster."
+      ],
+      "image": "https://www.lavanguardia.com/files/content_image_mobile_filter/files/fp/uploads/2022/04/27/626933e5f1a81.r_d.2255-1412.jpeg",
+      "locked": true
+    },
+    {
+      "id": 33,
+      "name": "Immanuel Kant",
+      "description": "Immanuel Kant fue un filósofo alemán del siglo XVIII, conocido por su trabajo en la teoría del conocimiento y la ética. Su obra más influyente es 'Crítica de la razón pura', donde establece los límites y las posibilidades del conocimiento humano. Kant también formuló la ética del deber o el imperativo categórico como principio moral universal.",
+      "biography": "Immanuel Kant fue un filósofo prusiano de la Ilustración, nacido el 22 de abril de 1724 en Königsberg, Prusia Oriental (actual Kaliningrado, Rusia). Es conocido por ser uno de los pensadores más influyentes en la historia de la filosofía occidental, particularmente en la epistemología, la ética y la estética.\n\nKant es famoso por su obra 'Crítica de la razón pura', donde intenta reconciliar el racionalismo y el empirismo, estableciendo los límites del conocimiento humano. También formuló su ética deontológica en 'Crítica de la razón práctica' y su estética en 'Crítica del juicio'.\n\nAdemás de su labor filosófica, Kant escribió sobre geografía, historia, teología y ciencias naturales. Su enfoque en la autonomía moral y el respeto por la dignidad humana ha influido profundamente en el pensamiento moderno sobre la ética y los derechos humanos."
+,
+      "quotes": [
+        "Science is organized knowledge. Wisdom is organized life.",
+        "Live your life as though your every act were to become a universal law.",
+        "Happiness is not an ideal of reason, but of imagination."
+      ],
+      "image": "https://m.media-amazon.com/images/I/81fi42CL7pL._AC_UF1000,1000_QL80_.jpg",
+      "locked": true
+    },
+    {
+      "id": 34,
+      "name": "Seneca",
+      "description": "Lucio Anneo Seneca fue un filósofo, estadista y escritor romano del siglo I d.C., conocido por su papel como tutor del emperador Nerón. Seneca es uno de los principales representantes del estoicismo, una escuela filosófica que promueve la virtud, la serenidad y el control de las pasiones como medios para alcanzar la felicidad. Su obra incluye ensayos sobre ética, la naturaleza y la vida buena.",
+      "biography": "Lucio Anneo Séneca, conocido simplemente como Séneca, fue un filósofo, dramaturgo, político y escritor romano nacido aproximadamente en el año 4 a.C. en Córdoba, Hispania (actual España). Es conocido por ser uno de los principales exponentes del estoicismo romano y por su profunda influencia en el pensamiento moral y político occidental.\n\nSéneca fue tutor y consejero del emperador Nerón y desempeñó un papel crucial en la política de Roma. Escribió numerosos tratados filosóficos sobre la ética, la tragedia y la naturaleza del universo, siendo una de sus obras más destacadas 'Cartas a Lucilio', donde aborda temas sobre la virtud, la sabiduría y la vida buena.\n\nAdemás de su contribución filosófica, Séneca escribió obras teatrales que exploran temas éticos y políticos, como 'Tiestes' y 'Las Troyanas'. Su obra ha perdurado a lo largo de los siglos, influyendo en figuras como Montaigne, Descartes y más recientemente en el movimiento estoico moderno."
+,
+      "quotes": [
+        "Luck is what happens when preparation meets opportunity.",
+        "It is not the man who has too little, but the man who craves more, that is poor.",
+        "We suffer more often in imagination than in reality."
+      ],
+      "image": "https://lazonaveggie.com/wp-content/uploads/2023/09/seneca-8026630_1280-1.jpg?w=1024",
+      "locked": true
+    },
+    {
+      "id": 35,
+      "name": "Dante Alighieri",
+      "description": "Dante Alighieri fue un poeta florentino del siglo XIII, conocido por su obra maestra 'La Divina Comedia'. Es considerado uno de los más grandes poetas de la literatura universal y una figura central en la literatura italiana. 'La Divina Comedia' es un poema épico que narra el viaje de Dante a través del Infierno, el Purgatorio y el Paraíso, explorando temas de la vida, la muerte, el pecado y la redención.",
+      "biography": "Dante Alighieri nació en Florencia, Italia, alrededor de 1265. Fue un poeta, escritor y político activo en los asuntos florentinos de su tiempo. Escribió obras en italiano y en latín, pero su obra más famosa es 'La Divina Comedia', escrita en tercetos encadenados de versos. La obra no solo es una exploración teológica y filosófica profunda, sino también un reflejo de la política y la sociedad del siglo XIII en Italia.",
+      "quotes": [
+        "En el medio del camino de nuestra vida me encontré en una selva oscura, porque la recta vía estaba perdida.",
+        "Las más amargas lágrimas que derramamos son las que vertemos por las palabras no dichas y por los actos no realizados.",
+        "El fuego del amor y el de la ira no pueden subsistir en el mismo corazón."
+      ],
+      "image": "https://www.apjgas.org.ar/wp-content/uploads/2022/09/Dante-Alighieri.png",
+      "locked": true
+    }, 
+    {
+      "id": 36,
+      "name": "Diogenes",
+      "description": "Diógenes de Sinope fue un filósofo griego del siglo IV a.C., conocido por ser uno de los fundadores de la escuela cínica de filosofía. Es famoso por su estilo de vida austero y su crítica hacia las convenciones sociales y culturales de su tiempo. Diógenes buscaba la virtud a través de la autosuficiencia y la renuncia a los placeres materiales.",
+      "biography": "Diógenes de Sinope nació alrededor del año 412 a.C. en Sinope, una colonia griega en la costa del Mar Negro. Es conocido por su vida ascética y su rechazo de las normas sociales convencionales, viviendo en la pobreza extrema y despreciando el lujo y el confort. Fue contemporáneo y crítico de Platón y Alejandro Magno, y su vida y enseñanzas se han convertido en una fuente de inspiración para el estoicismo y el cinismo.",
+      "quotes": [
+        "Prefiero ser rey de mi silencio que esclavo de mis palabras.",
+        "No puedo perder lo que no tengo.",
+        "Busco un hombre."
+      ],
+      "image": "https://historia.nationalgeographic.com.es/medio/2021/11/19/diogenes-podcast_82a22aa6_1280x1011.jpg",
+      "locked": true
+    },
+    {
+      "id": 37,
+      "name": "Epicuro",
+      "description": "Epicuro fue un filósofo griego del siglo III a.C. y fundador de la escuela filosófica conocida como epicureísmo. Epicuro enseñaba que el objetivo de la vida era alcanzar la felicidad a través del disfrute moderado de placeres físicos y la tranquilidad del alma. Su filosofía enfatizaba la importancia de la amistad, la sabiduría y la búsqueda de la virtud.",
+      "biography": "Epicuro nació en Samos alrededor del año 341 a.C. y fundó su escuela filosófica, el Jardín de Epicuro, en Atenas. Sus enseñanzas se centraban en la búsqueda del placer como estado de ausencia de dolor físico y emocional, distinguiendo entre placeres naturales y vanos. Sus ideas influyeron en el desarrollo posterior de la ética y la filosofía moral en la antigüedad griega y romana.",
+      "quotes": [
+        "No es el joven quien debería ser considerado afortunado, sino el viejo que ha vivido una vida completa.",
+        "La justicia no es más que un contrato entre hombres, en lo que respecta a no perjudicarse mutuamente.",
+        "La riqueza ilimitada no conduce a la felicidad, sino a la necesidad de un aumento de la riqueza."
+      ],
+      "image": "https://www.entreletras.eu/wp-content/uploads/2017/11/epicuro.jpg",
+      "locked": true
+    },
+    {
+      "id": 38,
+      "name": "Aristóteles",
+      "description": "Aristóteles fue un filósofo griego del siglo IV a.C., discípulo de Platón y maestro de Alejandro Magno. Es conocido por su vasta contribución a la filosofía, abarcando temas como la lógica, la metafísica, la ética, la política, la poética, la biología y la física. Sus obras han sido fundamentales en el desarrollo del pensamiento occidental.",
+      "biography": "Aristóteles nació en Estagira, Macedonia, en el año 384 a.C. Fue alumno de Platón en la Academia de Atenas durante veinte años y luego fundó su propia escuela, el Liceo. Su enfoque sistemático y empírico de la investigación sentó las bases para el desarrollo de muchas disciplinas científicas y filosóficas. Escribió sobre una amplia gama de temas, desde la física hasta la ética, y su influencia se extiende hasta nuestros días.",
+      "quotes": [
+        "La educación es el mejor recurso para la vejez.",
+        "La virtud es el término medio entre dos extremos, uno de exceso y otro de defecto.",
+        "La amistad es una sola alma habitando en dos cuerpos."
+      ],
+      "image": "https://historia.nationalgeographic.com.es/medio/2020/03/13/aristoteles_e4c48da3_550x825.jpg",
+      "locked": false
+    },
+    {
+      "id": 39,
+      "name": "Giacomo Leopardi",
+      "description": "Giacomo Leopardi fue un poeta, ensayista y filósofo italiano del siglo XIX. Es conocido por su profunda sensibilidad poética y su exploración de la melancolía, la soledad y la desilusión en su obra. Leopardi es considerado uno de los más grandes poetas líricos italianos y un pensador clave del romanticismo.",
+      "biography": "Giacomo Leopardi nació en Recanati, Italia, en 1798. Desde una edad temprana, mostró un talento excepcional para la poesía y los estudios clásicos. Sin embargo, Leopardi enfrentó una vida marcada por la enfermedad crónica y la frustración personal. Su obra refleja una profunda introspección y una sensibilidad hacia la naturaleza y la condición humana, explorando temas como la transitoriedad de la vida, la soledad del individuo y la búsqueda de la verdad y la belleza en un mundo imperfecto.\n\nEntre sus obras más destacadas se encuentran 'Canti', una colección de poemas líricos que abarcan desde la celebración de la naturaleza hasta la contemplación filosófica de la existencia. Leopardi también escribió ensayos filosóficos como 'Operette morali', donde expresa su visión crítica y pesimista de la vida contemporánea y la sociedad. Aunque su obra no fue plenamente reconocida en vida, Leopardi ha sido ampliamente admirado y estudiado por su profunda introspección y su capacidad para expresar las complejidades del alma humana.",
+      "quotes": [
+        "El pensamiento humano no tiene otro límite que el que la muerte le impone.",
+        "A menudo, en medio de la risa, el corazón se rompe.",
+        "La soledad es muy hermosa... cuando se tiene alguien a quien contarle que se está solo."
+      ],
+      "image": "https://ilmanifesto.it/cdn-cgi/image/width=992,format=auto,quality=85/https://static.ilmanifesto.it/2024/01/04clt2-altro-leo-gettyimages-933484458.jpg",
+      "locked": true
+    }
+    
+    
+    
+       
+  ]
+}
