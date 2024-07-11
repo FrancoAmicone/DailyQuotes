@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useCallback } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet, ImageBackground, Image } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, ImageBackground, Image, ScrollView } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Ionicons } from '@expo/vector-icons';
 import quotesData from '../data/data.json';
@@ -80,7 +80,9 @@ const HomeScreen = ({ navigation }) => {
             >
               <View style={styles.overlay}>
                 <Text style={styles.author}>{quote.author ? ` ${quote.author}` : ""}</Text>
-                <Text style={styles.quote}>"{quote.quote}"</Text>
+                <ScrollView style={styles.scrollContainer}>
+                  <Text style={styles.quote}>"{quote.quote}"</Text>
+                </ScrollView>
               </View>
             </ImageBackground>
           </View>
@@ -140,12 +142,18 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     top: 270,
   },
+  scrollContainer: {
+    flex: 1,
+    width: '100%',
+  },
   quote: {
     color: 'white',
     textAlign: 'center',
     fontSize: 18,
     paddingHorizontal: 20,
+    paddingVertical: 10,
     fontFamily: "Neue",
+    flexShrink: 1,
   },
   author: {
     color: 'white',
