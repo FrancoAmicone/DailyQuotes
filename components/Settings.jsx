@@ -52,7 +52,7 @@ const Settings = ({ navigation }) => {
 
     await Notifications.scheduleNotificationAsync({
       content: {
-        title: `Quote of the day from ${author.name}`,
+        title: `Tu Frase diaria de ${author.name}`,
         body: author.quotes[Math.floor(Math.random() * author.quotes.length)],
         data: { author: author.name },
       },
@@ -64,14 +64,14 @@ const Settings = ({ navigation }) => {
     });
 
     await AsyncStorage.setItem('notificationTime', selectedTime.toISOString());
-    Alert.alert('Notification scheduled', `You'll receive a quote from ${author.name} every day at ${selectedTime.toLocaleTimeString()}`);
+    Alert.alert('Notification guardada correctamente', `Vas a recibir una frase de ${author.name} todos los dias a las ${selectedTime.toLocaleTimeString()}`);
   };
 
   const toggleNotifications = async () => {
     if (!notificationsEnabled) {
       const { status } = await Notifications.requestPermissionsAsync();
       if (status !== 'granted') {
-        Alert.alert('Permission required', 'Please enable notifications in your settings.');
+        Alert.alert('Permisos requeridos', 'Porfavor activa las notificaciones en configuracion.');
         return;
       }
       setNotificationsEnabled(true);
@@ -102,7 +102,7 @@ const Settings = ({ navigation }) => {
           <Text style={styles.cardText}>Hora seleccionada: {selectedTime.toLocaleTimeString()}</Text>
           <TouchableOpacity style={styles.card} onPress={() => setShowTimePicker(true)}>
             <Ionicons name="alarm-outline" size={24} color="black" style={styles.icon} />
-            <Text style={styles.cardText}>Select Time</Text>
+            <Text style={styles.cardText}>Seleccionar hora</Text>
           </TouchableOpacity>
           {showTimePicker && (
             <DateTimePicker
@@ -115,13 +115,13 @@ const Settings = ({ navigation }) => {
           )}
           <TouchableOpacity onPress={scheduleNotification} style={styles.cardSetting}>
             <Ionicons name="checkmark-circle-outline" size={24} color="green" style={styles.icon} />
-            <Text style={styles.cardText}>Save Settings</Text>
+            <Text style={styles.cardText}>Guardar Configuracion</Text>
           </TouchableOpacity>
         </>
       )}
       <TouchableOpacity onPress={() => navigation.navigate('Home')} style={styles.card}>
         <Ionicons name="home-outline" size={24} color="black" style={styles.icon} />
-        <Text style={styles.cardText}>Back to Home</Text>
+        <Text style={styles.cardText}>Volver a home</Text>
       </TouchableOpacity>
     </View>
   );

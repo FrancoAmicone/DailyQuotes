@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import quotesData from '../data/data.json';
 import { Ionicons } from '@expo/vector-icons';
 import { useFonts } from 'expo-font';
 import Animated, { Easing, useSharedValue, useAnimatedStyle, withTiming } from 'react-native-reanimated';
 
-
-const DailyQuoteScreen = ({ navigation, route }) => {
+const DailyQuoteScreen = ({ navigation }) => {
   const [fontsLoaded] = useFonts({
     Neue: require("../assets/fonts/NeueMontreal-Medium.otf"),
     Shibui: require("../assets/fonts/Shibui.ttf"),
@@ -15,24 +13,24 @@ const DailyQuoteScreen = ({ navigation, route }) => {
 
   const [quote, setQuote] = useState(null);
 
-  // Añadir useSharedValue y useAnimatedStyle fuera de cualquier condición
-  const imageWidht = useSharedValue(600);
+  const imageWidth = useSharedValue(600);
   const imageHeight = useSharedValue(800);
 
   useEffect(() => {
-    const loadSelectedAuthor = async () => {
+    const loadSelectedAuthorQuote = async () => {
       try {
-        const storedAuthor = await AsyncStorage.getItem('selectedAuthor');
-        if (storedAuthor) {
-          const author = quotesData.authors.find(author => author.name === storedAuthor);
+        const storedAuthorsData = await AsyncStorage.getItem('authorsData');
+        const storedSelectedAuthor = await AsyncStorage.getItem('selectedAuthor');
+        if (storedAuthorsData && storedSelectedAuthor) {
+          const authorsDataArray = JSON.parse(storedAuthorsData);
+          const author = authorsDataArray.find(author => author.name === storedSelectedAuthor);
           if (author) {
-            const randomQuote = author.quotes[Math.floor(Math.random() * author.quotes.length)];
-            setQuote({ 
-              quote: randomQuote, 
-              author: author.name, 
-              image: author.image, 
-              description: author.description, 
-              biography: author.biography 
+            setQuote({
+              quote: author.selectedQuote,
+              author: author.name,
+              image: author.image,
+              description: author.description,
+              biography: author.biography,
             });
           }
         }
@@ -40,7 +38,7 @@ const DailyQuoteScreen = ({ navigation, route }) => {
         console.error('Error loading author data:', error);
       }
     };
-    loadSelectedAuthor();
+    loadSelectedAuthorQuote();
   }, []);
 
   useEffect(() => {
@@ -49,51 +47,48 @@ const DailyQuoteScreen = ({ navigation, route }) => {
       easing: Easing.inOut(Easing.exp),
     });
   }, [imageHeight]);
+
   useEffect(() => {
-    imageWidht.value = withTiming(420, {
+    imageWidth.value = withTiming(420, {
       duration: 1000,
       easing: Easing.out(Easing.exp),
     });
-  }, [imageWidht]);
+  }, [imageWidth]);
 
   const animatedImageStyle = useAnimatedStyle(() => {
     return {
-      width: imageWidht.value,
+      width: imageWidth.value,
       height: imageHeight.value,
     };
   });
 
-  // Verificar si las fuentes están cargadas antes de renderizar
   if (!fontsLoaded) {
     return null;
   }
 
-  // Verificar si la cita está cargada antes de renderizar
   if (!quote) {
     return null;
   }
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      
       <Animated.Image 
         source={{ uri: quote.image }} 
         style={[styles.authorImage, animatedImageStyle]} 
       />
-            <Text style={styles.title}>Daily Quotes</Text>
-
+      <Text style={styles.title}>Daily Quotes</Text>
       <Text style={styles.author}>{quote.author}</Text>
-      <Text style={styles.description}>{quote.description}</Text>
+
+      <Text style={styles.description}>"{quote.quote}"</Text>
 
       <View style={styles.bioContainer}>
         <Ionicons name="bookmark-outline" size={30} color="black" style={styles.bioIcon} />
-        <Text style={styles.author}>Biografia</Text>
+        <Text style={styles.author}>Biografía</Text>
         <Text style={styles.description}>{quote.biography}</Text>
       </View>
-
       <TouchableOpacity onPress={() => navigation.navigate('Home')} style={styles.card}>
         <Ionicons name="home-outline" size={24} color="black" style={styles.icon} />
-        <Text style={styles.cardText}></Text>
+        <Text style={styles.cardText}>Inicio</Text>
       </TouchableOpacity>
     </ScrollView>
   );
@@ -111,15 +106,13 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     fontFamily: "Shibui",
     textAlign: 'center',
-    top: '0%',
   },
   authorImage: {
-    marginTop:-20,
+    marginTop: -20,
     width: 300,
     height: 800,
-    borderBottomLeftRadius:500,
-    borderBottomRightRadius:500,
-
+    borderBottomLeftRadius: 500,
+    borderBottomRightRadius: 500,
     margin: 25,
   },
   author: {
@@ -129,7 +122,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   description: {
-    fontSize: 18,
+    fontSize: 20,
     fontFamily: "Neue",
     textAlign: 'center',
     paddingHorizontal: 20,
