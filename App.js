@@ -12,6 +12,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import DailyQuoteScreen from './components/DailyQuoteScreen';
 import OnBoardingScreen from './components/OnBoardingScreen';
 import { useFonts } from 'expo-font';
+import UserQuotes from './components/UserQuotes';
 
 const Stack = createStackNavigator();
 
@@ -68,6 +69,8 @@ const App = () => {
           <Stack.Screen name="Settings" component={Settings} options={{ title: 'Settings' }} />
           <Stack.Screen name="DailyQuote" component={DailyQuoteScreen} options={{ title: 'Info' }} />
           <Stack.Screen name="OnBoarding" component={OnBoardingScreen} options={{ title: 'On Boarding' }} />
+          <Stack.Screen name="UserQuotes" component={UserQuotes} options={{ title: 'UserQuotes ' }} />
+
 
         </Stack.Navigator>
       </NavigationContainer>

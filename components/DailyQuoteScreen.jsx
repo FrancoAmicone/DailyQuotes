@@ -70,6 +70,33 @@ const DailyQuoteScreen = ({ navigation }) => {
     return null;
   }
 
+  const saveQuoteToLocalStorage = async () => {
+    try {
+      const savedQuotes = await AsyncStorage.getItem('userQuotes');
+      let quotesArray = savedQuotes ? JSON.parse(savedQuotes) : [];
+      const newQuote = {
+        quote: quote.quote,
+        author: quote.author,
+        image: quote.image,
+        description: quote.description,
+        biography: quote.biography,
+      };
+  
+      // Evitar duplicados
+      if (!quotesArray.some(q => q.quote === newQuote.quote && q.author === newQuote.author)) {
+        quotesArray.push(newQuote);
+        await AsyncStorage.setItem('userQuotes', JSON.stringify(quotesArray));
+        alert('Quote saved!');
+      } else {
+        alert('This quote is already saved.');
+      }
+    } catch (error) {
+      console.error('Error saving quote:', error);
+    }
+  };
+  
+
+
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Animated.Image 
@@ -80,12 +107,23 @@ const DailyQuoteScreen = ({ navigation }) => {
       <Text style={styles.author}>{quote.author}</Text>
 
       <Text style={styles.description}>"{quote.quote}"</Text>
+      
+          <TouchableOpacity onPress={saveQuoteToLocalStorage} style={styles.saveButton}>
+            <Ionicons name="bookmark-outline" size={24} color="black" />
+            <Text style={styles.saveButtonText}>Guardar Cita</Text>
+          </TouchableOpacity>
+       
+
 
       <View style={styles.bioContainer}>
         <Ionicons name="bookmark-outline" size={30} color="black" style={styles.bioIcon} />
         <Text style={styles.author}>Biografía</Text>
         <Text style={styles.description}>{quote.biography}</Text>
       </View>
+      <TouchableOpacity onPress={() => navigation.navigate('UserQuotes')} style={styles.card}>
+          <Ionicons name="list-outline" size={24} color="black" style={styles.icon} />
+          <Text style={styles.cardText}>Mis Citas</Text>
+        </TouchableOpacity>
       <TouchableOpacity onPress={() => navigation.navigate('Home')} style={styles.card}>
         <Ionicons name="home-outline" size={24} color="black" style={styles.icon} />
         <Text style={styles.cardText}>Inicio</Text>
@@ -157,6 +195,20 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontFamily: "Neue",
   },
+  saveButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#f0f0f0',
+    padding: 10,
+    borderRadius: 10,
+    elevation: 3,
+    marginTop: 20,
+  },
+  saveButtonText: {
+    fontSize: 16,
+    fontFamily: "Neue",
+    marginLeft: 5,
+  },  
 });
 
 export default DailyQuoteScreen;
