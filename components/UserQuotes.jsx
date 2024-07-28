@@ -28,7 +28,10 @@ const UserQuotes = () => {
   };
 
   return (
+    
     <ScrollView contentContainerStyle={styles.container}>
+    <Text style={styles.title}>Daily Quotes</Text>
+
       {userQuotes.length > 0 ? (
         userQuotes.map((quote, index) => (
           <View key={index} style={styles.quoteContainer}>
@@ -64,8 +67,8 @@ const styles = StyleSheet.create({
     position: 'relative',
   },
   authorImage: {
-    width: 50,
-    height: 50,
+    width: 300,
+    height: 150,
     borderRadius: 25,
     marginBottom: 10,
   },
@@ -73,6 +76,13 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontFamily: 'Neue',
     textAlign: 'center',
+  },
+  title: {
+    fontSize: 50,
+    marginBottom: 20,
+    fontFamily: "Shibui",
+    textAlign: 'center',
+    top: '1%',
   },
   authorText: {
     fontSize: 16,
