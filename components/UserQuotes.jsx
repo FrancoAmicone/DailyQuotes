@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text, StyleSheet, ScrollView } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, Image, TouchableOpacity } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { Ionicons } from '@expo/vector-icons';
 
 const UserQuotes = () => {
   const [userQuotes, setUserQuotes] = useState([]);
@@ -20,17 +21,27 @@ const UserQuotes = () => {
     loadUserQuotes();
   }, []);
 
+  const deleteQuote = async (index) => {
+    const updatedQuotes = userQuotes.filter((_, i) => i !== index);
+    setUserQuotes(updatedQuotes);
+    await AsyncStorage.setItem('userQuotes', JSON.stringify(updatedQuotes));
+  };
+
   return (
     <ScrollView contentContainerStyle={styles.container}>
       {userQuotes.length > 0 ? (
         userQuotes.map((quote, index) => (
           <View key={index} style={styles.quoteContainer}>
+            <Image source={{ uri: quote.image }} style={styles.authorImage} />
             <Text style={styles.quoteText}>"{quote.quote}"</Text>
             <Text style={styles.authorText}>- {quote.author}</Text>
+            <TouchableOpacity onPress={() => deleteQuote(index)} style={styles.deleteButton}>
+              <Ionicons name="trash-outline" size={24} color="black" />
+            </TouchableOpacity>
           </View>
         ))
       ) : (
-        <Text style={styles.noQuotesText}>No quotes saved yet.</Text>
+        <Text style={styles.noQuotesText}>No tienes frases guardadas.</Text>
       )}
     </ScrollView>
   );
@@ -49,10 +60,19 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     marginVertical: 10,
     width: '100%',
+    alignItems: 'center',
+    position: 'relative',
+  },
+  authorImage: {
+    width: 50,
+    height: 50,
+    borderRadius: 25,
+    marginBottom: 10,
   },
   quoteText: {
     fontSize: 18,
     fontFamily: 'Neue',
+    textAlign: 'center',
   },
   authorText: {
     fontSize: 16,
@@ -64,6 +84,15 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontFamily: 'Neue',
     textAlign: 'center',
+  },
+  deleteButton: {
+    position: 'absolute',
+    top: 10,
+    right: 10,
+    backgroundColor: '#f0f0f0',
+    padding: 5,
+    borderRadius: 10,
+    elevation: 3,
   },
 });
 

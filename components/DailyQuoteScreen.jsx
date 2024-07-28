@@ -113,17 +113,17 @@ const DailyQuoteScreen = ({ navigation }) => {
             <Text style={styles.saveButtonText}>Guardar Cita</Text>
           </TouchableOpacity>
        
-
+          <TouchableOpacity onPress={() => navigation.navigate('UserQuotes')} style={styles.card}>
+          <Ionicons name="list-outline" size={24} color="black" style={styles.icon} />
+          <Text style={styles.cardText}>Mis Citas</Text>
+        </TouchableOpacity>
 
       <View style={styles.bioContainer}>
         <Ionicons name="bookmark-outline" size={30} color="black" style={styles.bioIcon} />
         <Text style={styles.author}>Biografía</Text>
         <Text style={styles.description}>{quote.biography}</Text>
       </View>
-      <TouchableOpacity onPress={() => navigation.navigate('UserQuotes')} style={styles.card}>
-          <Ionicons name="list-outline" size={24} color="black" style={styles.icon} />
-          <Text style={styles.cardText}>Mis Citas</Text>
-        </TouchableOpacity>
+    
       <TouchableOpacity onPress={() => navigation.navigate('Home')} style={styles.card}>
         <Ionicons name="home-outline" size={24} color="black" style={styles.icon} />
         <Text style={styles.cardText}>Inicio</Text>
