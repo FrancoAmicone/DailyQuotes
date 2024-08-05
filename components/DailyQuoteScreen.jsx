@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Share  } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Ionicons } from '@expo/vector-icons';
 import { useFonts } from 'expo-font';
@@ -10,6 +10,19 @@ const DailyQuoteScreen = ({ navigation }) => {
     Neue: require("../assets/fonts/NeueMontreal-Medium.otf"),
     Shibui: require("../assets/fonts/Shibui.ttf"),
   });
+
+  const shareQuote = async () => {
+    try {
+      await Share.share({
+        message: `"${quote.quote}" - ${quote.author}\n\n Descarga DailyQuotes en PlayStore`,
+      });
+    } catch (error) {
+      console.error('Error sharing quote:', error);
+    }
+  };
+  
+  
+
 
   const [quote, setQuote] = useState(null);
 
@@ -118,6 +131,12 @@ const DailyQuoteScreen = ({ navigation }) => {
           <Text style={styles.cardText}>Mis Citas</Text>
         </TouchableOpacity>
 
+        <TouchableOpacity onPress={shareQuote} style={styles.shareButton}>
+  <Ionicons name="share-social-outline" size={24} color="black" />
+  <Text style={styles.shareButtonText}>Compartir Cita</Text>
+</TouchableOpacity>
+
+
       <View style={styles.bioContainer}>
         <Ionicons name="bookmark-outline" size={30} color="black" style={styles.bioIcon} />
         <Text style={styles.author}>Biografía</Text>
@@ -209,6 +228,21 @@ const styles = StyleSheet.create({
     fontFamily: "Neue",
     marginLeft: 5,
   },  
+  shareButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#f0f0f0',
+    padding: 10,
+    borderRadius: 10,
+    elevation: 3,
+    marginTop: 20,
+  },
+  shareButtonText: {
+    fontSize: 16,
+    fontFamily: "Neue",
+    marginLeft: 5,
+  },
+  
 });
 
 export default DailyQuoteScreen;
