@@ -123,17 +123,17 @@ const DailyQuoteScreen = ({ navigation }) => {
       
           <TouchableOpacity onPress={saveQuoteToLocalStorage} style={styles.saveButton}>
             <Ionicons name="bookmark-outline" size={24} color="black" />
-            <Text style={styles.saveButtonText}>Guardar Cita</Text>
+            <Text style={styles.saveButtonText}>Guardar Frase</Text>
           </TouchableOpacity>
        
           <TouchableOpacity onPress={() => navigation.navigate('UserQuotes')} style={styles.card}>
           <Ionicons name="list-outline" size={24} color="black" style={styles.icon} />
-          <Text style={styles.cardText}>Mis Citas</Text>
+          <Text style={styles.cardText}>Mis Frases</Text>
         </TouchableOpacity>
 
         <TouchableOpacity onPress={shareQuote} style={styles.shareButton}>
   <Ionicons name="share-social-outline" size={24} color="black" />
-  <Text style={styles.shareButtonText}>Compartir Cita</Text>
+  <Text style={styles.shareButtonText}>Compartir Frase</Text>
 </TouchableOpacity>
 
 
@@ -236,6 +236,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     elevation: 3,
     marginTop: 20,
+    marginBottom:20,
   },
   shareButtonText: {
     fontSize: 16,
